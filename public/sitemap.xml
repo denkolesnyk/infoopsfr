@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+  </url><url>
+    <loc>/authors/infoops-fr/</loc>
+    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+  </url><url>
+    <loc>/tags/russie/</loc>
+    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+  </url><url>
+    <loc>/post/secret-et-silence-autour-des-cyber-troupes-russes/</loc>
+    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+  </url><url>
+    <loc>/authors/infoops/</loc>
+  </url><url>
+    <loc>/true/</loc>
+  </url>
+</urlset>
