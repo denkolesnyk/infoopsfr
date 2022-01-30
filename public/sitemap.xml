@@ -2,29 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+    <loc>https://infoops.fr/authors/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+    <loc>https://infoops.fr/tags/burkina-faso/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>/authors/infoops-fr/</loc>
-    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+    <loc>https://infoops.fr/categories/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+    <loc>https://infoops.fr/tags/france/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>/tags/russie/</loc>
-    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+    <loc>https://infoops.fr/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>/post/secret-et-silence-autour-des-cyber-troupes-russes/</loc>
-    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+    <loc>https://infoops.fr/authors/iof/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-11-06T01:22:28+01:00</lastmod>
+    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>/authors/infoops/</loc>
+    <loc>https://infoops.fr/categories/m%C3%A9dias/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>/true/</loc>
+    <loc>https://infoops.fr/posts/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/tags/russie/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/tags/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/tags/ukraine/</loc>
+    <lastmod>2022-01-30T22:14:30+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/a-propos/</loc>
+    <lastmod>2022-01-30T00:22:00+01:00</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,31 @@
+baseURL = "https://infoops.fr/"
+languageCode = 'fr'
+DefaultContentLanguage = "fr"
+title = "Info Ops France"
+theme = "hyde"
+
+[Author]
+  name = "IOF"
+
+[[menu.main]]
+    name = "À propos"
+    weight = 1
+    url = "/a-propos/"
+[[menu.main]]
+    name = "Contact"
+    weight = 2
+    url = "mailto:contact@infoops.fr"
+[[menu.main]]
+    name = "Twitter"
+    weight = 3
+    identifier = "twitter"
+    url = "https://twitter.com/infoopsfr"
+
+[Taxonomies]
+         tag = "tags"
+         categories = "categories"
+         author = "authors"
+
+[params]
+  description = "« La psychologie des peuples belligérants est une quatrième dimension de la guerre. »"
+
