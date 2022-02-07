@@ -28,7 +28,7 @@ Concernant l'Afrique, comme la semaine d'avant, l'Agence fédérale de presse (F
 
 Quant à la République centrafricaine, l'Agence fédérale de presse s'est focalisé sur le développement du thème de « *l'implication de la France dans la coordination des militants* » et publiant des articles sur l'arrestation de Mahamat Abdoulaye Garbaen, et allant jusqu'en affirmer que « *les services secrets français exhortaient les radicaux à attaquer les instructeurs russes* ». Un autre article concernait l'« *indignement des Centrafricains* » suite à la « *nomination d'Ali Darassa mandataire de la République française auprès de la République centrafricaine* ». Il faut noter que l'article évoquant cette nomination se base sur un post de véracité douteuse, publié dans le groupe Facebook **TOUS LES CENTRAFRICAINS DU MONDE**.
 
-Les autres sujets concernaient l'augmentation de l'influence en France, une tentative de structurer l'Islam dans le pays, la baisse légère de la production industrielle, le soutien de la part de la Commission européenne de l'initiative française de créer le Conseil de Schengen, ainsi que le soutien militaire possible de la France aux Émirats arabes unis.
+Les autres sujets concernaient l'augmentation de l'inflation en France, une tentative de structurer l'Islam dans le pays, la baisse légère de la production industrielle, le soutien de la part de la Commission européenne de l'initiative française concernant la création du Conseil de Schengen, ainsi que le soutien militaire possible de la France aux Émirats arabes unis.
 
 À titre général, au cours de la semaine écoulée, la France ainsi que le président de la République ont été présentés dans les médias russes assez négativement, voire hostilement.
 
