@@ -1,6 +1,6 @@
 ---
 title: "La France dans les médias russes - 14-20 février 2022"
-date: 2022-02-20T15:23:30+01:00
+date: 2022-02-21T15:23:30+01:00
 tags: ["France", "OTAN", "Mali", "Russie", "Ukraine" ]
 categories: ["Médias"]
 authors: ["IOF"]
