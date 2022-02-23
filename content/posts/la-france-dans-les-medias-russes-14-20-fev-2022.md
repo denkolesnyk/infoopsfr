@@ -10,7 +10,7 @@ draft: false
 
 ![](/images/candidats_france_russie_ria.jpg)
 
-Dans le contexte de la couverture de la France par les médias russes, la semaine dernière a tourné autour de la crise russo-ukrainienne ainsi que des efforts, notamment de la France, afin de la diffuser. 
+Dans le contexte de la couverture de la France par les médias russes, la semaine dernière a tourné autour de la crise russo-ukrainienne ainsi que des efforts, notamment de la France, afin de la désamorcer. 
 
 Les médias russes suivants sont tombés dans notre collimateur : TASS, Ria Novosti, l’Agence fédérale de presse (FAN), Regnum, RT, ainsi que quelques autres. Vu le nombre d’échanges téléphoniques entre le président de la République et son homologue russe, il y a eu plusieurs occasions d’exploiter ce sujet, ainsi que d’y mélanger la politique intérieure française dans le cadre des élections présidentielles qui approchent. 
 
