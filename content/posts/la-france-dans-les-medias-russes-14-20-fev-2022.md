@@ -4,6 +4,7 @@ date: 2022-02-21T15:23:30+01:00
 tags: ["France", "OTAN", "Mali", "Russie", "Ukraine" ]
 categories: ["Médias"]
 authors: ["IOF"]
+featured_image: /images/candidats_france_russie_ria.jpg
 type: "post"
 draft: false
 ---

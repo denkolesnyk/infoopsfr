@@ -4,10 +4,11 @@ date: 2022-01-30T22:14:30+01:00
 tags: ["France","Russie", "Burkina Faso", "Ukraine"]
 categories: ["Médias"]
 authors: ["IOF"]
+featured_image: /images/drapeau_russe_burkina_faso_fan.jpg
 type: "post"
 draft: false
 ---
-![Image non trouvée : /images/drapeau_russe_burkina_faso_fan.jpg](/images/drapeau_russe_burkina_faso_fan.jpg "Image non trouvée : /images/drapeau_russe_burkina_faso_fan.jpg")
+![](drapeau_russe_burkina_faso_fan.jpg)
 
 La semaine du 24 au 30 janvier 2022 dans les médias russes a été marquée par deux événements majeurs, notamment les pourparlers au niveau des conseillers des chefs d’État et de gouvernement du format Normandie sur le fond de l’escalade des tensions entre la Russie et l'Ukraine. Alors que le deuxième sujet important concernait la France en Afrique.
 

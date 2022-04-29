@@ -4,6 +4,7 @@ date: 2022-03-28T19:23:30+02:00
 tags: ["France", "Russie", "Ukraine" ]
 categories: ["Médias"]
 authors: ["IOF"]
+featured_image: /images/ria_zelensky.jpg
 type: "post"
 draft: false
 ---

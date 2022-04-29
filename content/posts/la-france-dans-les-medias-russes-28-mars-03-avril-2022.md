@@ -4,6 +4,7 @@ date: 2022-04-04T17:23:30+02:00
 tags: ["France", "Russie", "Ukraine"]
 categories: ["Médias"]
 authors: ["IOF"]
+featured_image: /images/arkatov_sur_macron_slovoidelo.jpg
 type: "post"
 draft: false
 ---
@@ -11,7 +12,7 @@ draft: false
 ![](/images/eadaily_poutine.jpg)
 
 La semaine du 28 mars au 3 avril 2022 a été marquée par l'augmentation de la propagande anti-ukrainienne et, à titre général, la guerre russo-ukrainienne. Dans le contexte de la couverture de la France, les médias russes se sont focalisés sur le rôle de la France à l'échelle internationale, ainsi que sur les élections présidentielles qui approchent.
- 
+
 Nous pouvons distinguer quatre types d'articles évoquant la France la semaine écoulée : 1) présentant plus ou moins de manière neutre les faits (articles basés sur les informations apportées par les médias occidentaux), 2) se focalisant sur le contenu pro-russe (les articles basés sur les déclarations des hommes politiques, experts, et journalistes français favorisant la Russie), 3) exposant les « échecs » de la France (articles se focalisant sur les faits négatifs relevant du context intérieur français, notamment la hausse des prix, l'inflation, les scandales, etc.), 4) déformation des faits (articles manipulant ou déformant entièrement les faits, parfois présentant ou pas les sources, les titres peuvent souvent induire en erreur).
  
 Dans la première catégorie nous pouvons, à titre indicatif, placer l'article intitulé « *Sondage : l'écart entre Le Pen et Macron se réduit à une semaine de l'élection présidentielle française* » publié par **TASS**. Cet article ne fait que reprendre les faits exposés dans Le Journal du Dimanche.

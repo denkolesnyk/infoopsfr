@@ -4,6 +4,7 @@ date: 2022-04-19T17:22:30+01:00
 tags: ["France", "Russie", "Ukraine" ]
 categories: ["Médias"]
 authors: ["IOF"]
+featured_image: /images/vzglyad_mlp.webp
 type: "post"
 draft: false
 ---

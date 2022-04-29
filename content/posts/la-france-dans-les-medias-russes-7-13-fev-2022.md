@@ -4,6 +4,7 @@ date: 2022-02-14T15:17:30+01:00
 tags: ["France", "OTAN", "Mali", "Russie", "Ukraine" ]
 categories: ["Médias"]
 authors: ["IOF"]
+featured_image: /images/poutine_macron_ria.jpg
 type: "post"
 draft: false
 ---
