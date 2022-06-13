@@ -1,18 +1,27 @@
-baseURL = 'https://infoops.fr'
+baseURL = 'https://infoops.fr/'
 languageCode = 'fr'
 DefaultContentLanguage = "fr"
 title = 'Info Ops France'
-theme = 'lanyon-hugo'
+theme = "tale-hugo"
 paginate = '5'
 
 [Author]
-   name = 'Rédaction'
+    name = "Info Ops France"
 
 [Taxonomies]
    tag = "tags"
    categories = "categories"
 
-[Params]
-   title = "Info Ops France"
-   dateFormat = "Monday, Jan 2, 2006"
-   mainSections = "post"
+[menu]
+  [[menu.main]]
+    identifier = "À propos"
+    name = "À propos"
+    title = "À propos"
+    url = "/a-propos/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = 0

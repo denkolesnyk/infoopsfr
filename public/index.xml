@@ -1,222 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Info Ops France </title>
+    <title>Info Ops France</title>
     <link>https://infoops.fr/</link>
-    <language>fr-fr</language>
-    <author></author>
-    <rights>(C) 2022</rights>
-    <updated>2022-05-04 22:35:10 &#43;0100 &#43;0100</updated>
-
+    <description>Recent content on Info Ops France</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 04 May 2022 22:35:10 +0100</lastBuildDate><atom:link href="https://infoops.fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La France dans les médias russes - 25 avril-1 mai 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</link>
+      <pubDate>Wed, 04 May 2022 22:35:10 +0100</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</guid>
+      <description>Dans le cadre de la couverture de la France par les médias russes, la dernière semaine d’avril a été marquée par les sujets portant sur la politique dans le contexte des présidentielles et des futures législatives, la politique étrangère, dont le Mali et la politique des sanctions envers la Russie, ainsi que le nouveau sujet concernant les Ukrainiens fuyant la guerre vers la France.
+Sur la politique intérieure, nous pouvons évoquer l’article publié par le site d’information russe Yakutsk.</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 25 avril-1 mai 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</link>
-        <pubDate>Wed, 04 May 2022 22:35:10 &#43;0100</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/fan_france_refugies_ukrainiens.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Dans le cadre de la couverture de la France par les médias russes, la dernière semaine d’avril a été marquée par les sujets portant sur la politique dans le contexte des présidentielles et des futures législatives, la politique étrangère, dont le Mali et la politique des sanctions envers la Russie, ainsi que le nouveau sujet concernant les Ukrainiens fuyant la guerre vers la France.&lt;/p&gt;
-&lt;p&gt;Sur la politique intérieure, nous pouvons évoquer l’article publié par le site d’information russe &lt;strong&gt;Yakutsk.ru&lt;/strong&gt; évoquant que 6 Français sur 10 veulent une opposition à Emmanuel Macron au parlement, alors que &lt;strong&gt;Regnum&lt;/strong&gt; a évoqué les ambitions de Jean-Luc Mélenchon pour le poste de Premier ministre. A son tour &lt;strong&gt;Rossiyskaïa Gazeta&lt;/strong&gt; a spéculé sur le futur Premier ministre de la France en publiant l’article « &lt;em&gt;Macron pourrait nommer une femme au poste de Premier ministre français&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;À l’échelle internationale, dans l’espace informationnel russe ont été évoqués le soutient de la France à l’Ukraine (&lt;strong&gt;Regnum&lt;/strong&gt; - « &lt;em&gt;Le MAE français a réitéré son soutient à l’Ukraine&lt;/em&gt; »), les relations entre l’Algérie et la France (&lt;strong&gt;Regnum&lt;/strong&gt; - « Alger espère reconstruire les relations avec la France »), ou encore le sujet de la fermeture des médias français par la junte malienne (&lt;strong&gt;TASS&lt;/strong&gt; - « &lt;em&gt;Paris appelle le Mali à reconsidérer sa décision de fermer les médias français&lt;/em&gt; »).&lt;/p&gt;
-&lt;p&gt;Le nouveau sujet qui commence à être promu par les médias russe concerne les Ukrainiens fuyant la guerre. Ce sujet a été relevé dans plusieurs sources russes, notamment l’agence de presse &lt;strong&gt;FAN&lt;/strong&gt; dans l’article du 30 avril 2022 intitulé « &lt;em&gt;Les médias : En France on est fatigué des réfugiés Ukrainiens&lt;/em&gt; », visant à souligner « la fatigue » des Français de l’accueil des réfugiés Ukrainiens.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/narodnye_novosti_france_mali.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Sur le Mali, le site russe &lt;strong&gt;Narodnye Novosti&lt;/strong&gt; a publié l’article intitulé « &lt;em&gt;Le FBR (Fondation pour la lutte contre la répression) russe a accusé la France de répandre de la désinformation sur les enterrements au Mali&lt;/em&gt; », alors que le site *&lt;strong&gt;Politros&lt;/strong&gt; a publié l’article titré « &lt;em&gt;Mira Terada reproche à la France d’avoir nié toute implication dans des enterrements au Mali&lt;/em&gt; ». Ce messaging négatif cible l’image de la France et s’inscrit dans les campagnes anti-françaises organisées et menées par la Russie en Afrique francophone.&lt;/p&gt;
-&lt;p&gt;D’autres sujets portaient sur le décès de la chanteuse Régina Zylberberg et de l’ancien ministre Bernard Pons, les manifestations du 1er mai, un voilier qui s’est échoué au large de Saint Malo, ou encore le retrait à Paris de la circulation des bus électriques de la série Bluebus.&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;Yakutsk.ru - 2.9 millions de visites par mois, dont 93.73% proviennent de la Russie ;&lt;/li&gt;
-&lt;li&gt;Regnum - 16.8 millions de visiteurs, dont 81.61% provenant de la Russie, 6.43% de l’Ukraine et 5.52% - du Kazakhstan ;&lt;/li&gt;
-&lt;li&gt;Rossiyskaïa Gazeta - 35.9 mln de visites mensuelles, dont 87.55% proviennent de la Russie ;&lt;/li&gt;
-&lt;li&gt;TASS - TASS - 76.8 mln de visites, dont 83.88% proviennent de la Russie ;&lt;/li&gt;
-&lt;li&gt;FAN - 15.6 mln de visites enregistrées en mars, dont 77.51% provenaient de la Russie et 11.66% du Bélarus ;&lt;/li&gt;
-&lt;li&gt;Narodnye Novosti (nation-news.ru) - 3.8 mln de visiteurs, dont 89.23% proviennent de la Russie ;&lt;/li&gt;
-&lt;li&gt;Politros - 2.4 millions de visiteurs, dont 87.22% provenant de la Russie.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      </item>
+    <item>
+      <title>La France dans les médias russes - 18-24 avril 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</link>
+      <pubDate>Tue, 26 Apr 2022 15:12:30 +0100</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</guid>
+      <description>Le deuxième tour des présidentielles a dominé la couverture de la France par les médias russes la semaine dernière. Les autres sujets traités relevaient de l’agenda international, dont le Mali.
+Même si cela n’est pas nouveau que les médias russes affichent un soutien à Marine Le Pen, la possible victoire d’Emmanuel Macron n’a pas été présentée comme un élément « désastreux » pour la Russie.
+Au cours de la semaine dernière, les messages favorisant la Russie ont été relayés dans l’espace informationnel russophone, notamment l’article publié par Gazeta SPb « Le Pen : on ne peut pas laisser la Russie se rapprocher de la Chine » ou encore un autre publié par l’agence de presse FAN « Marine Le Pen : l’embargo énergétique [introduit par] l’UE n’affectera pas la Russie ».</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 18-24 avril 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</link>
-        <pubDate>Tue, 26 Apr 2022 15:12:30 &#43;0100</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/mlp_russie_ue_embargo.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Le deuxième tour des présidentielles a dominé la couverture de la France par les médias russes la semaine dernière. Les autres sujets traités relevaient de l’agenda international, dont le Mali.&lt;/p&gt;
-&lt;p&gt;Même si cela n’est pas nouveau que les médias russes affichent un soutien à Marine Le Pen, la possible victoire d’Emmanuel Macron n’a pas été présentée comme un élément « désastreux » pour la Russie.&lt;/p&gt;
-&lt;p&gt;Au cours de la semaine dernière, les messages favorisant la Russie ont été relayés dans l’espace informationnel russophone, notamment l’article publié par &lt;strong&gt;Gazeta SPb&lt;/strong&gt; « &lt;em&gt;Le Pen : on ne peut pas laisser la Russie se rapprocher de la Chine&lt;/em&gt; » ou encore un autre publié par l’agence de presse &lt;strong&gt;FAN&lt;/strong&gt; « &lt;em&gt;Marine Le Pen : l’embargo énergétique [introduit par] l’UE n’affectera pas la Russie&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;D’autres articles se sont focalisés à démontrer « l’absence de soutient » de la part de la France à l’Ukraine, notamment un article publié par &lt;strong&gt;Lenta.Ru&lt;/strong&gt; intitulé « &lt;em&gt;Le ministère français des Affaires étrangères a refusé de qualifier les événements en Ukraine de génocide&lt;/em&gt; ». Ou encore expliquer le soutient à l’Ukraine, notamment l’envoi de canons automoteurs CAESAR, dans une logique purement électorale — ici il s’agit d’un article d’opinion publié par &lt;strong&gt;Vzglyad&lt;/strong&gt; intitulé « &lt;em&gt;Un expert explique la décision de Macron de fournir des obusiers à l’Ukraine&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Dans le cadre des élections, les médias russes ont mentionné Jean-Luc Mélenchon dans le cadre de ses ambitions politiques, notamment dans un article publié par &lt;strong&gt;Krasnaïa Vesna&lt;/strong&gt; intitulé « Mélenchon a demandé qu’il soit élu Premier ministre de la France » ou encore que Marine Le Pen a reconnu sa défaite électorale — un article de &lt;strong&gt;Ria Novosti&lt;/strong&gt; intitulé « Le Pen reconnaît sa défaite à l&amp;rsquo;élection présidentielle française ».&lt;/p&gt;
-&lt;p&gt;On peut également noter que le messaging s’est focalisé sur le négatif par rapport à Emmanuel Macron. Nous pouvons citer un article publié par &lt;strong&gt;Krasnaïa Vesna&lt;/strong&gt; intitulé « Le philosophe français Michel Onfray s’est prononcé contre Macron » ou encore que « Les Outre-mer français ont voté Marine Le Pen », publié par &lt;strong&gt;Ria Novosti&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Le sujet de l’Afrique, notamment le Mali, a également figuré dans le traitement informationnel de la France par les médias russes. Le 22 avril 2022 l’agence russe &lt;strong&gt;TASS&lt;/strong&gt; a publié un article intitulé « Le ministère russe des Affaires étrangères espère que la France contribuera effectivement à l&amp;rsquo;enquête sur les meurtres au Mali », soulignant le soutient de Moscou à Bamako et utilisant le ton hostile envers Paris.&lt;/p&gt;
-&lt;p&gt;D’autres sujets ont évoqué les tableaux de la collection Morozov ou encore la décision de Danone de cesser les importations en Russie des produits Evian et Alpro.&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;Gazeta SPb - 735 milles visites mensuelles, dont 94.3% provenant de la Russie ;&lt;/li&gt;
-&lt;li&gt;FAN - 15.6 mln de visites enregistrées en mars, dont 77.51% provenait de la Russie et 11.66% du Bélarus ;&lt;/li&gt;
-&lt;li&gt;Lenta.Ru - 259.7 millions de visiteurs, dont 83.65% venant de la Russie ;&lt;/li&gt;
-&lt;li&gt;Vzglyad - 76.1 mln de visiteurs en mars, dont 78.34% provenant de la Russie ;&lt;/li&gt;
-&lt;li&gt;Krasnaïa Vesna - 7.2 mln de visites, dont 89.05% venait de la Russie ;&lt;/li&gt;
-&lt;li&gt;Ria Novosti - 262.3 millions de visites enregistrées en mai, dont 84.19% venant de la Russie ;&lt;/li&gt;
-&lt;li&gt;TASS - 76.8 mln de visites, dont 83.88% proviennent de la Russie.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      </item>
+    <item>
+      <title>La France dans les médias russes - 11-17 avril 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</link>
+      <pubDate>Tue, 19 Apr 2022 17:22:30 +0100</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</guid>
+      <description>La semaine écoulée, la France a été mentionnée dans les médias russes dans le cadre de l’élection présidentielle ainsi que dans le cadre de la guerre russo-ukrainienne, principalement s&amp;rsquo;agissant de la confrontation entre la Russie et l’Occident.
+Dans le contexte des élections présidentielles, la couverture était informative, mais avec une préférence manifestée pour Marine Le Pen, exprimée de façon directe ou indirecte.
+L’article publié par Gazeta SPb (735k visites mensuelles, dont 94.</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 11-17 avril 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</link>
-        <pubDate>Tue, 19 Apr 2022 17:22:30 &#43;0100</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/vzglyad_mlp.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;La semaine écoulée, la France a été mentionnée dans les médias russes dans le cadre de l’élection présidentielle ainsi que dans le cadre de la guerre russo-ukrainienne, principalement s&amp;rsquo;agissant de la confrontation entre la Russie et l’Occident.&lt;/p&gt;
-&lt;p&gt;Dans le contexte des élections présidentielles, la couverture était informative, mais avec une préférence manifestée pour Marine Le Pen, exprimée de façon directe ou indirecte.&lt;/p&gt;
-&lt;p&gt;L’article publié par &lt;strong&gt;Gazeta SPb&lt;/strong&gt; (735k visites mensuelles, dont 94.3% proviennent de la Russie) a repris les paroles de &lt;strong&gt;Marine Le Pen&lt;/strong&gt;, qui a déclaré qu’elle « continue à considerer la Crimée comme russe ». Ou encore l’article publié par &lt;strong&gt;MK.ru&lt;/strong&gt; (95.2 millions de visites, dont 84.92% provenant de la Russie) intitulé « Le Pen : La Commission européenne a échoué avec son projet d’organisation de l’Europe » critiquant l’Union européenne.&lt;/p&gt;
-&lt;p&gt;Alors que &lt;strong&gt;Polit.info&lt;/strong&gt; (887k visites, dont 64.32% provenant de la Russie, 21.94% — du Kazakhstan, et 5.19% — du Bélarus) s’est focalisé sur Emmanuel Macron « manquant de soutient » chez les Français. Cet article intitulé « &lt;em&gt;Les résidents de France ont admis qu’ils ne voulaient pas voir Macron à la tête du pays&lt;/em&gt; » a été publié le 16 avril 2022.&lt;/p&gt;
-&lt;p&gt;Un article d’opinion intitulé « &lt;em&gt;La Russie attend trois mots principaux de Le Pen&lt;/em&gt; » publié par &lt;strong&gt;Vzglyad&lt;/strong&gt; (76.1 mln de visites, dont 78.34% provenant de la Russie et 4.76% — de l’Ukraine) maintient que Le Pen n’est pas une candidate pro-russe, mais une candidate du « peuple profond » — la formulation qui a été &lt;a href=&#34;https://kolesnyk.fr/posts/vladislav-sourkov-sur-le-long-etat-de-potine/&#34;&gt;évoquée&lt;/a&gt; en 2019 par &lt;strong&gt;Vladislav Sourkov&lt;/strong&gt; par rapport au peuple russe. Cet article d’opinion résume que les trois mots principaux ne sont pas « je t’aime », mais « soyons égoïstes » (NB. en russe ce sont trois mots) et qu’un tel « &lt;em&gt;mariage de convenance&lt;/em&gt; » peut devenir « &lt;em&gt;vraiment fort&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/rusprimavera_macron_genocide_ukraine.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Quant à l’agenda international, l’article publié le 14 avril dernier par &lt;strong&gt;Krasnaïa Vesna&lt;/strong&gt; (7.2 mln de visites mensuelles, dont 89.05% provenant de la Russie) a été titré « &lt;em&gt;Macron a exhorté à ne pas propager le mot « génocide » lorsqu’on parle de l’Ukraine&lt;/em&gt; ». Vu les atrocités commises par l’armée russe en Ukraine, il n’est pas inattendu qu’une telle déclaration du président français ait vite été reprise par les médias russes afin d’appuyer la position officielle de Moscou.&lt;/p&gt;
-&lt;p&gt;D’autres articles visaient « l’inefficacité » des sanctions introduites par l’Occident à l’encontre de la Russie pour son invasion de l’Ukraine. Dans ce cadre, nous pouvons citer l’article intitulé « &lt;em&gt;Les sanctions anti-russes : un coup précis « raté »&lt;/em&gt; » publié par &lt;strong&gt;Expert&lt;/strong&gt; (7.4 mln de visites, dont 74.11% provenant de la Russie et 8.92% — du Bélarus). L’article a pour but d’expliquer aux lecteurs russophones que les sanctions ne sont pas efficaces et que les pays occidentaux en souffrent beaucoup plus que la Russie, même si cette opinion est facilement discutable en examinant les statistiques. L’article s’appuie sur les opinions sélectionnées, y compris celles exprimées dans des médias occidentaux, notamment par &lt;strong&gt;Alexandre del Valle&lt;/strong&gt; dans &lt;strong&gt;Valeurs actuelles&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Les médias russes n’ont pas non plus abandonné la pratique de création d’articles basés sur les commentaires. Nous pouvons citer l’article intitulé « &lt;em&gt;Les lecteurs du Figaro : l’interdiction des ressources énergétiques [provenant] de la Russie va « noyer » l’Europe&lt;/em&gt; » publié par &lt;strong&gt;Pravda&lt;/strong&gt; (11.8 mln de visites, dont 50.15% provenant de la Russie, 8.10% — du Bélarus, 6.83% — des États-Unis, et 6.72% — de l’Ukraine) qui vise à mobiliser l’opinion publique russe et calmer la population en maintenant, comme dans le cas précédent, que la Russie ne risque pas de conséquences économiques importantes, tout en véhiculant le narratif général de « dépendance de l’Occident de la Russie ».&lt;/p&gt;
-&lt;p&gt;Il faut noter que les médias russes continuent à présenter la France comme un pays, bien que non pro-russe, toute fois sympathisant envers la Russie. Cette présentation va au-delà de l’espace informationnel russe et pénétrer l’opinion publique dans d’autres pays de la région, en amplifiant l’image négative de la France.&lt;/p&gt;
-&lt;p&gt;En outre, les médias russes ont évoqué le sauvetage de huit Colombiennes de l’esclavage sexuel en France, la nomination de &lt;strong&gt;Jacques Langlade de Montgros&lt;/strong&gt; à la tête de la Direction du Renseignement militaire (DRM), l’accélération de l’inflation ou encore le gel de 41 objets de l’immobilier russe causé par les sanctions ou encore la pénurie de l’huile de tournesol.&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-</description>
-      </item>
+    <item>
+      <title>La France dans les médias russes - 28 mars-03 avril 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</link>
+      <pubDate>Mon, 04 Apr 2022 17:23:30 +0200</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</guid>
+      <description>La semaine du 28 mars au 3 avril 2022 a été marquée par l&amp;rsquo;augmentation de la propagande anti-ukrainienne et, à titre général, la guerre russo-ukrainienne. Dans le contexte de la couverture de la France, les médias russes se sont focalisés sur le rôle de la France à l&amp;rsquo;échelle internationale, ainsi que sur les élections présidentielles qui approchent.
+Nous pouvons distinguer quatre types d&amp;rsquo;articles évoquant la France la semaine écoulée : 1) présentant plus ou moins de manière neutre les faits (articles basés sur les informations apportées par les médias occidentaux), 2) se focalisant sur le contenu pro-russe (les articles basés sur les déclarations des hommes politiques, experts, et journalistes français favorisant la Russie), 3) exposant les « échecs » de la France (articles se focalisant sur les faits négatifs relevant du context intérieur français, notamment la hausse des prix, l&amp;rsquo;inflation, les scandales, etc.</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 28 mars-03 avril 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</link>
-        <pubDate>Mon, 04 Apr 2022 17:23:30 CEST</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/eadaily_poutine.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;La semaine du 28 mars au 3 avril 2022 a été marquée par l&amp;rsquo;augmentation de la propagande anti-ukrainienne et, à titre général, la guerre russo-ukrainienne. Dans le contexte de la couverture de la France, les médias russes se sont focalisés sur le rôle de la France à l&amp;rsquo;échelle internationale, ainsi que sur les élections présidentielles qui approchent.&lt;/p&gt;
-&lt;p&gt;Nous pouvons distinguer quatre types d&amp;rsquo;articles évoquant la France la semaine écoulée : 1) présentant plus ou moins de manière neutre les faits (articles basés sur les informations apportées par les médias occidentaux), 2) se focalisant sur le contenu pro-russe (les articles basés sur les déclarations des hommes politiques, experts, et journalistes français favorisant la Russie), 3) exposant les « échecs » de la France (articles se focalisant sur les faits négatifs relevant du context intérieur français, notamment la hausse des prix, l&amp;rsquo;inflation, les scandales, etc.), 4) déformation des faits (articles manipulant ou déformant entièrement les faits, parfois présentant ou pas les sources, les titres peuvent souvent induire en erreur).&lt;/p&gt;
-&lt;p&gt;Dans la première catégorie nous pouvons, à titre indicatif, placer l&amp;rsquo;article intitulé « &lt;em&gt;Sondage : l&amp;rsquo;écart entre Le Pen et Macron se réduit à une semaine de l&amp;rsquo;élection présidentielle française&lt;/em&gt; » publié par &lt;strong&gt;TASS&lt;/strong&gt;. Cet article ne fait que reprendre les faits exposés dans Le Journal du Dimanche.&lt;/p&gt;
-&lt;p&gt;Quand au deuxième type d&amp;rsquo;articles, ici nous pouvons citer l&amp;rsquo;article publié le 28 mars dernier par &lt;strong&gt;RIA Novosti&lt;/strong&gt; intitulé « &lt;em&gt;Un ancien diplomate français a accusé l&amp;rsquo;Occident de ne pas vouloir comprendre la Russie&lt;/em&gt; ». Cet article est basé sur la tribune publiée par &lt;strong&gt;Maurice Gourdault-Montagne&lt;/strong&gt; dans Le Figaro du 25 mars 2022, où l’ancien secrétaire général du Quai d’Orsay appelle à « prendre en compte l’imaginaire et la mentalité russes ». L&amp;rsquo;article présente une opinion favorable à la Russie.&lt;/p&gt;
-&lt;p&gt;Le deuxième article est aussi intéressant dans ce contexte. Il s&amp;rsquo;agit d&amp;rsquo;un article publié le 28 mars dernier par &lt;strong&gt;EADaily&lt;/strong&gt; (8.1 mln de visites par mois, dont 77.65% proviennent de la Russie), intitulé « &lt;em&gt;&amp;ldquo;Carte maîtresse&amp;rdquo; : la décision de Poutine a été évalué en France&lt;/em&gt; », qui se focalise sur le « succès » de la Russie au niveau de la stabilisation du rouble et qui qualifie l&amp;rsquo;annonce par Poutine des paiements pour le gaz russe en rouble comme un « coup d&amp;rsquo;atout ». Cet article se base sur un article d&amp;rsquo;opinion publié dans le journal Marianne.&lt;/p&gt;
-&lt;p&gt;Le problème de hausse des prix du carburant est un bel exemple du troisième type d&amp;rsquo;articles. Ici nous pouvons citer quelques articles, notamment l&amp;rsquo;article publié par RIA Novosti intitulé « &lt;em&gt;Les chauffeurs de taxi manifestent contre la hausse du prix du carburant en France&lt;/em&gt; » ou encore &lt;strong&gt;Gazeta.ru&lt;/strong&gt; (63.9 mln de visites mensuelles, dont 78.81% enregistrées en Russie) publiant l&amp;rsquo;article « &lt;em&gt;Le chef du ministère français des Finances a qualifié la hausse des prix de l&amp;rsquo;essence de gros problème&lt;/em&gt; ». Ces articles visent à démontrer au lecteur russe ou russophone que les choses « ne vont pas si bien » en France.&lt;/p&gt;
-&lt;p&gt;Quand à la déformation des faits, il existe un nombre de sites russes qui ont recours à ce pratique de façon régulière. À titre d&amp;rsquo;exemple, nous pouvons y citer le site &lt;strong&gt;Tsargrad&lt;/strong&gt; (41.2 mln de visites, dont 91.37% de Russie) qui publie l&amp;rsquo;article intitulé « &lt;em&gt;Les alliés des États-Unis se sont détournés de la Maison-Blanche après les insultes de Biden - Bloomberg&lt;/em&gt; ». L&amp;rsquo;article manipule le titre en indiquant qu&amp;rsquo;il s&amp;rsquo;agit de l&amp;rsquo;information relayée par Bloomberg, alors qu’en lisant l&amp;rsquo;article on comprend qu’il s&amp;rsquo;agit de l’opinion d&amp;rsquo;un chroniqueur, dont l&amp;rsquo;identité n&amp;rsquo;est pas révélée. L&amp;rsquo;article note que d&amp;rsquo;autres leaders occidentaux « &lt;em&gt;ont exprimé leur vif mécontentement face à la rhétorique du président américain Joseph Biden concernant le dirigeant russe Vladimir Poutine&lt;/em&gt; ». Dans ce cas, il s&amp;rsquo;agit de se focaliser sur la division au sein du « camp occidental ».&lt;/p&gt;
-&lt;p&gt;D&amp;rsquo;autres sujets traités concernaient la visite du ministre français des Affaires étrangères Le Drian au Qatar, à Oman et au Koweït, l&amp;rsquo;inflation, les exercises militaires conjoints entre la Marine française et indienne dans la mer d&amp;rsquo;Oman, les perspectives de la coopération militaire entre Paris et Ankara, la météo, etc. Telle a été la couverture de la France dans l&amp;rsquo;espace informationnel russe la semaine dernière.&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-</description>
-      </item>
+    <item>
+      <title>La France dans les médias russes - 21-27 mars 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</link>
+      <pubDate>Mon, 28 Mar 2022 19:23:30 +0200</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</guid>
+      <description>Avertissement : Nous tenons à vous informer que suite à l’invasion russe à grande échelle de l’Ukraine, qui a débuté le 24 février 2022, nous avons temporairement suspendu l’étude de la couverture de la France par les médias russes. Ceci a été décidé pour deux raisons, notamment 1) le sujet principal évoqué par les médias russes était la guerre, et 2) les médias russes ont été attaqué (et continuent d’être cyberattaqué) ce qui a rendu difficile l’accès à certaines sources, notamment au début de la guerre.</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 21-27 mars 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</link>
-        <pubDate>Mon, 28 Mar 2022 19:23:30 CEST</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/ria_zelensky.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Avertissement : Nous tenons à vous informer que suite à l’invasion russe à grande échelle de l’Ukraine, qui a débuté le 24 février 2022, nous avons temporairement suspendu l’étude de la couverture de la France par les médias russes. Ceci a été décidé pour deux raisons, notamment 1) le sujet principal évoqué par les médias russes était la guerre, et 2) les médias russes ont été attaqué (et continuent d’être cyberattaqué) ce qui a rendu difficile l’accès à certaines sources, notamment au début de la guerre. Dès aujourd’hui nous reprenons nos rapports hebdomadaires « la France dans les médias russes ».&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;La semaine écoulée, les médias russes ont continué leur focus sur la guerre contre l’Ukraine, qu’ils nomment « opération spéciale », toute autre appellation étant désormais interdite par la législation russe.&lt;/p&gt;
-&lt;p&gt;Concernant la France, le sujet des élections présidentielles ainsi que les efforts diplomatiques de Paris afin de mettre fin à l’agression russe de l’Ukraine ont été les sujets clés.&lt;/p&gt;
-&lt;p&gt;Les médias ont orienté les déclarations venant de la France afin de positionner la Russie comme un pays indispensable dans le monde. Notamment, le 21 mars, &lt;strong&gt;Ria Novosti&lt;/strong&gt; (190 millions de visites, dont 80.86% provenant de la Russie) a publié un article intitulé « &lt;em&gt;La France a reconnu le caractère indispensable de la Russie sur le marché alimentaire&lt;/em&gt; ». Cependant, l’article original publié par France 24 pointe sur le poids de l’Ukraine et « le sud de la Russie » dans la sécurité alimentaire mondiale.&lt;/p&gt;
-&lt;p&gt;Les déclarations et les efforts de la France sur la scène internationale ont été couverts de façon à présenter la position française comme plus favorable à la Russie de ce qu’elle est réellement. Les pourparlers entre Emmanuel Macron et autres leaders du monde occidental ont été couverts avec un accent sur le refus par l’Occident, et surtout la France, de livrer des armes lourdes à l’Ukraine. Ceci est fait dans le but de démontrer à la fois à la population russe que l’Occident ne soutiendrait pas assez l’Ukraine, et à la population ukrainienne russophone que l’Ukraine est soit-disant abandonnée par l’Occident. Ceci vise également à endommager plus encore la réputation de la France dans la région de l’Europe Centre-Est.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/soloviev_sur_macron.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;La déclaration d’Emmanuel Macron du 27 mars dernier sur la chaîne France 3, indiquant qu’il n’insulterait jamais Vladimir Poutine comme l’a fait le président américain Joe Biden a été repérée dans les médias russes. Cependant, le président de la République a été ridiculisé pour cette position de « leader faible » dans le show du propagandiste russe Vladimir Soloviev, où il a dénigré Macron en disant qu&amp;rsquo;il n&amp;rsquo;était pas nécessaire de valoriser ses paroles, « &lt;em&gt;car il [Macron] n’a aucune influence que ce soit&lt;/em&gt; ». Les tentatives d’apaisement et la volonté de Paris de dialoguer avec Moscou malgré l’invasion russe de l’Ukraine, ne suscitent que des moqueries et l’absence de respect envers la France dans les médias et la société russe.&lt;/p&gt;
-&lt;p&gt;Le site &lt;strong&gt;Pravda.ru&lt;/strong&gt; (8.8 mln de visites mensuelles, dont 32.98% proviennent de la Russie, 17.14% du Bélarus et 16.56% du Kazakhstan) a publié un article le 27 mars 2022 intitulé « &lt;em&gt;Plus de la moitié des Français croient aux arguments de la Russie sur une opération spéciale en Ukraine&lt;/em&gt; ». Cet article se base sur l’article publié par CNews qui tire de l’information d’un sondage mené par l&amp;rsquo;IFOP d’où découle que « &lt;em&gt;52% des sondés croient à au moins l’une des thèses russes sur l’origine de la guerre en Ukraine&lt;/em&gt; ». Cependant, le titre de l’article russe est manipulateur, car fait croire que la moitié des Français adhèrent aux arguments russes.&lt;/p&gt;
-&lt;p&gt;Les médias russes, ont utilisé la pratique habituelle du recours aux commentaires laissés sous les articles publiés par les médias français, mais cette fois-ci les commentaires ont été recueillis sur &lt;strong&gt;Twitter&lt;/strong&gt;. Dans l’article publié par &lt;strong&gt;Ria Novosti&lt;/strong&gt; le 23 mars dernier intitulé « C&amp;rsquo;est de la folie ! Les Français ont été irrités par la demande de Zelensky » il a été indiqué que les Français étaient « &lt;em&gt;contre le discours anti-russe de Zelensky&lt;/em&gt; » en entendent le discours du président ukrainien au Parlement français. Les journalistes russes ont sélectionnés les Tweets qui critiquaient Zelensky et, par conséquent, créé le contenu qui devrait faire croire aux lecteurs que les Français sont anti-ukrainiens et anti-Zelensky, et par conséquent pro-russes.&lt;/p&gt;
-&lt;p&gt;Parmi d’autres sujets évoqués concernant la France, figuraient entre autre la hausse des cas de Covid, la troisième place que possède la France en tant qu’exportateur d’armes dans le monde, plus de 600 milles Français morts l’année dernière, la détention par la France de deux yachts d’un oligarque russe.&lt;/p&gt;
-&lt;p&gt;Il faut noter que les outils de la propagande russe tels que &lt;strong&gt;RT&lt;/strong&gt; et &lt;strong&gt;Sputnik&lt;/strong&gt; ont été bannis à l’échelle de l’Union européenne au début du mois de mars, par conséquent ils ont été entièrement exclus de l’analyse.&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-</description>
-      </item>
+    <item>
+      <title>La France dans les médias russes - 14-20 février 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</link>
+      <pubDate>Mon, 21 Feb 2022 15:23:30 +0100</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</guid>
+      <description>Dans le contexte de la couverture de la France par les médias russes, la semaine dernière a tourné autour de la crise russo-ukrainienne ainsi que des efforts, notamment de la France, afin de la désamorcer.
+Les médias russes suivants sont tombés dans notre collimateur : TASS, Ria Novosti, l’Agence fédérale de presse (FAN), Regnum, RT, ainsi que quelques autres. Vu le nombre d’échanges téléphoniques entre le président de la République et son homologue russe, il y a eu plusieurs occasions d’exploiter ce sujet, ainsi que d’y mélanger la politique intérieure française dans le cadre des élections présidentielles qui approchent.</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 14-20 février 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</link>
-        <pubDate>Mon, 21 Feb 2022 15:23:30 CET</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/candidats_france_russie_ria.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Dans le contexte de la couverture de la France par les médias russes, la semaine dernière a tourné autour de la crise russo-ukrainienne ainsi que des efforts, notamment de la France, afin de la désamorcer.&lt;/p&gt;
-&lt;p&gt;Les médias russes suivants sont tombés dans notre collimateur : TASS, Ria Novosti, l’Agence fédérale de presse (FAN), Regnum, RT, ainsi que quelques autres. Vu le nombre d’échanges téléphoniques entre le président de la République et son homologue russe, il y a eu plusieurs occasions d’exploiter ce sujet, ainsi que d’y mélanger la politique intérieure française dans le cadre des élections présidentielles qui approchent.&lt;/p&gt;
-&lt;p&gt;Parmi les articles constatant plutôt sobrement tel ou tel événement dans le processus diplomatique bilatéral, nous avons pu constater que les médias russes ne manquent pas de souligner que c’est Paris qui prône le dialogue avec Moscou - message important pour la consommation à l’intérieur du pays.&lt;/p&gt;
-&lt;p&gt;Dans ce même contexte, les médias russes se focalisent sur l’importance de dialoguer avec la Russie, partagée par tous les candidats à la présidentielle française. Notamment, un article publié par &lt;strong&gt;TASS&lt;/strong&gt; le 17 février dernier cite l’ambassadeur de Fédération russe en France, &lt;strong&gt;Alexeï Mechkov&lt;/strong&gt;, qui estime qu’actuellement en France « &lt;em&gt;une situation largement atypique et paradoxale pour l&amp;rsquo;Europe occidentale se dessine, car tous les candidats majeurs [à la présidence] sont favorables au développement des relations avec la Russie&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Un autre message que l’on a pu observer consiste à expliquer aux lecteurs russes et russophones que la France partage l&amp;rsquo;inquiétude « &lt;em&gt;légitime&lt;/em&gt; » de la Russie concernant le « &lt;em&gt;rapprochement de l’OTAN aux frontières russes&lt;/em&gt; ». Afin d’illustrer cela, nous pouvons citer l’article publié par TASS le 20 février dernier intitulé « &lt;em&gt;L’Eurodéputé a déclaré que la Fédération de Russie exige à juste titre que l’OTAN ne s&amp;rsquo;approche pas aux frontières du pays&lt;/em&gt; ». Il s’agit des propos de &lt;strong&gt;Jordan Bardella&lt;/strong&gt; qui, en tant qu’invité chez BFMTV, a évoqué la soi-disant promesse du non-élargissement de l’OTAN prétendument donnée à la Russie en 1991.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/burkina_faso_riafan.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Et même si le sujet principal gravitait autour de la crise russo-ukrainienne, l’&lt;strong&gt;Agence fédérale de presse (FAN)&lt;/strong&gt;, comme d’habitude, s’est beaucoup focalisée sur la France dans le contexte africain.&lt;/p&gt;
-&lt;p&gt;Il s’agit, notamment, d’articles publiés au cours de la semaine dernière évoquant les sujets spéculant que la France « &lt;em&gt;tente de détruire les relations entre la République centrafricaine et le Tchad&lt;/em&gt; », ou concernant les habitants du Burkina Faso qui « &lt;em&gt;ont appelé les autorités à abandonner la coopération militaire avec la France&lt;/em&gt; » (18 février), ou encore évoquant une « &lt;em&gt;manifestation spontanée&lt;/em&gt; » au Mali « &lt;em&gt;en l&amp;rsquo;honneur du retrait des troupes françaises du pays&lt;/em&gt; » (19 février). Les sources citées étaient &lt;strong&gt;Nouvelles+&lt;/strong&gt;, le compte Facebook &lt;strong&gt;Mopti Infos&lt;/strong&gt;, ainsi que le portail &lt;strong&gt;Lefaso.net&lt;/strong&gt;, respectivement.&lt;/p&gt;
-&lt;p&gt;Un autre élément intéressant était le commentaire d’homme d&amp;rsquo;affaires russe &lt;strong&gt;Evgueni Prigojine&lt;/strong&gt;, publié par le service de presse de son entreprise Concord et, entre autres, relayé par le FAN. En parlant du Mali il a déclaré que « &lt;em&gt;les Français ont pillé ce pays pendant plus de 150 ans&lt;/em&gt; », tout en poursuivant que « &lt;em&gt;la situation sécuritaire dans le pays s&amp;rsquo;est de façon étrange fortement améliorée après que les Français ont mis fin à leur coopération avec le Mali pour “lutter contre le terrorisme”&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Cela n’a pas été surprenant non plus que la semaine dernière, les médias russes ont fait recours à l&amp;rsquo;instrumentalisation des commentaires laissés sur le site Le Figaro afin d’attaquer la France. Dans ce cadre là, nous pouvons citer l’article paru le 14 février dernier sur le site &lt;strong&gt;Pravda.ru&lt;/strong&gt; (5,4 millions de visites mensuelles, dont 38,68% proviennent de la Russie, 15,92% du Kazakhstan et 15,69% du Bélarus) intitulé « &lt;em&gt;De nouvelles prévisions américaines sur “l’invasion” de l&amp;rsquo;Ukraine par la Russie ridiculisées en France&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Ou encore un autre site &lt;strong&gt;SM News&lt;/strong&gt; avec 2,8 millions de visites par mois, dont 94,06% des lecteurs viennent de la Russie, a publié le 20 février 2022 un article intitulé « &lt;em&gt;Le Figaro: Le plan de Biden pour fomenter la guerre en Europe a été démasqué en France&lt;/em&gt; », toujours en se basant sur les commentaires laissés sur le site du Figaro.&lt;/p&gt;
-&lt;p&gt;D’autres sujets ont couvert l’affaire d’Alexandre Vinnik, condamné auparavant à cinq ans de prison pour blanchiment d’argent, l’ouverture des boîtes de nuit ou encore la recommandation de la France à ses citoyens de quitter l’Ukraine.&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-</description>
-      </item>
+    <item>
+      <title>La France dans les médias russes - 7-13 février 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</link>
+      <pubDate>Mon, 14 Feb 2022 15:17:30 +0100</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</guid>
+      <description>La deuxième semaine de février, la couverture de la France par les médias russes a été majoritairement caractérisée par l’augmentation de la pression autour de la crise russo-ukrainienne.
+Les médias russes analysés se sont focalisés sur la visite du président de la République à Moscou et à Kiev, la position des candidats à la présidentielle à l’égard de la Russie et, par conséquent, l’adhésion de l’Ukraine à l’OTAN. La fin de la semaine a été couverte surtout dans le contexte des échanges téléphoniques entre Emmanuel Macron et Vladimir Poutine, ainsi que les manifestations du « convoi de la liberté ».</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 7-13 février 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</link>
-        <pubDate>Mon, 14 Feb 2022 15:17:30 CET</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/poutine_macron_ria.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;La deuxième semaine de février, la couverture de la France par les médias russes a été majoritairement caractérisée par l’augmentation de la pression autour de la crise russo-ukrainienne.&lt;/p&gt;
-&lt;p&gt;Les médias russes analysés se sont focalisés sur la visite du président de la République à Moscou et à Kiev, la position des candidats à la présidentielle à l’égard de la Russie et, par conséquent, l’adhésion de l’Ukraine à l’OTAN. La fin de la semaine a été couverte surtout dans le contexte des échanges téléphoniques entre Emmanuel Macron et Vladimir Poutine, ainsi que les manifestations du « &lt;em&gt;convoi de la liberté&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;La couverture médiatique de la visite du président français à Moscou a été présentée sous un angle positif pour le maître du Kremlin et ouvertement négatif, voire insultant envers le chef d’État français.&lt;/p&gt;
-&lt;p&gt;Nous avons aussi observé des tentatives visant à augmenter le rôle de Poutine, présenter la Russie et la France comme des puissances qui s’entendent, ainsi que de souligner l’ « &lt;em&gt;importance&lt;/em&gt; » du rendez-vous entre les deux présidents. Certains articles évoquaient la « &lt;em&gt;préoccupation commune&lt;/em&gt; » en matière de sécurité en Europe ou encore que Macron a caractérisé l’échange avec son homologue russe comme « &lt;em&gt;substantiel et riche&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;De l’autre côté, plusieurs tentatives ont été réalisées afin d’insulter et décrédibiliser le président de la République. Les médias russes n&amp;rsquo;ont pas été dans la retenue en utilisant des formulations du type « &lt;em&gt;Poutine a placé Macron devant un choix&lt;/em&gt;  » ou qu’Emmanuel Macron « &lt;em&gt;a été forcé de maintenir la distanciation sociale&lt;/em&gt; » vu le refus de passer le test PCR russe.&lt;/p&gt;
-&lt;p&gt;Les médias russes ont, comme d&amp;rsquo;habitude, fait recours aux commentaires laissés sur les sites d’actualité français afin d’attaquer le président français. Il s’agit, notamment, de &lt;strong&gt;News Rambler&lt;/strong&gt;, &lt;strong&gt;Ria Novosti&lt;/strong&gt; et &lt;strong&gt;Regnum&lt;/strong&gt;, qui ont traité Macron de « &lt;em&gt;ridicule&lt;/em&gt; », « &lt;em&gt;stagiaire&lt;/em&gt; » qui « &lt;em&gt;est venu voir le patron » ou encore de « petit chien&lt;/em&gt; » qui suit Biden.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/mlp_russie_tass.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;L’opinion des candidats à la présidence française a aussi été exploitée à la fois dans le contexte des pourparlers Macron-Poutine et aussi dans le cadre de la démonstration du soutien à la Russie, y compris dans le cadre de la non-adhésion de l’Ukraine à l’OTAN.&lt;/p&gt;
-&lt;p&gt;Notamment, &lt;strong&gt;TASS&lt;/strong&gt; a souligné que Marine Le Pen considère « la conduite de la guerre froide contre Poutine » comme une erreur. À son tour, Regnum a spéculé sur la possibilité pour la France de « retrouver sa place de leader en Europe », mais pas « sous Macron » avec Valérie Pécresse étant présentée comme un tel leader.&lt;/p&gt;
-&lt;p&gt;Le sujet de l’Afrique a été éclipsé par la crise russo-ukrainienne et la visite d’Emmanuel Macron à Moscou et puis à Kiev. Cependant, l’&lt;strong&gt;Agence fédérale de presse&lt;/strong&gt; (FAN) a, comme d&amp;rsquo;habitude, présenté un nombre significatif de contenus attaquant la France en Afrique.&lt;/p&gt;
-&lt;p&gt;Notamment, on peut évoquer l’article du 8 février intitulé « &lt;em&gt;Le Mali accuse la France de vouloir partager la République&lt;/em&gt; » ou encore l’article du 11 février reprenant les informations publiées par &lt;strong&gt;Malijet&lt;/strong&gt; spéculant que la France « &lt;em&gt;fait pression sur le Mali de peur de perdre le contrôle de la région&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Il faut aussi noter que la &lt;strong&gt;FAN&lt;/strong&gt; a également mentionné Valérie Pécresse dans le cadre de son discours appelant à « &lt;em&gt;être franc avec l’Ukraine&lt;/em&gt; » concernant l’absence de perspectives pour l’adhésion de ce pays européen à l’OTAN.&lt;/p&gt;
-&lt;p&gt;Le week-end dernier, les médias russes n’ont pas manqué d’évoquer les manifestations du « &lt;em&gt;convoi de la liberté&lt;/em&gt; » à Paris. Notamment, &lt;strong&gt;Regnum&lt;/strong&gt; s’est focalisé sur le nombre de manifestants arrêtés par les forces de l’ordre, alors que la chaîne télé &lt;strong&gt;NTV&lt;/strong&gt; (16,6 millions de visites du site, dont 80,5 % proviennent de Russie) a souligné la transformation des manifestations anti-Covid en « &lt;em&gt;manifestations politiques&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-</description>
-      </item>
+    <item>
+      <title>La France dans les médias russes - 31 janvier-06 février 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</link>
+      <pubDate>Mon, 07 Feb 2022 09:40:30 +0100</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</guid>
+      <description>L&amp;rsquo;analyse des médias russes pour la semaine dernière (31 janvier - 6 février 2022) a permis de discerner les sujets majeurs touchant la France, notamment relevant du volet diplomatique, surtout dans le contexte du conflit russo-ukrainien, du contexte électoral français ainsi que des affaires en Afrique francophone.
+Plusieurs sources russes ont été suivies quotidiennement et analysées, avec Ria Novosti, TASS, l&amp;rsquo;Agence fédérale de presse (FAN) générant le plus de contenu évoquant la France.</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 31 janvier-06 février 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</link>
-        <pubDate>Mon, 07 Feb 2022 09:40:30 CET</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/arkatov_sur_macron_slovoidelo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;analyse des médias russes pour la semaine dernière (31 janvier - 6 février 2022) a permis de discerner les sujets majeurs touchant la France, notamment relevant du volet diplomatique, surtout dans le contexte du conflit russo-ukrainien, du contexte électoral français ainsi que des affaires en Afrique francophone.&lt;/p&gt;
-&lt;p&gt;Plusieurs sources russes ont été suivies quotidiennement et analysées, avec Ria Novosti, TASS, l&amp;rsquo;Agence fédérale de presse (FAN) générant le plus de contenu évoquant la France.&lt;/p&gt;
-&lt;p&gt;Les médias russes ont été extrêmement actifs, en particulier la veille de la visite du président de la République en Russie. Plusieurs articles ont paru avec des titres et du contenu décrédibilisant Emmanuel Macron. Plus particulièrement, le site &lt;strong&gt;rueconomics.ru&lt;/strong&gt; (4,4 millions de visites mensuelles, dont 91.77 % du trafic provenant de la Russie) a publié un article d&amp;rsquo;opinion stipulant qu&amp;rsquo; « &lt;em&gt;Emmanuel Macron ne pourra pas se poser en arbitre pour régler la situation entre la Russie et l&amp;rsquo;Ukraine&lt;/em&gt; » avec une référence sur FAN, où ce même &lt;strong&gt;Roman Romanov&lt;/strong&gt; avançait que « &lt;em&gt;la France n&amp;rsquo;a plus d&amp;rsquo;autorité&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Le site &lt;strong&gt;Slovo i Delo&lt;/strong&gt; (du russe - la parole et l&amp;rsquo;affaire) avec 6,9 millions de visites mensuelles, dont 29.09 % proviennent du Bélarus, 24,42 % de la Russie et 24,37 % de l&amp;rsquo;Ukraine, a publié un article d&amp;rsquo;opinion spéculant sur la santé mentale d&amp;rsquo;Emmanuel Macron, où &lt;strong&gt;Ivan Arkatov&lt;/strong&gt; avançait qu&amp;rsquo;Emmenuel Macron « &lt;em&gt;cherche à préserver les vestiges de l&amp;rsquo;influence sur la scène internationale&lt;/em&gt; » tout en le comparant à « &lt;em&gt;de tels Napoléons&lt;/em&gt; » qui « &lt;em&gt;sont entassés dans de nombreux hôpitaux psychiatriques&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;À son tour &lt;strong&gt;Vzglyad&lt;/strong&gt; (du russe - le regard), le site d&amp;rsquo;actualité avec 45,4 millions de lecteurs par mois, dont 74,2 % se situent en Russie, a utilisé les commentaires laissés sur le site du Figaro en publiant un article intitulé « &lt;em&gt;Les Français accusent Macron de mauvaises relations avec la Russie&lt;/em&gt; ». Il faut noter que nous observons depuis au moins 2020 le recours de plus en plus important aux commentaires laissés sur les sites d&amp;rsquo;actualités français, ce qui est devenu une pratique quasi-habituelle des médias russes.&lt;/p&gt;
-&lt;p&gt;Au niveau du contexte électoral français, &lt;strong&gt;Rossiyskaya Gazeta&lt;/strong&gt; a publié un article concernant la promesse de Marine Le Pen « &lt;em&gt;de sortir du Commandement intégré de l&amp;rsquo;OTAN&lt;/em&gt; » une fois élue. Alors que le site d&amp;rsquo;actualité &lt;strong&gt;News.Ru&lt;/strong&gt; s&amp;rsquo;est focalisé sur la façon dont Eric Zemmour récupère les voix du Rassemblement national (RN) et l&amp;rsquo;éventuel soutient de la part de Marion Maréchal dans un article intitulé « &lt;em&gt;Un nouveau venu a empoisonné la campagne de Le Pen&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/manifestation_antifrancaise_mali_riafan.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Concernant l&amp;rsquo;Afrique, comme la semaine d&amp;rsquo;avant, l&amp;rsquo;Agence fédérale de presse (FAN) a été plus qu&amp;rsquo;active. Plusieurs articles par jour ont été consacrés au sujet africain, se focalisant sur l&amp;rsquo;information négative envers la France. À titre d&amp;rsquo;exemple, le 4 février, un article évoquant les « &lt;em&gt;manifestations anti-françaises massives au Mali&lt;/em&gt; » est paru avec une référence sur une page Facebook &lt;strong&gt;Bambara ACTUS&lt;/strong&gt;. Un autre article avec une référence sur &lt;strong&gt;ActuCameroun&lt;/strong&gt; évoquait les « &lt;em&gt;doubles standards&lt;/em&gt; » de la France concernant le soutien que Paris accorde aux nouvelles autorités de la République de Guinée ce « &lt;em&gt;qui contraste fortement avec la position sur la transition au Mali&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Quant à la République centrafricaine, l&amp;rsquo;Agence fédérale de presse s&amp;rsquo;est focalisé sur le développement du thème de « &lt;em&gt;l&amp;rsquo;implication de la France dans la coordination des militants&lt;/em&gt; » et publiant des articles sur l&amp;rsquo;arrestation de Mahamat Abdoulaye Garbaen, et allant jusqu&amp;rsquo;en affirmer que « &lt;em&gt;les services secrets français exhortaient les radicaux à attaquer les instructeurs russes&lt;/em&gt; ». Un autre article concernait l&amp;rsquo;« &lt;em&gt;indignement des Centrafricains&lt;/em&gt; » suite à la « &lt;em&gt;nomination d&amp;rsquo;Ali Darassa mandataire de la République française auprès de la République centrafricaine&lt;/em&gt; ». Il faut noter que l&amp;rsquo;article évoquant cette nomination se base sur un post de véracité douteuse, publié dans le groupe Facebook &lt;strong&gt;TOUS LES CENTRAFRICAINS DU MONDE&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Les autres sujets concernaient l&amp;rsquo;augmentation de l&amp;rsquo;inflation en France, une tentative de structurer l&amp;rsquo;Islam dans le pays, la baisse légère de la production industrielle, le soutien de la part de la Commission européenne de l&amp;rsquo;initiative française concernant la création du Conseil de Schengen, ainsi que le soutien militaire possible de la France aux Émirats arabes unis.&lt;/p&gt;
-&lt;p&gt;À titre général, au cours de la semaine écoulée, la France ainsi que le président de la République ont été présentés dans les médias russes assez négativement, voire hostilement.&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-</description>
-      </item>
+    <item>
+      <title>La France dans les médias russes - 24-30 janvier 2022</title>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</link>
+      <pubDate>Sun, 30 Jan 2022 22:14:30 +0100</pubDate>
+      
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</guid>
+      <description>La semaine du 24 au 30 janvier 2022 dans les médias russes a été marquée par deux événements majeurs, notamment les pourparlers au niveau des conseillers des chefs d’État et de gouvernement du format Normandie sur le fond de l’escalade des tensions entre la Russie et l&amp;rsquo;Ukraine. Alors que le deuxième sujet important concernait la France en Afrique.
+Au cours de la semaine, nous avons analysé un nombre significatif de médias importants du pays, en particulier Ria Novosti, RT Russian, TASS, Regnum, Radio Sputnik, l&amp;rsquo;Agence fédérale de presse (FAN), Lenta.</description>
+    </item>
     
-      <item>
-        <title>La France dans les médias russes - 24-30 janvier 2022</title>
-        <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</link>
-        <pubDate>Sun, 30 Jan 2022 22:14:30 CET</pubDate>
-        <author></author>
-        <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;drapeau_russe_burkina_faso_fan.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;La semaine du 24 au 30 janvier 2022 dans les médias russes a été marquée par deux événements majeurs, notamment les pourparlers au niveau des conseillers des chefs d’État et de gouvernement du format Normandie sur le fond de l’escalade des tensions entre la Russie et l&amp;rsquo;Ukraine. Alors que le deuxième sujet important concernait la France en Afrique.&lt;/p&gt;
-&lt;p&gt;Au cours de la semaine, nous avons analysé un nombre significatif de médias importants du pays, en particulier Ria Novosti, RT Russian, TASS, Regnum, Radio Sputnik, l&amp;rsquo;Agence fédérale de presse (FAN), Lenta.Ru, ainsi que d&amp;rsquo;autres médias et sites d&amp;rsquo;actualité émettant du contenu en langue russe.&lt;/p&gt;
-&lt;p&gt;Les pourparlers au format Normandie ont été décrits plutôt de façon neutre, même si certains médias orientaient la couverture de façon plutôt favorable à la Russie, choisissant une tonalité qui pourrait faire croire que Paris agissait de concert avec Moscou dans le cadre de la crise russo-ukrainienne. À titre d&amp;rsquo;exemple, l&amp;rsquo;article du 26 janvier de Lenta.Ru pointait que « &lt;em&gt;Scholz et Macron ont décidé de maintenir le dialogue avec la Russie malgré la crise avec l&amp;rsquo;Ukraine&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Le président de la République a été mentionné dans le cadre de la préparation d&amp;rsquo;un échange téléphonique avec le président russe, où Emmanuel Macron « &lt;em&gt;a l&amp;rsquo;intention de proposer&lt;/em&gt; » à son homologue russe « &lt;em&gt;le chemin vers la désescalade&lt;/em&gt; », ainsi que l&amp;rsquo;idée d&amp;rsquo;Emmanuel Macron que l&amp;rsquo;Union européenne (UE) devrait également pleinement participer à l&amp;rsquo;élaboration de la réponse aux « &lt;em&gt;propositions faites par la Russie en décembre dernier&lt;/em&gt; ». Cela n&amp;rsquo;a pas été surprenant que certains médias, notamment l&amp;rsquo;Agence fédérale de presse (FAN), aient repris les commentaires laissés sur le site Le Figaro afin de faire des articles attaquant le président français, en particulier en le traitant de « &lt;em&gt;nain de jardin&lt;/em&gt; » pour son opinion concernant l&amp;rsquo;Ukraine.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://infoops.fr/images/riafan_stats.jpg&#34; alt=&#34;L&amp;amp;rsquo;agence fédérale de presse&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Sur l&amp;rsquo;Afrique, nous avons observé une intensité importante de l&amp;rsquo;Agence fédérale de presse (FAN), qui a publié jusqu&amp;rsquo;à quelques articles par jour, ouvertement orientés contre la France. Plusieurs articles du FAN, lu majoritairement en Russie (59%) et au Bélarus (30%) avec plus de 13 millions visite mensuelles, évoquaient les manifestations au Sénégal en soutient du Mali, le « &lt;em&gt;blocage de l&amp;rsquo;espace aérien pour les avions français par les pays africains&lt;/em&gt; », ainsi que les drapeaux russes dans les rues du Burkina Faso. Alors que la Russie est décrite comme « &lt;em&gt;le symbole de liberté du néocolonialisme des anciennes métropoles&lt;/em&gt; ».&lt;/p&gt;
-&lt;p&gt;Le contenu publié par l&amp;rsquo;Agence fédérale de presse a été orienté de façon négative envers la France, jusqu&amp;rsquo;en impliquant que  l&amp;rsquo;Ambassade de France en Centrafrique « &lt;em&gt;donne des ordres aux militants&lt;/em&gt; » et suggérant que la France « &lt;em&gt;a fait de l&amp;rsquo;ONU un outil pour déstabiliser la RCA&lt;/em&gt; ». Deux sources citées étaient présentés comme des « &lt;em&gt;analystes&lt;/em&gt; » avec des liens pointant sur le blog &lt;strong&gt;Le Patriote Déchaîné&lt;/strong&gt; hébergé sur over-blog.com et &lt;strong&gt;Revue Centrafricaine&lt;/strong&gt; hébergé sur blogspot.com, alors que la troisième source était Nouvelles+.&lt;/p&gt;
-&lt;p&gt;Il est aussi important de noter, que les médias russes n&amp;rsquo;ont pas évité le thème des élections en France. Notamment, l&amp;rsquo;article de Ria Novosti du 24 janvier 2022 a repris les déclarations du ministre de l’Intérieur Gérald Darmanin sur Marine Le Pen en soulignant une « &lt;em&gt;éventuelle discorde nationale et une guerre civile&lt;/em&gt; » si jamais Le Pen était élue. Concernant Eric Zemmour, un autre candidat à la présidentielle 2022, les médias russes ont repris ses déclarations au sujet de la nécessité de lever les sanctions introduites contre la Russie et de nouer l&amp;rsquo;amitié avec Moscou.&lt;/p&gt;
-&lt;p&gt;D&amp;rsquo;autres sujets mentionnant la France couverts par les médias russes concernaient le Congrès juif européen (CJE), l&amp;rsquo;antisémitisme en France, le nombre de nouveaux cas Covid, les manifestations contre les restrictions liées au Covid, la volonté de la part de Paris de déployer les troupes en Roumanie afin d&amp;rsquo;appuyer son allié, ainsi que l&amp;rsquo;opinion du député de l&amp;rsquo;Assemblée nationale Michel Larive (La France Insoumise) concernant la nécessité pour la France de quitter l&amp;rsquo;OTAN.&lt;/p&gt;
-&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
-</description>
-      </item>
+    <item>
+      <title>À propos</title>
+      <link>https://infoops.fr/a-propos/</link>
+      <pubDate>Sun, 30 Jan 2022 00:22:00 +0100</pubDate>
+      
+      <guid>https://infoops.fr/a-propos/</guid>
+      <description>« Le champ informationnel est aujourd&amp;rsquo;hui le lieu d&amp;rsquo;une véritable guerre de l&amp;rsquo;information. » - a souligné Thierry Burkhard, le chef d&amp;rsquo;état-major des armées, au cours de la présentation de la doctrine militaire de lutte informatique d’influence (L2I). En effet, l&amp;rsquo;information fait partie de notre quotidien et les activités des puissances étrangères dans ce domaine peuvent endommager les intérêts de notre pays à la fois à l&amp;rsquo;étranger et semer la discorde ou interférer avec le processus démocratique sur notre sol.</description>
+    </item>
     
-
   </channel>
 </rss>
