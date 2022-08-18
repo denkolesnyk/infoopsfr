@@ -4,7 +4,6 @@ date: 2022-01-30T0:22:00+01:00
 Menu : main menu
 draft: false
 ---
-![](/images/infoopsfr_logo.png) 
 
 « *Le champ informationnel est aujourd'hui le lieu d'une véritable guerre de l'information.* » - a souligné Thierry Burkhard, le chef d'état-major des armées, au cours de la présentation de la doctrine militaire de lutte informatique d’influence (L2I). En effet, l'information fait partie de notre quotidien et les activités des puissances étrangères dans ce domaine peuvent endommager les intérêts de notre pays à la fois à l'étranger et semer la discorde ou interférer avec le processus démocratique sur notre sol.
 
