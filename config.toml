@@ -1,5 +1,6 @@
-baseURL = '/'
-languageCode = 'fr-fr'
+baseURL = 'https://infoops.fr/'
+languageCode = 'fr'
+DefaultContentLanguage = "fr"
 title = 'Info Ops France'
 theme = 'chalk'
 paginate = '25'
@@ -13,4 +14,4 @@ paginate = '25'
 
 [params.social]
   twitter = 'infoopsfr'
-  email = 'mailto:contact@infoops.fr'
+  email = 'contact@infoops.fr'
