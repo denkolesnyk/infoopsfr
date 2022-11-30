@@ -2,10 +2,6 @@
 title: "La France dans les médias russes - 31 janvier-06 février 2022"
 date: 2022-02-07T09:40:30+01:00
 tags: ["Centrafrique", "France", "Mali", "Russie", "Ukraine"]
-categories: ["Médias"]
-authors: ["IOF"]
-featured_image: /images/arkatov_sur_macron_slovoidelo.jpg
-type: "post"
 draft: false
 ---
 

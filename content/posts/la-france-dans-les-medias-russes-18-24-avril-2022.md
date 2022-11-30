@@ -2,10 +2,6 @@
 title: "La France dans les médias russes - 18-24 avril 2022"
 date: 2022-04-26T15:12:30+01:00
 tags: ["France", "Russie", "Ukraine"]
-categories: ["Médias"]
-authors: ["IOF"]
-featured_image: /images/mlp_russie_ue_embargo.webp
-type: "post"
 draft: false
 ---
 

@@ -1,33 +1,16 @@
-baseURL = 'https://infoops.fr/'
-languageCode = 'fr'
-DefaultContentLanguage = "fr"
+baseURL = '/'
+languageCode = 'fr-fr'
 title = 'Info Ops France'
-theme = "tale-hugo"
-paginate = '5'
+theme = 'chalk'
+paginate = '25'
 
-[Author]
-    name = "Info Ops France"
+[params.chalk]
+  about_enabled = 'true'
+  scrollappear_enabled = 'true'
+  theme_toggle = 'true'
+  blog_theme = 'light'
+  tag_nav_enabled = 'true'
 
-[Taxonomies]
-   tag = "tags"
-   categories = "categories"
-
-[menu]
-  [[menu.main]]
-    identifier = "À propos"
-    name = "À propos"
-    title = "À propos"
-    url = "/a-propos/"
-    weight = 1
-  [[menu.main]]
-    identifier = "posts"
-    name = "Articles"
-    title = "Posts"
-    url = "/posts/"
-    weight = 0
- [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    title = "contact"
-    url = "mailto:contact@infoops.fr"
-    weight = 0
+[params.social]
+  twitter = 'infoopsfr'
+  email = 'mailto:contact@infoops.fr'

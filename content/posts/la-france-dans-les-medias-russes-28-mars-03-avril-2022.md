@@ -2,10 +2,6 @@
 title: "La France dans les médias russes - 28 mars-03 avril 2022"
 date: 2022-04-04T17:23:30+02:00
 tags: ["France", "Russie", "Ukraine"]
-categories: ["Médias"]
-authors: ["IOF"]
-featured_image: /images/arkatov_sur_macron_slovoidelo.jpg
-type: "post"
 draft: false
 ---
 

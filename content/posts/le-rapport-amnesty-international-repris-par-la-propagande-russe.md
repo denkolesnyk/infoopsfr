@@ -2,10 +2,6 @@
 title: "Le rapport d’Amnesty International repris par la propagande russe"
 date: 2022-08-10T09:32:13+01:00
 tags: ["Amnesty International", "Russie", "Twitter", "Ukraine"]
-categories: ["Médias"]
-authors: ["IOF"]
-featured_image: /images/amnesty_rapport_ukraine.webp
-type: "post"
 draft: false
 ---
 
