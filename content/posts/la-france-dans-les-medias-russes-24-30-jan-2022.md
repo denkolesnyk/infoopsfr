@@ -1,6 +1,6 @@
 ---
 title: "La France dans les médias russes - 24-30 janvier 2022"
-date: 2022-01-30T22:14:30+01:00
+date: "2022-01-30T22:14:30+01:00"
 tags: ["France","Russie", "Burkina Faso", "Ukraine"]
 draft: false
 ---

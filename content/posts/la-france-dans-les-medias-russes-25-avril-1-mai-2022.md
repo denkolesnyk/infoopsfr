@@ -1,6 +1,6 @@
 ---
 title: "La France dans les médias russes - 25 avril-1 mai 2022"
-date: 2022-05-04T22:35:10+01:00
+date: "2022-05-04T22:35:10+01:00"
 tags: ["France", "Mali", "Russie", "Ukraine"]
 draft: false
 ---
