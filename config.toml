@@ -6,7 +6,7 @@ theme = 'chalk'
 paginate = '25'
 
 [params]
-  dateFormat = "02 Jan 2006"
+  dateFormat = "Jan 02, 2006"
 
 [params.chalk]
   about_enabled = 'true'
