@@ -5,6 +5,9 @@ title = 'Info Ops France'
 theme = 'chalk'
 paginate = '25'
 
+[params]
+  DateForm = "2.1.2006"
+
 [params.chalk]
   about_enabled = 'true'
   scrollappear_enabled = 'true'
