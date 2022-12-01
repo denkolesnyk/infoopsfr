@@ -4,9 +4,7 @@ DefaultContentLanguage = "fr"
 title = 'Info Ops France'
 theme = 'chalk'
 paginate = '25'
-
-[params]
-  DateForm = "2.1.2006"
+TimeZone = 'Europe/Paris'
 
 [params.chalk]
   about_enabled = 'true'
