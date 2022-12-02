@@ -2,28 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://infoops.fr/</loc>
+    <lastmod>2022-10-28T09:32:13+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/posts/</loc>
+    <lastmod>2022-10-28T09:32:13+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/tags/russie/</loc>
+    <lastmod>2022-10-28T09:32:13+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/tags/</loc>
+    <lastmod>2022-10-28T09:32:13+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/tags/twitter/</loc>
+    <lastmod>2022-10-28T09:32:13+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/tags/ukraine/</loc>
+    <lastmod>2022-10-28T09:32:13+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/tags/ukronazis/</loc>
+    <lastmod>2022-10-28T09:32:13+01:00</lastmod>
+  </url><url>
+    <loc>https://infoops.fr/posts/ukronazis-le-narratif-russe-a-la-conquete-du-twitter-francais/</loc>
+    <lastmod>2022-10-28T09:32:13+01:00</lastmod>
+  </url><url>
     <loc>https://infoops.fr/tags/amnesty-international/</loc>
     <lastmod>2022-08-10T09:32:13+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/</loc>
-    <lastmod>2022-08-10T09:32:13+01:00</lastmod>
-  </url><url>
     <loc>https://infoops.fr/posts/le-rapport-amnesty-international-repris-par-la-propagande-russe/</loc>
-    <lastmod>2022-08-10T09:32:13+01:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/posts/</loc>
-    <lastmod>2022-08-10T09:32:13+01:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/tags/russie/</loc>
-    <lastmod>2022-08-10T09:32:13+01:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/tags/</loc>
-    <lastmod>2022-08-10T09:32:13+01:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/tags/twitter/</loc>
-    <lastmod>2022-08-10T09:32:13+01:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/tags/ukraine/</loc>
     <lastmod>2022-08-10T09:32:13+01:00</lastmod>
   </url><url>
     <loc>https://infoops.fr/tags/france/</loc>
