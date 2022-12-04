@@ -1,8 +1,6 @@
 <div class="article-list-footer">
   <span class="article-list-date">
-    {{ with .Date }}
-    {{ . | time.Format ":date_long" }}
-{{ end }}
+    {{ .Date | time.Format ":date_long" }}
   </span>
   <span class="article-list-divider">-</span>
   <span class="article-list-minutes">
