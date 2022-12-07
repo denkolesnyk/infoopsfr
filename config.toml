@@ -6,6 +6,9 @@ theme = 'chalk'
 paginate = '25'
 TimeZone = 'Europe/Paris'
 
+[params]
+  DateForm = "2.1.2006"
+
 [params.chalk]
   about_enabled = 'true'
   scrollappear_enabled = 'true'
