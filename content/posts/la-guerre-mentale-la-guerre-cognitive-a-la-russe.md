@@ -48,7 +48,7 @@ Il distingue les règles principales de la guerre mentale :
 - Le caractère déterminant de la sphère spirituelle et influence significative des facteurs économiques sur la transformation de la société ;
 - L'impact retardé en raison de l'inertie de la conscience (complexité de la contre-action aux technologies de la guerre mentale, car il est difficile et parfois impossible de parvenir à rejeter les fausses croyances et les illusions imposées par l'ennemi), ce qui entraîne des problèmes dans la « guérison » de la conscience et les transformations dans la sphère spirituelle de la société, qui sont devenus une conséquence de l'application des technologies de la guerre mentale.
 
-L'article de Karavaye essaie de mettre les bases théoriques pour ce nouveau concept russe de la guerre mentale.
+L'article de Karavayev essaie de mettre les bases théoriques pour ce nouveau concept russe de la guerre mentale.
 
 ## La guerre mentale égale à la guerre cognitive ?
 
