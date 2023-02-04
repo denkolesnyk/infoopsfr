@@ -64,7 +64,7 @@ Il est opportun de donner la définition[^5] de la guerre cognitive, telle qu'el
 
 Les auteurs russes mettent un signe d'égalité entre la guerre cognitive et le concept de la guerre mentale, développé en Russie. Cependant, dans le schéma proposé on observe les deux termes occuper les places différentes avec la guerre mentale se situant entre la diplomatie publique et la psychologie individuelle, alors que la guerre cognitive se poste entre la diplomatie publique et les hostilités, touchant la psychologie individuelle. Ceci constitue une **contradiction au sein du même article scientifique**, qui en soi peut indiquer l'existence d'une incertitude au sein de la communauté scientifique russe concernant le concept de guerre mentale récemment introduit.
 
-À ce stade, l'émergence du terme **guerre mentale** dans les sources russes constitue une tentative d'introduction d'un nouveau terme qui devrait répondre à la même tentative de la part des Occidentaux d'introduire le terme **guerre cognitive**. Cependant, malgré le stade embryonal du développement de la théorie de la guerre mentale dans les sources russes, ce processus mérite d'être suivi.
+À ce stade, l'émergence du terme **guerre mentale** dans les sources russes constitue une tentative d'introduction d'un nouveau terme qui devrait répondre à la même tentative de la part des Occidentaux d'introduire le terme **guerre cognitive**. Cependant, malgré le stade embryonnaire du développement de la théorie de la guerre mentale dans les sources russes, ce processus mérite d'être suivi.
 
 [^1]: А.М. Ильницкмй, « Ментальная война России» опубликована в журнале », Военная мысль №8, 2021
 [^2]: А.М. Ильницкмй, « Стратегия ментальной безопасности России », Военная мысль №4, 2022
