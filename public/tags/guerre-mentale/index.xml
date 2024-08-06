@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>guerre mentale on Info Ops France</title>
-    <link>https://infoops.fr/tags/guerre-mentale/</link>
-    <description>Recent content in guerre mentale on Info Ops France</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Guerre Mentale on Info Ops France</title>
+    <link>http://localhost:1313/tags/guerre-mentale/</link>
+    <description>Recent content in Guerre Mentale on Info Ops France</description>
+    <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Fri, 27 Jan 2023 09:32:13 +0200</lastBuildDate>
-    <atom:link href="https://infoops.fr/tags/guerre-mentale/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/guerre-mentale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La guerre mentale - la guerre cognitive à la russe</title>
-      <link>https://infoops.fr/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</link>
+      <link>http://localhost:1313/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</link>
       <pubDate>Fri, 27 Jan 2023 09:32:13 +0200</pubDate>
-      <guid>https://infoops.fr/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</guid>
-      <description>En mars 2021, Andreï Ilnitski, conseiller du ministre russe de la Défense, a déclaré que « l’Occident, dirigé par les États-Unis, a déclenché une guerre mentale contre la Russie, dont les conséquences se manifesteront au moins une génération plus tard ».
-En août de la même année, il publie dans le magazine militaro-théorique Voyennaya Mysl1 (du russe - pensée militaire) l’article intitulé « La guerre mentale de la Russie ».</description>
+      <guid>http://localhost:1313/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</guid>
+      <description>En mars 2021, Andreï Ilnitski, conseiller du ministre russe de la Défense, a déclaré que « l’Occident, dirigé par les États-Unis, a déclenché une guerre mentale contre la Russie, dont les conséquences se manifesteront au moins une génération plus tard ».&#xA;En août de la même année, il publie dans le magazine militaro-théorique Voyennaya Mysl1 (du russe - pensée militaire) l’article intitulé « La guerre mentale de la Russie ».</description>
     </item>
   </channel>
 </rss>

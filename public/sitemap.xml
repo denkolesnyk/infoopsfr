@@ -2,90 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://infoops.fr/tags/guerre-cognitive/</loc>
+    <loc>http://localhost:1313/posts/grey-zone-elimine-au-mali/</loc>
+    <lastmod>2024-08-06T12:36:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/grey_zone/</loc>
+    <lastmod>2024-08-06T12:36:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-08-06T12:36:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mali/</loc>
+    <lastmod>2024-08-06T12:36:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-08-06T12:36:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/russie/</loc>
+    <lastmod>2024-08-06T12:36:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-06T12:36:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/telegram/</loc>
+    <lastmod>2024-08-06T12:36:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/afrique/</loc>
+    <lastmod>2023-12-18T19:02:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/d%C3%A9sinformation/</loc>
+    <lastmod>2023-12-18T19:02:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/france/</loc>
+    <lastmod>2023-12-18T19:02:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</loc>
+    <lastmod>2023-12-18T19:02:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/guerre-cognitive/</loc>
     <lastmod>2023-01-27T09:32:13+02:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/tags/guerre-mentale/</loc>
+    <loc>http://localhost:1313/tags/guerre-mentale/</loc>
     <lastmod>2023-01-27T09:32:13+02:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/</loc>
+    <loc>http://localhost:1313/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</loc>
     <lastmod>2023-01-27T09:32:13+02:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</loc>
-    <lastmod>2023-01-27T09:32:13+02:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/posts/</loc>
-    <lastmod>2023-01-27T09:32:13+02:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/tags/russie/</loc>
-    <lastmod>2023-01-27T09:32:13+02:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/tags/</loc>
-    <lastmod>2023-01-27T09:32:13+02:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/tags/amnesty-international/</loc>
+    <loc>http://localhost:1313/tags/amnesty-international/</loc>
     <lastmod>2022-08-10T09:32:13+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/le-rapport-amnesty-international-repris-par-la-propagande-russe/</loc>
+    <loc>http://localhost:1313/posts/le-rapport-amnesty-international-repris-par-la-propagande-russe/</loc>
     <lastmod>2022-08-10T09:32:13+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/tags/twitter/</loc>
+    <loc>http://localhost:1313/tags/twitter/</loc>
     <lastmod>2022-08-10T09:32:13+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/tags/ukraine/</loc>
+    <loc>http://localhost:1313/tags/ukraine/</loc>
     <lastmod>2022-08-10T09:32:13+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/tags/france/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</loc>
     <lastmod>2022-05-04T22:35:10+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</loc>
-    <lastmod>2022-05-04T22:35:10+01:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/tags/mali/</loc>
-    <lastmod>2022-05-04T22:35:10+01:00</lastmod>
-  </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</loc>
     <lastmod>2022-04-26T15:12:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</loc>
     <lastmod>2022-04-19T17:22:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</loc>
     <lastmod>2022-04-04T17:23:30+02:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</loc>
     <lastmod>2022-03-28T19:23:30+02:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</loc>
     <lastmod>2022-02-21T15:23:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/tags/otan/</loc>
+    <loc>http://localhost:1313/tags/otan/</loc>
     <lastmod>2022-02-21T15:23:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</loc>
     <lastmod>2022-02-14T15:17:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/tags/centrafrique/</loc>
+    <loc>http://localhost:1313/tags/centrafrique/</loc>
     <lastmod>2022-02-07T09:40:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</loc>
     <lastmod>2022-02-07T09:40:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/tags/burkina-faso/</loc>
+    <loc>http://localhost:1313/tags/burkina-faso/</loc>
     <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</loc>
+    <loc>http://localhost:1313/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</loc>
     <lastmod>2022-01-30T22:14:30+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/a-propos/</loc>
+    <loc>http://localhost:1313/a-propos/</loc>
     <lastmod>2022-01-30T00:22:00+01:00</lastmod>
   </url><url>
-    <loc>https://infoops.fr/tags/afrique/</loc>
-  </url><url>
-    <loc>https://infoops.fr/categories/</loc>
-  </url><url>
-    <loc>https://infoops.fr/tags/d%C3%A9sinformation/</loc>
-  </url><url>
-    <loc>https://infoops.fr/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
