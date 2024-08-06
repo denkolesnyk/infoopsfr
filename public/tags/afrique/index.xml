@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Afrique on Info Ops France</title>
-    <link>http://localhost:1313/tags/afrique/</link>
+    <link>https://infoops.fr/tags/afrique/</link>
     <description>Recent content in Afrique on Info Ops France</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Mon, 18 Dec 2023 19:02:12 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/afrique/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://infoops.fr/tags/afrique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Info Ops France au colloque sur la désinformation en Pologne</title>
-      <link>http://localhost:1313/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</link>
+      <link>https://infoops.fr/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</link>
       <pubDate>Mon, 18 Dec 2023 19:02:12 +0100</pubDate>
-      <guid>http://localhost:1313/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</guid>
+      <guid>https://infoops.fr/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</guid>
       <description>Info Ops France a été représentée par son fondateur, Denys Kolesnyk, au colloque sur la désinformation qui s&amp;rsquo;est déroulé en Pologne. L&amp;rsquo;événement portait sur la résilience informationnelle et a facilité l&amp;rsquo;échange des meilleures pratiques et d&amp;rsquo;expériences dans le domaine entre les participants.&#xA;Le colloque a rassemblé des représentants d&amp;rsquo;agences gouvernementales, du secteur privé, des universitaires, qui ont pu partager leurs expériences en matière d&amp;rsquo;identification des menaces informationnelles et de lutte contre la désinformation.</description>
     </item>
   </channel>

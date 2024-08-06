@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Burkina Faso on Info Ops France</title>
-    <link>http://localhost:1313/tags/burkina-faso/</link>
+    <link>https://infoops.fr/tags/burkina-faso/</link>
     <description>Recent content in Burkina Faso on Info Ops France</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Sun, 30 Jan 2022 22:14:30 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/burkina-faso/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://infoops.fr/tags/burkina-faso/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La France dans les médias russes - 24-30 janvier 2022</title>
-      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</link>
+      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</link>
       <pubDate>Sun, 30 Jan 2022 22:14:30 +0100</pubDate>
-      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</guid>
+      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</guid>
       <description>La semaine du 24 au 30 janvier 2022 dans les médias russes a été marquée par deux événements majeurs, notamment les pourparlers au niveau des conseillers des chefs d’État et de gouvernement du format Normandie sur le fond de l’escalade des tensions entre la Russie et l&amp;rsquo;Ukraine. Alors que le deuxième sujet important concernait la France en Afrique.&#xA;Au cours de la semaine, nous avons analysé un nombre significatif de médias importants du pays, en particulier Ria Novosti, RT Russian, TASS, Regnum, Radio Sputnik, l&amp;rsquo;Agence fédérale de presse (FAN), Lenta.</description>
     </item>
   </channel>
