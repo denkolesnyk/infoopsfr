@@ -24,3 +24,7 @@ Les chaînes ayant un degré pondéré élevé sont centrales dans le réseau, e
 Il est intéressant de noter que l'utilisateur anonyme avec le numéro ID **19072681168** ne reçoit aucune interaction, mais est le second plus important en ce qui concerne la diffusion de contenu. Il alimente la chaîne **Военный осведомитель** et **Росич | Rosich**. Alors que **Военный осведомитель** à son tour alimente la chaîne **Dambiev**, qui pousse le contenu vers la chaîne **GREY ZONE**. Alors que cette dernière, distribue l'information / désinformation vers les deux communautés, vertes et violettes, en poussant le contenu vers les chaînes importantes en matière d'interactions comme **Astra Militarum [Z]** et **Квантум справедливости** (communauté violette), et **Канал специального назначения** et **ДШРГ Русич**.
 
 L'élimination physique de l'auteur de la chaîne **GREY ZONE** peut temporairement rendre plus difficile la propagation du contenu, car elle jouait un rôle important dans la diffusion dans les deux communautés. En outre, les acteurs identifiés comme influents dans la réception et la diffusion du contenu doivent être surveillés de près. Comprendre le type d'informations qu'ils reçoivent et diffusent est important dans l'étude des opérations d'influences et de la désinformation.
+
+---
+
+La collecte, le traitement et l'analyse des données ont été effectués par Denys Kolesnyk, fondateur de l'initiative Info Ops France.
