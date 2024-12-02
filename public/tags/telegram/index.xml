@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Telegram on Info Ops France</title>
-    <link>https://infoops.fr/tags/telegram/</link>
+    <link>http://localhost:1313/tags/telegram/</link>
     <description>Recent content in Telegram on Info Ops France</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 06 Aug 2024 12:36:43 +0200</lastBuildDate>
-    <atom:link href="https://infoops.fr/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grey Zone éliminé au Mali ensemble avec les mercenaires russes et les FAMa</title>
-      <link>https://infoops.fr/posts/grey-zone-elimine-au-mali/</link>
+      <link>http://localhost:1313/posts/grey-zone-elimine-au-mali/</link>
       <pubDate>Tue, 06 Aug 2024 12:36:43 +0200</pubDate>
-      <guid>https://infoops.fr/posts/grey-zone-elimine-au-mali/</guid>
-      <description>Fin juillet 2024 un convoi militaire des Forces armées maliennes (FAMa) épaulées par les mercenaires russes du Africa Corps (ex-Wagner) a été éliminé près de la ville de Tinzaouatine située au Nord du Mali par les combattants du Cadre stratégique pour la défense du peuple de l’Azawad (CSP-DPA). Dans ce combat, la personne derrière la chaîne Telegram affiliée à la galaxie des mercenaires russes « GREY ZONE », surnom « Белый » (du russe &amp;ndash; Blanc) a perdu sa vie « avec les armes dans les mains », selon les Russes.</description>
+      <guid>http://localhost:1313/posts/grey-zone-elimine-au-mali/</guid>
+      <description>&lt;p&gt;Fin juillet 2024 un convoi militaire des Forces armées maliennes (FAMa) épaulées par les mercenaires russes du Africa Corps (ex-Wagner) a été &lt;a href=&#34;https://fr.wikipedia.org/wiki/Bataille_de_Tinzawat%C3%A8ne_(2024)&#34;&gt;éliminé&lt;/a&gt; près de la ville de Tinzaouatine située au Nord du Mali par les combattants du Cadre stratégique pour la défense du peuple de l’Azawad (CSP-DPA). Dans ce combat, la personne derrière la chaîne Telegram affiliée à la galaxie des mercenaires russes « &lt;strong&gt;GREY ZONE&lt;/strong&gt; », surnom « Белый » (&lt;em&gt;du russe &amp;ndash; Blanc&lt;/em&gt;) a perdu sa vie « avec les armes dans les mains », selon les Russes.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

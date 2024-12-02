@@ -2,109 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Info Ops France</title>
-    <link>https://infoops.fr/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Info Ops France</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 06 Aug 2024 12:36:43 +0200</lastBuildDate>
-    <atom:link href="https://infoops.fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Dec 2024 09:42:32 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Denys Kolesnyk au colloque sur la guerre non-cinétique à Łódź</title>
+      <link>http://localhost:1313/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</link>
+      <pubDate>Mon, 02 Dec 2024 09:42:32 +0200</pubDate>
+      <guid>http://localhost:1313/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/dk_wsmip_lodz.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Les 28 et 29 novembre 2024, le Centre pour l&amp;rsquo;analyse et la prévision stratégiques de l&amp;rsquo;Université de Łódź a organisé un colloque international consacré à l&amp;rsquo;agression russe envers l&amp;rsquo;Occident. Cet événement a exploré deux aspects clés de cette menace : les activités cinétiques et non-cinétiques menées par la Russie.&lt;/p&gt;&#xA;&lt;p&gt;Info Ops France a été présenté par son fondateur, Denys Kolesnyk, qui est intervenu avec un discours keynote dans le cadre d’un panel sur la guerre non-cinétique. Intitulée « &lt;em&gt;Winning without fighting: the strategic edge of non-kinetic warfare&lt;/em&gt; », sa présentation a abordé l’histoire des activités nocives soviétiques puis russes, la guerre de l’information menée par la Russie contre la France en Afrique, ainsi que le dispositifs français dans le domaine.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Grey Zone éliminé au Mali ensemble avec les mercenaires russes et les FAMa</title>
-      <link>https://infoops.fr/posts/grey-zone-elimine-au-mali/</link>
+      <link>http://localhost:1313/posts/grey-zone-elimine-au-mali/</link>
       <pubDate>Tue, 06 Aug 2024 12:36:43 +0200</pubDate>
-      <guid>https://infoops.fr/posts/grey-zone-elimine-au-mali/</guid>
-      <description>Fin juillet 2024 un convoi militaire des Forces armées maliennes (FAMa) épaulées par les mercenaires russes du Africa Corps (ex-Wagner) a été éliminé près de la ville de Tinzaouatine située au Nord du Mali par les combattants du Cadre stratégique pour la défense du peuple de l’Azawad (CSP-DPA). Dans ce combat, la personne derrière la chaîne Telegram affiliée à la galaxie des mercenaires russes « GREY ZONE », surnom « Белый » (du russe &amp;ndash; Blanc) a perdu sa vie « avec les armes dans les mains », selon les Russes.</description>
+      <guid>http://localhost:1313/posts/grey-zone-elimine-au-mali/</guid>
+      <description>&lt;p&gt;Fin juillet 2024 un convoi militaire des Forces armées maliennes (FAMa) épaulées par les mercenaires russes du Africa Corps (ex-Wagner) a été &lt;a href=&#34;https://fr.wikipedia.org/wiki/Bataille_de_Tinzawat%C3%A8ne_(2024)&#34;&gt;éliminé&lt;/a&gt; près de la ville de Tinzaouatine située au Nord du Mali par les combattants du Cadre stratégique pour la défense du peuple de l’Azawad (CSP-DPA). Dans ce combat, la personne derrière la chaîne Telegram affiliée à la galaxie des mercenaires russes « &lt;strong&gt;GREY ZONE&lt;/strong&gt; », surnom « Белый » (&lt;em&gt;du russe &amp;ndash; Blanc&lt;/em&gt;) a perdu sa vie « avec les armes dans les mains », selon les Russes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Info Ops France au colloque sur la désinformation en Pologne</title>
-      <link>https://infoops.fr/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</link>
+      <link>http://localhost:1313/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</link>
       <pubDate>Mon, 18 Dec 2023 19:02:12 +0100</pubDate>
-      <guid>https://infoops.fr/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</guid>
-      <description>Info Ops France a été représentée par son fondateur, Denys Kolesnyk, au colloque sur la désinformation qui s&amp;rsquo;est déroulé en Pologne. L&amp;rsquo;événement portait sur la résilience informationnelle et a facilité l&amp;rsquo;échange des meilleures pratiques et d&amp;rsquo;expériences dans le domaine entre les participants.&#xA;Le colloque a rassemblé des représentants d&amp;rsquo;agences gouvernementales, du secteur privé, des universitaires, qui ont pu partager leurs expériences en matière d&amp;rsquo;identification des menaces informationnelles et de lutte contre la désinformation.</description>
+      <guid>http://localhost:1313/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/infoops_france_colloque_pologne.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Info Ops France a été représentée par son fondateur, Denys Kolesnyk, au colloque sur la désinformation qui s&amp;rsquo;est déroulé en Pologne. L&amp;rsquo;événement portait sur la résilience informationnelle et a facilité l&amp;rsquo;échange des meilleures pratiques et d&amp;rsquo;expériences dans le domaine entre les participants.&lt;/p&gt;&#xA;&lt;p&gt;Le colloque a rassemblé des représentants d&amp;rsquo;agences gouvernementales, du secteur privé, des universitaires, qui ont pu partager leurs expériences en matière d&amp;rsquo;identification des menaces informationnelles et de lutte contre la désinformation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La guerre mentale - la guerre cognitive à la russe</title>
-      <link>https://infoops.fr/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</link>
+      <link>http://localhost:1313/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</link>
       <pubDate>Fri, 27 Jan 2023 09:32:13 +0200</pubDate>
-      <guid>https://infoops.fr/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</guid>
-      <description>En mars 2021, Andreï Ilnitski, conseiller du ministre russe de la Défense, a déclaré que « l’Occident, dirigé par les États-Unis, a déclenché une guerre mentale contre la Russie, dont les conséquences se manifesteront au moins une génération plus tard ».&#xA;En août de la même année, il publie dans le magazine militaro-théorique Voyennaya Mysl1 (du russe - pensée militaire) l’article intitulé « La guerre mentale de la Russie ».</description>
+      <guid>http://localhost:1313/posts/la-guerre-mentale-la-guerre-cognitive-a-la-russe/</guid>
+      <description>&lt;p&gt;En mars 2021, Andreï Ilnitski, conseiller du ministre russe de la Défense, a déclaré que « &lt;em&gt;l’Occident, dirigé par les États-Unis, a déclenché une &lt;strong&gt;guerre mentale&lt;/strong&gt; contre la Russie, dont les conséquences se manifesteront au moins une génération plus tard&lt;/em&gt; ».&lt;/p&gt;&#xA;&lt;p&gt;En août de la même année, il publie dans le magazine militaro-théorique Voyennaya Mysl&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; (&lt;em&gt;du russe - pensée militaire&lt;/em&gt;) l’article intitulé « &lt;em&gt;La guerre mentale de la Russie&lt;/em&gt; ».&lt;/p&gt;</description>
     </item>
     <item>
       <title>Le rapport d’Amnesty International repris par la propagande russe</title>
-      <link>https://infoops.fr/posts/le-rapport-amnesty-international-repris-par-la-propagande-russe/</link>
+      <link>http://localhost:1313/posts/le-rapport-amnesty-international-repris-par-la-propagande-russe/</link>
       <pubDate>Wed, 10 Aug 2022 09:32:13 +0100</pubDate>
-      <guid>https://infoops.fr/posts/le-rapport-amnesty-international-repris-par-la-propagande-russe/</guid>
-      <description>Le 4 août dernier Amnesty International, l’organisation non gouvernementale internationale qui promeut la défense des droits de l’Homme, a publié le rapport intitulée « Ukraine. Les tactiques de combats ukrainiennes mettent en danger la population civile ». Ce rapport a suscité une vive discussion sur les réseaux sociaux, ainsi qu&amp;rsquo;une farouche critique en Ukraine et ailleurs, entrainant même la démission du chef du bureau de Kiev d&amp;rsquo;Amnesty International, Oksana Pokaltchouk.</description>
+      <guid>http://localhost:1313/posts/le-rapport-amnesty-international-repris-par-la-propagande-russe/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/amnesty_rapport_ukraine.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Le 4 août dernier Amnesty International, l’organisation non gouvernementale internationale qui promeut la défense des droits de l’Homme, a publié le rapport intitulée « &lt;em&gt;&lt;a href=&#34;https://www.amnesty.org/fr/latest/news/2022/08/ukraine-ukrainian-fighting-tactics-endanger-civilians/&#34;&gt;Ukraine. Les tactiques de combats ukrainiennes mettent en danger la population civile&lt;/a&gt;&lt;/em&gt; ». Ce rapport a suscité une vive discussion sur les réseaux sociaux, ainsi qu&amp;rsquo;une farouche critique en Ukraine et ailleurs, entrainant même la démission du chef du bureau de Kiev d&amp;rsquo;Amnesty International, Oksana Pokaltchouk.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 25 avril-1 mai 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</link>
       <pubDate>Wed, 04 May 2022 22:35:10 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</guid>
-      <description>Dans le cadre de la couverture de la France par les médias russes, la dernière semaine d’avril a été marquée par les sujets portant sur la politique dans le contexte des présidentielles et des futures législatives, la politique étrangère, dont le Mali et la politique des sanctions envers la Russie, ainsi que le nouveau sujet concernant les Ukrainiens fuyant la guerre vers la France.&#xA;Sur la politique intérieure, nous pouvons évoquer l’article publié par le site d’information russe Yakutsk.</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-25-avril-1-mai-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/fan_france_refugies_ukrainiens.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dans le cadre de la couverture de la France par les médias russes, la dernière semaine d’avril a été marquée par les sujets portant sur la politique dans le contexte des présidentielles et des futures législatives, la politique étrangère, dont le Mali et la politique des sanctions envers la Russie, ainsi que le nouveau sujet concernant les Ukrainiens fuyant la guerre vers la France.&lt;/p&gt;&#xA;&lt;p&gt;Sur la politique intérieure, nous pouvons évoquer l’article publié par le site d’information russe &lt;strong&gt;Yakutsk.ru&lt;/strong&gt; évoquant que 6 Français sur 10 veulent une opposition à Emmanuel Macron au parlement, alors que &lt;strong&gt;Regnum&lt;/strong&gt; a évoqué les ambitions de Jean-Luc Mélenchon pour le poste de Premier ministre. A son tour &lt;strong&gt;Rossiyskaïa Gazeta&lt;/strong&gt; a spéculé sur le futur Premier ministre de la France en publiant l’article « &lt;em&gt;Macron pourrait nommer une femme au poste de Premier ministre français&lt;/em&gt; ».&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 18-24 avril 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</link>
       <pubDate>Tue, 26 Apr 2022 15:12:30 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</guid>
-      <description>Le deuxième tour des présidentielles a dominé la couverture de la France par les médias russes la semaine dernière. Les autres sujets traités relevaient de l’agenda international, dont le Mali.&#xA;Même si cela n’est pas nouveau que les médias russes affichent un soutien à Marine Le Pen, la possible victoire d’Emmanuel Macron n’a pas été présentée comme un élément « désastreux » pour la Russie.&#xA;Au cours de la semaine dernière, les messages favorisant la Russie ont été relayés dans l’espace informationnel russophone, notamment l’article publié par Gazeta SPb « Le Pen : on ne peut pas laisser la Russie se rapprocher de la Chine » ou encore un autre publié par l’agence de presse FAN « Marine Le Pen : l’embargo énergétique [introduit par] l’UE n’affectera pas la Russie ».</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-18-24-avril-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/mlp_russie_ue_embargo.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Le deuxième tour des présidentielles a dominé la couverture de la France par les médias russes la semaine dernière. Les autres sujets traités relevaient de l’agenda international, dont le Mali.&lt;/p&gt;&#xA;&lt;p&gt;Même si cela n’est pas nouveau que les médias russes affichent un soutien à Marine Le Pen, la possible victoire d’Emmanuel Macron n’a pas été présentée comme un élément « désastreux » pour la Russie.&lt;/p&gt;&#xA;&lt;p&gt;Au cours de la semaine dernière, les messages favorisant la Russie ont été relayés dans l’espace informationnel russophone, notamment l’article publié par &lt;strong&gt;Gazeta SPb&lt;/strong&gt; « &lt;em&gt;Le Pen : on ne peut pas laisser la Russie se rapprocher de la Chine&lt;/em&gt; » ou encore un autre publié par l’agence de presse &lt;strong&gt;FAN&lt;/strong&gt; « &lt;em&gt;Marine Le Pen : l’embargo énergétique [introduit par] l’UE n’affectera pas la Russie&lt;/em&gt; ».&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 11-17 avril 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</link>
       <pubDate>Tue, 19 Apr 2022 17:22:30 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</guid>
-      <description>La semaine écoulée, la France a été mentionnée dans les médias russes dans le cadre de l’élection présidentielle ainsi que dans le cadre de la guerre russo-ukrainienne, principalement s&amp;rsquo;agissant de la confrontation entre la Russie et l’Occident.&#xA;Dans le contexte des élections présidentielles, la couverture était informative, mais avec une préférence manifestée pour Marine Le Pen, exprimée de façon directe ou indirecte.&#xA;L’article publié par Gazeta SPb (735k visites mensuelles, dont 94.</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-11-17-avril-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/vzglyad_mlp.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La semaine écoulée, la France a été mentionnée dans les médias russes dans le cadre de l’élection présidentielle ainsi que dans le cadre de la guerre russo-ukrainienne, principalement s&amp;rsquo;agissant de la confrontation entre la Russie et l’Occident.&lt;/p&gt;&#xA;&lt;p&gt;Dans le contexte des élections présidentielles, la couverture était informative, mais avec une préférence manifestée pour Marine Le Pen, exprimée de façon directe ou indirecte.&lt;/p&gt;&#xA;&lt;p&gt;L’article publié par &lt;strong&gt;Gazeta SPb&lt;/strong&gt; (735k visites mensuelles, dont 94.3% proviennent de la Russie) a repris les paroles de &lt;strong&gt;Marine Le Pen&lt;/strong&gt;, qui a déclaré qu’elle « continue à considerer la Crimée comme russe ». Ou encore l’article publié par &lt;strong&gt;MK.ru&lt;/strong&gt; (95.2 millions de visites, dont 84.92% provenant de la Russie) intitulé « Le Pen : La Commission européenne a échoué avec son projet d’organisation de l’Europe » critiquant l’Union européenne.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 28 mars-03 avril 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</link>
       <pubDate>Mon, 04 Apr 2022 17:23:30 +0200</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</guid>
-      <description>La semaine du 28 mars au 3 avril 2022 a été marquée par l&amp;rsquo;augmentation de la propagande anti-ukrainienne et, à titre général, la guerre russo-ukrainienne. Dans le contexte de la couverture de la France, les médias russes se sont focalisés sur le rôle de la France à l&amp;rsquo;échelle internationale, ainsi que sur les élections présidentielles qui approchent.&#xA;Nous pouvons distinguer quatre types d&amp;rsquo;articles évoquant la France la semaine écoulée : 1) présentant plus ou moins de manière neutre les faits (articles basés sur les informations apportées par les médias occidentaux), 2) se focalisant sur le contenu pro-russe (les articles basés sur les déclarations des hommes politiques, experts, et journalistes français favorisant la Russie), 3) exposant les « échecs » de la France (articles se focalisant sur les faits négatifs relevant du context intérieur français, notamment la hausse des prix, l&amp;rsquo;inflation, les scandales, etc.</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-28-mars-03-avril-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/eadaily_poutine.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La semaine du 28 mars au 3 avril 2022 a été marquée par l&amp;rsquo;augmentation de la propagande anti-ukrainienne et, à titre général, la guerre russo-ukrainienne. Dans le contexte de la couverture de la France, les médias russes se sont focalisés sur le rôle de la France à l&amp;rsquo;échelle internationale, ainsi que sur les élections présidentielles qui approchent.&lt;/p&gt;&#xA;&lt;p&gt;Nous pouvons distinguer quatre types d&amp;rsquo;articles évoquant la France la semaine écoulée : 1) présentant plus ou moins de manière neutre les faits (articles basés sur les informations apportées par les médias occidentaux), 2) se focalisant sur le contenu pro-russe (les articles basés sur les déclarations des hommes politiques, experts, et journalistes français favorisant la Russie), 3) exposant les « échecs » de la France (articles se focalisant sur les faits négatifs relevant du context intérieur français, notamment la hausse des prix, l&amp;rsquo;inflation, les scandales, etc.), 4) déformation des faits (articles manipulant ou déformant entièrement les faits, parfois présentant ou pas les sources, les titres peuvent souvent induire en erreur).&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 21-27 mars 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</link>
       <pubDate>Mon, 28 Mar 2022 19:23:30 +0200</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</guid>
-      <description>Avertissement : Nous tenons à vous informer que suite à l’invasion russe à grande échelle de l’Ukraine, qui a débuté le 24 février 2022, nous avons temporairement suspendu l’étude de la couverture de la France par les médias russes. Ceci a été décidé pour deux raisons, notamment 1) le sujet principal évoqué par les médias russes était la guerre, et 2) les médias russes ont été attaqué (et continuent d’être cyberattaqué) ce qui a rendu difficile l’accès à certaines sources, notamment au début de la guerre.</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-21-27-mars-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ria_zelensky.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Avertissement : Nous tenons à vous informer que suite à l’invasion russe à grande échelle de l’Ukraine, qui a débuté le 24 février 2022, nous avons temporairement suspendu l’étude de la couverture de la France par les médias russes. Ceci a été décidé pour deux raisons, notamment 1) le sujet principal évoqué par les médias russes était la guerre, et 2) les médias russes ont été attaqué (et continuent d’être cyberattaqué) ce qui a rendu difficile l’accès à certaines sources, notamment au début de la guerre. Dès aujourd’hui nous reprenons nos rapports hebdomadaires « la France dans les médias russes ».&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 14-20 février 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</link>
       <pubDate>Mon, 21 Feb 2022 15:23:30 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</guid>
-      <description>Dans le contexte de la couverture de la France par les médias russes, la semaine dernière a tourné autour de la crise russo-ukrainienne ainsi que des efforts, notamment de la France, afin de la désamorcer.&#xA;Les médias russes suivants sont tombés dans notre collimateur : TASS, Ria Novosti, l’Agence fédérale de presse (FAN), Regnum, RT, ainsi que quelques autres. Vu le nombre d’échanges téléphoniques entre le président de la République et son homologue russe, il y a eu plusieurs occasions d’exploiter ce sujet, ainsi que d’y mélanger la politique intérieure française dans le cadre des élections présidentielles qui approchent.</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-14-20-fev-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/candidats_france_russie_ria.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dans le contexte de la couverture de la France par les médias russes, la semaine dernière a tourné autour de la crise russo-ukrainienne ainsi que des efforts, notamment de la France, afin de la désamorcer.&lt;/p&gt;&#xA;&lt;p&gt;Les médias russes suivants sont tombés dans notre collimateur : TASS, Ria Novosti, l’Agence fédérale de presse (FAN), Regnum, RT, ainsi que quelques autres. Vu le nombre d’échanges téléphoniques entre le président de la République et son homologue russe, il y a eu plusieurs occasions d’exploiter ce sujet, ainsi que d’y mélanger la politique intérieure française dans le cadre des élections présidentielles qui approchent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 7-13 février 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</link>
       <pubDate>Mon, 14 Feb 2022 15:17:30 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</guid>
-      <description>La deuxième semaine de février, la couverture de la France par les médias russes a été majoritairement caractérisée par l’augmentation de la pression autour de la crise russo-ukrainienne.&#xA;Les médias russes analysés se sont focalisés sur la visite du président de la République à Moscou et à Kiev, la position des candidats à la présidentielle à l’égard de la Russie et, par conséquent, l’adhésion de l’Ukraine à l’OTAN. La fin de la semaine a été couverte surtout dans le contexte des échanges téléphoniques entre Emmanuel Macron et Vladimir Poutine, ainsi que les manifestations du « convoi de la liberté ».</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-7-13-fev-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/poutine_macron_ria.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La deuxième semaine de février, la couverture de la France par les médias russes a été majoritairement caractérisée par l’augmentation de la pression autour de la crise russo-ukrainienne.&lt;/p&gt;&#xA;&lt;p&gt;Les médias russes analysés se sont focalisés sur la visite du président de la République à Moscou et à Kiev, la position des candidats à la présidentielle à l’égard de la Russie et, par conséquent, l’adhésion de l’Ukraine à l’OTAN. La fin de la semaine a été couverte surtout dans le contexte des échanges téléphoniques entre Emmanuel Macron et Vladimir Poutine, ainsi que les manifestations du « &lt;em&gt;convoi de la liberté&lt;/em&gt; ».&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 31 janvier-06 février 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</link>
       <pubDate>Mon, 07 Feb 2022 09:40:30 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</guid>
-      <description>L&amp;rsquo;analyse des médias russes pour la semaine dernière (31 janvier - 6 février 2022) a permis de discerner les sujets majeurs touchant la France, notamment relevant du volet diplomatique, surtout dans le contexte du conflit russo-ukrainien, du contexte électoral français ainsi que des affaires en Afrique francophone.&#xA;Plusieurs sources russes ont été suivies quotidiennement et analysées, avec Ria Novosti, TASS, l&amp;rsquo;Agence fédérale de presse (FAN) générant le plus de contenu évoquant la France.</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/arkatov_sur_macron_slovoidelo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;analyse des médias russes pour la semaine dernière (31 janvier - 6 février 2022) a permis de discerner les sujets majeurs touchant la France, notamment relevant du volet diplomatique, surtout dans le contexte du conflit russo-ukrainien, du contexte électoral français ainsi que des affaires en Afrique francophone.&lt;/p&gt;&#xA;&lt;p&gt;Plusieurs sources russes ont été suivies quotidiennement et analysées, avec Ria Novosti, TASS, l&amp;rsquo;Agence fédérale de presse (FAN) générant le plus de contenu évoquant la France.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La France dans les médias russes - 24-30 janvier 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</link>
       <pubDate>Sun, 30 Jan 2022 22:14:30 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</guid>
-      <description>La semaine du 24 au 30 janvier 2022 dans les médias russes a été marquée par deux événements majeurs, notamment les pourparlers au niveau des conseillers des chefs d’État et de gouvernement du format Normandie sur le fond de l’escalade des tensions entre la Russie et l&amp;rsquo;Ukraine. Alors que le deuxième sujet important concernait la France en Afrique.&#xA;Au cours de la semaine, nous avons analysé un nombre significatif de médias importants du pays, en particulier Ria Novosti, RT Russian, TASS, Regnum, Radio Sputnik, l&amp;rsquo;Agence fédérale de presse (FAN), Lenta.</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/drapeau_russe_burkina_faso_fan.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La semaine du 24 au 30 janvier 2022 dans les médias russes a été marquée par deux événements majeurs, notamment les pourparlers au niveau des conseillers des chefs d’État et de gouvernement du format Normandie sur le fond de l’escalade des tensions entre la Russie et l&amp;rsquo;Ukraine. Alors que le deuxième sujet important concernait la France en Afrique.&lt;/p&gt;&#xA;&lt;p&gt;Au cours de la semaine, nous avons analysé un nombre significatif de médias importants du pays, en particulier Ria Novosti, RT Russian, TASS, Regnum, Radio Sputnik, l&amp;rsquo;Agence fédérale de presse (FAN), Lenta.Ru, ainsi que d&amp;rsquo;autres médias et sites d&amp;rsquo;actualité émettant du contenu en langue russe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>À propos</title>
-      <link>https://infoops.fr/a-propos/</link>
+      <link>http://localhost:1313/a-propos/</link>
       <pubDate>Sun, 30 Jan 2022 00:22:00 +0100</pubDate>
-      <guid>https://infoops.fr/a-propos/</guid>
-      <description>« Le champ informationnel est aujourd&amp;rsquo;hui le lieu d&amp;rsquo;une véritable guerre de l&amp;rsquo;information. » - a souligné Thierry Burkhard, le chef d&amp;rsquo;état-major des armées, au cours de la présentation de la doctrine militaire de lutte informatique d’influence (L2I). En effet, l&amp;rsquo;information fait partie de notre quotidien et les activités des puissances étrangères dans ce domaine peuvent endommager les intérêts de notre pays à la fois à l&amp;rsquo;étranger et semer la discorde ou interférer avec le processus démocratique sur notre sol.</description>
+      <guid>http://localhost:1313/a-propos/</guid>
+      <description>&lt;p&gt;« &lt;em&gt;Le champ informationnel est aujourd&amp;rsquo;hui le lieu d&amp;rsquo;une véritable guerre de l&amp;rsquo;information.&lt;/em&gt; » - a souligné Thierry Burkhard, le chef d&amp;rsquo;état-major des armées, au cours de la présentation de la doctrine militaire de lutte informatique d’influence (L2I). En effet, l&amp;rsquo;information fait partie de notre quotidien et les activités des puissances étrangères dans ce domaine peuvent endommager les intérêts de notre pays à la fois à l&amp;rsquo;étranger et semer la discorde ou interférer avec le processus démocratique sur notre sol.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

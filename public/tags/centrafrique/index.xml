@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Centrafrique on Info Ops France</title>
-    <link>https://infoops.fr/tags/centrafrique/</link>
+    <link>http://localhost:1313/tags/centrafrique/</link>
     <description>Recent content in Centrafrique on Info Ops France</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Mon, 07 Feb 2022 09:40:30 +0100</lastBuildDate>
-    <atom:link href="https://infoops.fr/tags/centrafrique/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/centrafrique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La France dans les médias russes - 31 janvier-06 février 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</link>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</link>
       <pubDate>Mon, 07 Feb 2022 09:40:30 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</guid>
-      <description>L&amp;rsquo;analyse des médias russes pour la semaine dernière (31 janvier - 6 février 2022) a permis de discerner les sujets majeurs touchant la France, notamment relevant du volet diplomatique, surtout dans le contexte du conflit russo-ukrainien, du contexte électoral français ainsi que des affaires en Afrique francophone.&#xA;Plusieurs sources russes ont été suivies quotidiennement et analysées, avec Ria Novosti, TASS, l&amp;rsquo;Agence fédérale de presse (FAN) générant le plus de contenu évoquant la France.</description>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-31-jan-06-fev-2022/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/arkatov_sur_macron_slovoidelo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;analyse des médias russes pour la semaine dernière (31 janvier - 6 février 2022) a permis de discerner les sujets majeurs touchant la France, notamment relevant du volet diplomatique, surtout dans le contexte du conflit russo-ukrainien, du contexte électoral français ainsi que des affaires en Afrique francophone.&lt;/p&gt;&#xA;&lt;p&gt;Plusieurs sources russes ont été suivies quotidiennement et analysées, avec Ria Novosti, TASS, l&amp;rsquo;Agence fédérale de presse (FAN) générant le plus de contenu évoquant la France.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
