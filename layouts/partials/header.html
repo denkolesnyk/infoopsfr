@@ -1,56 +1,72 @@
-<header class="header">
-  {{ if .IsHome }}
-  <h1 class="logo">
-    <a class="site-name" href="{{ `` | absURL }}">{{ site.Title }}</a><a class="btn-dark"></a>
-  </h1>
-  {{ else }}
-  <p class="logo">
-    <a class="site-name" href="{{ `` | absURL }}">{{ site.Title }}</a><a class="btn-dark"></a>
-  </p>
-  {{ end }}
-
-  <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
-
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
-    };
-
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
-
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
-  </script>
-
-  {{ $url := .RelPermalink }}<!---->
-  {{ with site.Menus.main }}
-  <nav class="menu">
-    {{ range . }}
-    <a class="{{ if eq .URL $url }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
-  </nav>
-  {{ end }}<!---->
-
-  {{ with $.Scratch.Get "social-list" }}
-  <nav class="social">
-    {{ range . }}
-    <a
-      class="{{ . }}"
-      style="--url: url(./{{ . }}.svg)"
-      href="https://{{ . }}.com/{{ site.Params.Get . }}"
-      target="_blank"
-    ></a>
-    {{ end }}
-    <a
-      class="rss"
-      href="./index.xml"
-      style="--url: url(./rss.svg)"
-    ></a>
-  </nav>
-  {{ end }}
-</header>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;header class="header"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ if .IsHome }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1 class="logo"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a class="site-name" href="{{ `` | absURL }}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;img src="{{ « /images/logo.png" | relURL }}" alt="{{ site.Title }}" style="height: 40px; vertical-align: middle;"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{ site.Title }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ else }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="logo"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a class="site-name" href="{{ `` | absURL }}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;img src="{{ « /images/logo.png" | relURL }}" alt="{{ site.Title }}" style="height: 30px; vertical-align: middle;"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{ site.Title }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ end }}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Dark mode script --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>let bodyClx = document.body.classList;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>let btnDark = document.querySelector('.btn-dark');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>let sysDark = window.matchMedia('(prefers-color-scheme: dark)');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>let darkVal = localStorage.getItem('dark');</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>let setDark = (isDark) =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>bodyClx[isDark ? 'add' : 'remove']('dark');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>localStorage.setItem('dark', isDark ? 'yes' : 'no');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>};</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>setDark(darkVal ? darkVal === 'yes' : sysDark.matches);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>requestAnimationFrame(() =&gt; bodyClx.remove('not-ready'));</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>btnDark.addEventListener('click', () =&gt; setDark(!bodyClx.contains('dark')));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>sysDark.addEventListener('change', (event) =&gt; setDark(event.matches));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Navigation Menu --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ $url := .RelPermalink }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ with site.Menus.main }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;nav class="menu"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{ range . }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a class="{{ if eq .URL $url }}active{{ end }}" href="{{ .URL }}"&gt;{{ .Name }}&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{ end }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ end }}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Social Links --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ with $.Scratch.Get "social-list" }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;nav class="social"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{ range . }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;!-- Social links here --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{ end }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ end }}</span></p>
+<p class="p1"><span class="s1">&lt;/header&gt;</span></p>
+</body>
+</html>
