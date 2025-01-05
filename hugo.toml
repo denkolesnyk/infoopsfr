@@ -1,0 +1,60 @@
+
+baseURL = "https://kolesnyk.fr"
+languageCode = "fr"
+defaultContentLanguage = "fr"
+title = "Info Ops France"
+theme = "zozo"
+hasCJKLanguage = true
+summaryLength = 100
+
+[pagination]
+pagerSize = 4
+enableEmoji = false
+googleAnalytics = ""
+disqusShortname = ""
+
+pygmentsUseClasses = true
+pygmentCodeFences = true
+pygmentscodefencesguesssyntax = true
+
+[blackfriday]
+  smartypants = false
+
+[[menu.main]]
+  name = "Accueil"
+  weight = 10
+  identifier = "accueil"
+  url = "/"
+[[menu.main]]
+  name = "Archive"
+  weight = 20
+  identifier = "archive"
+  url = "/posts/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "À propos"
+  weight = 40
+  identifier = "a-propos"
+  url = "/a-propos/"
+
+[params]
+  subTitle = "« L'esprit des nations belligérantes est la 4ème dimension [de la guerre] »"
+  footerSlogan = "@ Info Ops France 2022-2025"
+  keywords = ["Info Ops France","désinformation","infoguerre"]
+  description = "Hugo theme zozo example site."
+  enableMathJax = false
+  enableSummary = true
+  mainSections = ["posts","post"]
+
+  [params.social]
+    twitter = "https://twitter.com/infoopsfr"
+    facebook = "https://www.facebook.com/infoopsfr/"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,92 +1,49 @@
+
+<!DOCTYPE html>
+<html {{ with .Site.LanguageCode }}lang="{{ . }}" {{ end }}>
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="{{ if .Params.author }}{{ .Params.author | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}" />
+	{{ $title := ( .Title ) }}
+	{{ $siteTitle := ( .Site.Title ) }}
+	{{ if .IsHome }}
+	<title>{{ $siteTitle }} {{ if isset .Site.Params "subtitle" }}｜ {{ .Site.Params.Subtitle }}{{ end }} </title>
+	{{ else }}
+	<title>{{ $title }} ｜ {{ $siteTitle }}</title>
+	{{ end }}
+    <!-- description & keywords -->
+    {{ if .Description }}
+    <meta name="description" content="{{ .Description | safeHTML }}" />
+    {{ else if .IsPage }}
+    <meta name="description" content="{{ .Summary | plainify }}" />
+    {{ else if .Site.Params.description }}
+    <meta name="description" content="{{ .Site.Params.description | safeHTML }}" />
+    {{ end }}
 
-  <!-- Title -->
-  <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
+    {{ if .Keywords }}
+    {{ $length := len .Keywords | add -1 }}
+    <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
+    {{ else if .Site.Params.keywords }}
+    {{ $length := len .Site.Params.keywords | add -1 }}
+    <meta name="keywords" content="{{ range $index, $element := .Site.Params.keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
+    {{ end }}
 
-  <!-- Meta -->
-  {{ if eq .Kind "page" }}
-    <meta name="description" content="{{ .Summary }}" />
-    <meta name="author" content="{{ .Params.Author | default site.Author.name }}" />
-  {{ else }}
-    <meta name="description" content="{{ site.Params.description }}" />
-    <meta name="author" content="{{ site.Author.name }}" />
-  {{ end }}
+	{{ with .OutputFormats.Get "rss" }}
+	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end }}
+    
+    <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" />
 
-  <!-- Styles & Scripts -->
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/zozo.css" |absURL }}" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/highlight.css" | absURL }}" />
 
-  <!-- Chalk styles -->
-  {{ $favicon := 0 }}
-  {{ $appleicon := 0 }}
-
-  {{ if eq site.Params.chalk.blog_theme "light" }}
-    {{ $favicon = resources.Get "images/favicon-light.ico" }}
-    {{ $appleicon = resources.Get "images/apple-touch-icon-light.png" }}
-  {{ else }}
-    {{ $favicon = resources.Get "images/favicon-dark.ico" }}
-    {{ $appleicon = resources.Get "images/apple-touch-icon-dark.png" }}
-  {{ end  }}
-
-  <link rel="icon" type="image/x-icon" href="{{ $favicon.Permalink }}">
-  <link rel="apple-touch-icon" href="{{ $appleicon.Permalink }}">
-
-  {{ $light_css := resources.Get "stylesheets/light.scss" | resources.ToCSS }}
-  {{ $dark_css := resources.Get "stylesheets/dark.scss" | resources.ToCSS }}
-
-  {{ if site.Params.chalk.theme_toggle }}
-    <!-- If theme toggle is enabled, default scheme is always light -->
-    <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ $light_css.Permalink }}" />
-    <link rel="stylesheet" type="text/css" title="dark" id="dark" href="{{ $dark_css.Permalink }}" disabled="true" />
-  {{ else }}
-    {{ $chalk_css := 0 }}
-    {{ if eq site.Params.chalk.blog_theme "light" }}
-      {{ $chalk_css = $light_css }}
-    {{ else }}
-      {{ $chalk_css = $dark_css }}
-    {{ end  }}
-    <link rel="stylesheet" href="{{ $chalk_css.Permalink }}">
-  {{ end  }}
-
-  <!--Override with my styles where needed-->
-  {{ $css := resources.Get "custom.css" | minify }}
-  <link rel="preload stylesheet" as="style" href="{{ $css.Permalink }}" />
-
-  <!--Syntax highlighting?-->
-
-  {{ if and .IsPage (not site.Params.disableHLJS) }}
-  <link rel="preload stylesheet" as="style" href="{{ `an-old-hope.min.css` | absURL }}" />
-  <script
-    defer
-    src="{{ `highlight.min.js` | absURL }}"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  {{ end }}
-
-  <!-- Generator -->
-  {{ hugo.Generator }}
-
-  <!-- RSS -->
-  {{ range .AlternativeOutputFormats }}
-  <link
-    rel="{{ .Rel }}"
-    type="{{ .MediaType.Type }}"
-    href="{{ .Permalink }}"
-    title="{{ site.Title }}"
-  />
-  {{ end }}
-
-  <!-- Misc -->
-  {{ if or hugo.IsProduction (eq site.Params.env "production") }}
-  <!---->
-  {{ template "_internal/google_analytics.html" . }}
-  <!---->
-  {{ template "_internal/opengraph.html" . }}
-  <!---->
-  {{ template "_internal/schema.html" . }}
-  <!---->
-  {{ template "_internal/twitter_cards.html" . }}
-  <!---->
-  {{ end }}
+    <!-- custom css -->
+    {{ range .Site.Params.customCSS }}
+    <link rel="stylesheet" href="{{ "css/" | absURL }}{{ . }}" />
+    {{ end }}
 </head>

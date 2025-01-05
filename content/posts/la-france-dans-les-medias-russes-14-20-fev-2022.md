@@ -2,10 +2,10 @@
 title: "La France dans les médias russes - 14-20 février 2022"
 date: "2022-02-21T15:23:30+01:00"
 tags: ["France", "OTAN", "Mali", "Russie", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/candidats_france_russie_ria.jpg"
 draft: false
 ---
-
-![](/images/candidats_france_russie_ria.jpg)
 
 Dans le contexte de la couverture de la France par les médias russes, la semaine dernière a tourné autour de la crise russo-ukrainienne ainsi que des efforts, notamment de la France, afin de la désamorcer. 
 

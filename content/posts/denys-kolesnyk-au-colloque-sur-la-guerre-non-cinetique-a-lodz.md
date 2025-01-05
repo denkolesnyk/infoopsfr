@@ -2,10 +2,10 @@
 title: "Denys Kolesnyk au colloque sur la guerre non-cinétique à Łódź"
 date: 2024-12-02T09:42:32+02:00
 tags: ["guerre non-cinétique", "France", "Russie", "Afrique"]
+show_image_on_homepage: false
+image: "/images/dk_wsmip_lodz.jpg"
 draft: false
 ---
-
-![](/images/dk_wsmip_lodz.jpg)
 
 Les 28 et 29 novembre 2024, le Centre pour l'analyse et la prévision stratégiques de l'Université de Łódź a organisé un colloque international consacré à l'agression russe envers l'Occident. Cet événement a exploré deux aspects clés de cette menace : les activités cinétiques et non-cinétiques menées par la Russie.
 

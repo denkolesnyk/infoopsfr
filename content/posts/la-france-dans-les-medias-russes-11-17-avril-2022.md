@@ -2,10 +2,10 @@
 title: "La France dans les médias russes - 11-17 avril 2022"
 date: "2022-04-19T17:22:30+01:00"
 tags: ["France", "Russie", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/vzglyad_mlp.webp"
 draft: false
 ---
-
-![](/images/vzglyad_mlp.webp)
 
 La semaine écoulée, la France a été mentionnée dans les médias russes dans le cadre de l’élection présidentielle ainsi que dans le cadre de la guerre russo-ukrainienne, principalement s'agissant de la confrontation entre la Russie et l’Occident.
 

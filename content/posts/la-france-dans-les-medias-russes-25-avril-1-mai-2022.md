@@ -2,10 +2,10 @@
 title: "La France dans les médias russes - 25 avril-1 mai 2022"
 date: "2022-05-04T22:35:10+01:00"
 tags: ["France", "Mali", "Russie", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/fan_france_refugies_ukrainiens.webp"
 draft: false
 ---
-
-![](/images/fan_france_refugies_ukrainiens.webp)
 
 Dans le cadre de la couverture de la France par les médias russes, la dernière semaine d’avril a été marquée par les sujets portant sur la politique dans le contexte des présidentielles et des futures législatives, la politique étrangère, dont le Mali et la politique des sanctions envers la Russie, ainsi que le nouveau sujet concernant les Ukrainiens fuyant la guerre vers la France.
 

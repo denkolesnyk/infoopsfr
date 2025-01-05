@@ -2,10 +2,10 @@
 title: "La France dans les médias russes - 28 mars-03 avril 2022"
 date: "2022-04-04T17:23:30+02:00"
 tags: ["France", "Russie", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/eadaily_poutine.jpg"
 draft: false
 ---
-
-![](/images/eadaily_poutine.jpg)
 
 La semaine du 28 mars au 3 avril 2022 a été marquée par l'augmentation de la propagande anti-ukrainienne et, à titre général, la guerre russo-ukrainienne. Dans le contexte de la couverture de la France, les médias russes se sont focalisés sur le rôle de la France à l'échelle internationale, ainsi que sur les élections présidentielles qui approchent.
 

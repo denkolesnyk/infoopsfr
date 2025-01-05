@@ -2,9 +2,10 @@
 title: "La France dans les médias russes - 21-27 mars 2022"
 date: "2022-03-28T19:23:30+02:00"
 tags: ["France", "Russie", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/ria_zelensky.jpg"
 draft: false
 ---
-![](/images/ria_zelensky.jpg)
 
 *Avertissement : Nous tenons à vous informer que suite à l’invasion russe à grande échelle de l’Ukraine, qui a débuté le 24 février 2022, nous avons temporairement suspendu l’étude de la couverture de la France par les médias russes. Ceci a été décidé pour deux raisons, notamment 1) le sujet principal évoqué par les médias russes était la guerre, et 2) les médias russes ont été attaqué (et continuent d’être cyberattaqué) ce qui a rendu difficile l’accès à certaines sources, notamment au début de la guerre. Dès aujourd’hui nous reprenons nos rapports hebdomadaires « la France dans les médias russes ».*
 

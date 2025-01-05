@@ -2,10 +2,10 @@
 title: "Le rapport d’Amnesty International repris par la propagande russe"
 date: "2022-08-10T09:32:13+01:00"
 tags: ["Amnesty International", "Russie", "Twitter", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/amnesty_rapport_ukraine.webp"
 draft: false
 ---
-
-![](/images/amnesty_rapport_ukraine.webp)
 
 Le 4 août dernier Amnesty International, l’organisation non gouvernementale internationale qui promeut la défense des droits de l’Homme, a publié le rapport intitulée « *[Ukraine. Les tactiques de combats ukrainiennes mettent en danger la population civile](https://www.amnesty.org/fr/latest/news/2022/08/ukraine-ukrainian-fighting-tactics-endanger-civilians/)* ». Ce rapport a suscité une vive discussion sur les réseaux sociaux, ainsi qu'une farouche critique en Ukraine et ailleurs, entrainant même la démission du chef du bureau de Kiev d'Amnesty International, Oksana Pokaltchouk.
 

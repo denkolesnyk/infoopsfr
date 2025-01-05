@@ -2,10 +2,10 @@
 title: "Info Ops France au colloque sur la désinformation en Pologne"
 date: "2023-12-18T19:02:12+01:00"
 tags: ["Afrique", "désinformation", "France", "Russie"]
+show_image_on_homepage: false
+image: "/images/infoops_france_colloque_pologne.webp"
 draft: false
 ---
-
-![](/images/infoops_france_colloque_pologne.webp)
 
 Info Ops France a été représentée par son fondateur, Denys Kolesnyk, au colloque sur la désinformation qui s'est déroulé en Pologne. L'événement portait sur la résilience informationnelle et a facilité l'échange des meilleures pratiques et d'expériences dans le domaine entre les participants.
 

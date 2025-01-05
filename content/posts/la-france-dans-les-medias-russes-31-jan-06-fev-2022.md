@@ -2,10 +2,10 @@
 title: "La France dans les médias russes - 31 janvier-06 février 2022"
 date: "2022-02-07T09:40:30+01:00"
 tags: ["Centrafrique", "France", "Mali", "Russie", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/arkatov_sur_macron_slovoidelo.jpg"
 draft: false
 ---
-
-![](/images/arkatov_sur_macron_slovoidelo.jpg)
 
 L'analyse des médias russes pour la semaine dernière (31 janvier - 6 février 2022) a permis de discerner les sujets majeurs touchant la France, notamment relevant du volet diplomatique, surtout dans le contexte du conflit russo-ukrainien, du contexte électoral français ainsi que des affaires en Afrique francophone.
 

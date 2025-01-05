@@ -2,10 +2,10 @@
 title: "La France dans les médias russes - 7-13 février 2022"
 date: "2022-02-14T15:17:30+01:00"
 tags: ["France", "OTAN", "Mali", "Russie", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/poutine_macron_ria.jpg"
 draft: false
 ---
-
-![](/images/poutine_macron_ria.jpg)
 
 La deuxième semaine de février, la couverture de la France par les médias russes a été majoritairement caractérisée par l’augmentation de la pression autour de la crise russo-ukrainienne.
 

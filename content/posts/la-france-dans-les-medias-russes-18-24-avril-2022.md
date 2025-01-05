@@ -2,10 +2,10 @@
 title: "La France dans les médias russes - 18-24 avril 2022"
 date: "2022-04-26T15:12:30+01:00"
 tags: ["France", "Russie", "Ukraine"]
+show_image_on_homepage: false
+image: "/images/mlp_russie_ue_embargo.webp"
 draft: false
 ---
-
-![](/images/mlp_russie_ue_embargo.webp)
 
 Le deuxième tour des présidentielles a dominé la couverture de la France par les médias russes la semaine dernière. Les autres sujets traités relevaient de l’agenda international, dont le Mali.
 
