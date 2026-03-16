@@ -1,6 +1,7 @@
 ---
 title: "À propos"
 date: 2022-01-30T0:22:00+01:00
+description: "Info Ops France est une initiative non-lucrative qui analyse la couverture médiatique étrangère de la France et améliore la résilience informationnelle de la société française."
 draft: false
 ---
 

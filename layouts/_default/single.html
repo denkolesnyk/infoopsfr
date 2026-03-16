@@ -1,5 +1,22 @@
 
 {{ partial "head.html" . }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ .Title | jsonify }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "description": {{ .Summary | plainify | jsonify }},
+  "url": "{{ .Permalink }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Title | jsonify }},
+    "url": "{{ .Site.BaseURL }}"
+  }{{ with .Params.image }},
+  "image": "{{ $.Site.BaseURL }}{{ . | strings.TrimPrefix "/" }}"{{ end }}
+}
+</script>
 
 <body>
     <div class="main animate__animated animate__fadeInDown">
@@ -11,11 +28,12 @@
                     <div class="post_title post_detail_title">
                         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                         <span class="date">{{ .Date.Format "2006.01.02" }}</span>
+                        <span class="reading_time"><i class="ri-time-line"></i> {{ .ReadingTime }} min</span>
                     </div>
                     <!-- Always display the image -->
                     {{ with .Params.image }}
                     <div class="post_image">
-                        <img src="{{ . }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;" />
+                        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" style="max-width: 100%; height: auto;" />
                     </div>
                     {{ end }}
                     <div class="post_content markdown">{{ .Content }}</div>
@@ -34,6 +52,14 @@
                         {{ end }}
                     </div>
                 </div>
+                <nav class="post_nav">
+                    {{ with .PrevInSection }}
+                    <a href="{{ .RelPermalink }}" class="post_nav_prev"><i class="ri-arrow-left-line"></i> {{ .Title }}</a>
+                    {{ end }}
+                    {{ with .NextInSection }}
+                    <a href="{{ .RelPermalink }}" class="post_nav_next">{{ .Title }} <i class="ri-arrow-right-line"></i></a>
+                    {{ end }}
+                </nav>
                 <!-- 评论系统 -->
                 {{ if .Site.Params.valine.enable }}
                 {{ partial "comments.html" . }}

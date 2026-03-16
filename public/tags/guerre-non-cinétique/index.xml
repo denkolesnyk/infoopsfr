@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guerre Non-Cinétique on Info Ops France</title>
-    <link>https://infoops.fr/tags/guerre-non-cin%C3%A9tique/</link>
-    <description>Recent content in Guerre Non-Cinétique on Info Ops France</description>
-    <generator>Hugo</generator>
+    <title>Guerre Non-Cinétique | Info Ops France</title>
+    <link>http://localhost:1313/tags/guerre-non-cin%C3%A9tique/</link>
+    <description>L’initiative Info Ops France a pour but d’améliorer la résilience informationnelle de la société française.</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 02 Dec 2024 09:42:32 +0200</lastBuildDate>
-    <atom:link href="https://infoops.fr/tags/guerre-non-cin%C3%A9tique/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>https://twitter.com/infoopsfr</managingEditor>
+    
     <item>
       <title>Denys Kolesnyk au colloque sur la guerre non-cinétique à Łódź</title>
-      <link>https://infoops.fr/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</link>
-      <pubDate>Mon, 02 Dec 2024 09:42:32 +0200</pubDate>
-      <guid>https://infoops.fr/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</guid>
-      <description>&lt;p&gt;Les 28 et 29 novembre 2024, le Centre pour l&amp;rsquo;analyse et la prévision stratégiques de l&amp;rsquo;Université de Łódź a organisé un colloque international consacré à l&amp;rsquo;agression russe envers l&amp;rsquo;Occident. Cet événement a exploré deux aspects clés de cette menace : les activités cinétiques et non-cinétiques menées par la Russie.&lt;/p&gt;&#xA;&lt;p&gt;Info Ops France a été présenté par son fondateur, Denys Kolesnyk, qui est intervenu avec un discours keynote dans le cadre d’un panel sur la guerre non-cinétique. Intitulée « &lt;em&gt;Winning without fighting: the strategic edge of non-kinetic warfare&lt;/em&gt; », sa présentation a abordé l’histoire des activités nocives soviétiques puis russes, la guerre de l’information menée par la Russie contre la France en Afrique, ainsi que le dispositifs français dans le domaine.&lt;/p&gt;</description>
+      <link>http://localhost:1313/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</link>
+      <pubDate>Mon, 02 Dec 2024 09:42:32 &#43;0200</pubDate>
+      <guid>http://localhost:1313/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</guid>
+      <description>&lt;p&gt;Les 28 et 29 novembre 2024, le Centre pour l&amp;rsquo;analyse et la prévision stratégiques de l&amp;rsquo;Université de Łódź a organisé un colloque international consacré à l&amp;rsquo;agression russe envers l&amp;rsquo;Occident. Cet événement a exploré deux aspects clés de cette menace : les activités cinétiques et non-cinétiques menées par la Russie.&lt;/p&gt;
+&lt;p&gt;Info Ops France a été présenté par son fondateur, Denys Kolesnyk, qui est intervenu avec un discours keynote dans le cadre d’un panel sur la guerre non-cinétique. Intitulée « &lt;em&gt;Winning without fighting: the strategic edge of non-kinetic warfare&lt;/em&gt; », sa présentation a abordé l’histoire des activités nocives soviétiques puis russes, la guerre de l’information menée par la Russie contre la France en Afrique, ainsi que le dispositifs français dans le domaine.&lt;/p&gt;
+&lt;p&gt;Le colloque s’est déroulé selon les règles de Chatham House, garantissant la confidentialité des échanges et l’absence d’enregistrements disponibles. Les participants représentaient une diversité de pays, notamment la Pologne, la Finlande, la Suède, la Bulgarie, et l’Allemagne. Du côté français, Denys Kolesnyk a été rejoint par Xavier Raufer (en ligne).&lt;/p&gt;
+&lt;p&gt;Les débats et présentations ont couvert un large éventail de sujets, allant du terrorisme au sabotage, en passant par la guerre de l’information et d’autres problématiques annexes. Ces échanges ont permis de comparer les visions et stratégies face à la menace russe selon différentes perspectives géographiques.&lt;/p&gt;
+&lt;p&gt;L’objectif principal du colloque était de dresser un état des lieux précis des enjeux actuels dans ces domaines, tout en élaborant des prévisions plausibles sur les évolutions futures. Ces analyses visent à permettre une préparation adéquate et la mise en place de contremesures efficaces face aux dangers potentiels liés à une éventuelle escalade des actions russes.&lt;/p&gt;
+&lt;p&gt;Ce colloque a également créé une plateforme pour l’échange d’idées et d’expériences entre spécialistes des domaines cinétiques et non-cinétiques, afin de proposer des solutions concrètes pouvant aider les gouvernements à protéger les États et les sociétés confrontés à des agressions constantes provenant de la Russie.&lt;/p&gt;
+&lt;p&gt;Le lien de l&amp;rsquo;événement : &lt;a href=&#34;https://www.wsmip.uni.lodz.pl/strefa-studenta/aktualnosci/szczegoly/drugie-miedzynarodowe-spotkanie-dyskusyjne-centrum-analiz-i-prognoz-strategicznych-wsmip-ul&#34;&gt;https://www.wsmip.uni.lodz.pl/strefa-studenta/aktualnosci/szczegoly/drugie-miedzynarodowe-spotkanie-dyskusyjne-centrum-analiz-i-prognoz-strategicznych-wsmip-ul&lt;/a&gt;&lt;/p&gt;
+</description>
+      <category>guerre non-cinétique</category><category>France</category><category>Russie</category><category>Afrique</category>
     </item>
+    
   </channel>
 </rss>

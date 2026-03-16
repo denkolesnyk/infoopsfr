@@ -18,7 +18,7 @@
                             <!-- Show image only if 'show_image_on_homepage' is true -->
                             {{ if and (.Params.image) (.Params.show_image_on_homepage) }}
                             <div class="post_image">
-                                <img src="{{ .Params.image }}" alt="{{ .Title }}" style="max-width: 100%; height: auto;" />
+                                <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" style="max-width: 100%; height: auto;" />
                             </div>
                             {{ end }}
                         </div>

@@ -2,6 +2,7 @@
 title: "La guerre mentale - la guerre cognitive à la russe"
 date: "2023-01-27T09:32:13+02:00"
 tags: ["guerre cognitive", "guerre mentale", "Russie"]
+image: "/images/guerre_mentale_chart.jpg"
 draft: false
 ---
 
@@ -60,7 +61,7 @@ L'article de Karavayev essaie de mettre les bases théoriques pour ce nouveau co
 
 Deux autres auteurs de l'université d'État de Saint-Pétersbourg, Roman Vykhodets et Konstantin Pantserev, proposent dans leur article « *Analyse comparative de concepts modernes de la guerre de l'information* »[^4] une analyse des concepts existant dans le discours scientifique, décrivant les sphères de la **confrontation informationnelle** (*cf. schéma ci-dessous*).
 
-![](/images/spheres-confrontation-informationnelle.webp)
+![Schéma des sphères de confrontation informationnelle selon la doctrine russe (Vykhodets & Pantserev)](/images/spheres-confrontation-informationnelle.webp)
 
 Les auteurs maintiennent que dans les sources anglophones la guerre mentale est appelée la guerre cognitive (Cognitive Warfare). Selon eux, la formation du concept de guerre cognitive est liée à la recherche de nouvelles formes de guerre menée par l'OTAN. Ils citent l'article « *The Cognitive Warfare Concept* » écrit par Bernard Claverie et François du Cluzel. La compréhension du phénomène de la guerre cognitive repose sur la reconnaissance de la psychologie et de l'esprit humain comme une **sixième domaine de guerre**, avec l'air, la terre, la mer, l'espace et le cyber.
 

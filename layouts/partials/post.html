@@ -18,6 +18,10 @@
                     <i class="ri-map-pin-time-line"></i>
                     <span class="date">{{ .Date.Format "2006.01.02" }}</span>
                 </span>
+                <span class="field">
+                    <i class="ri-time-line"></i>
+                    <span>{{ .ReadingTime }} min</span>
+                </span>
                 {{ with .Params.tags }}
                 <span class="field tags">
                     <i class="ri-stack-line"></i>

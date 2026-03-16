@@ -2,6 +2,8 @@
 title: "La France dans les médias russes - 31 janvier-06 février 2022"
 date: "2022-02-07T09:40:30+01:00"
 tags: ["Centrafrique", "France", "Mali", "Russie", "Ukraine"]
+series: ["La France dans les médias russes"]
+description: "Rapport hebdomadaire du 31 janvier au 6 février 2022 : visite de Macron à Moscou, contexte électoral français et campagne anti-française de l'Agence fédérale de presse en Afrique."
 show_image_on_homepage: false
 image: "/images/arkatov_sur_macron_slovoidelo.jpg"
 draft: false
@@ -19,7 +21,7 @@ Le site **Slovo i Delo** (du russe - la parole et l'affaire) avec 6,9 millions d
 
 Au niveau du contexte électoral français, **Rossiyskaya Gazeta** a publié un article concernant la promesse de Marine Le Pen « *de sortir du Commandement intégré de l'OTAN* » une fois élue. Alors que le site d'actualité **News.Ru** s'est focalisé sur la façon dont Eric Zemmour récupère les voix du Rassemblement national (RN) et l'éventuel soutient de la part de Marion Maréchal dans un article intitulé « *Un nouveau venu a empoisonné la campagne de Le Pen* ».
 
-![](/images/manifestation_antifrancaise_mali_riafan.jpg)
+![Manifestation antifrançaise au Mali couverte par l'Agence fédérale de presse russe FAN](/images/manifestation_antifrancaise_mali_riafan.jpg)
 
 Concernant l'Afrique, comme la semaine d'avant, l'Agence fédérale de presse (FAN) a été plus qu'active. Plusieurs articles par jour ont été consacrés au sujet africain, se focalisant sur l'information négative envers la France. À titre d'exemple, le 4 février, un article évoquant les « *manifestations anti-françaises massives au Mali* » est paru avec une référence sur une page Facebook **Bambara ACTUS**. Un autre article avec une référence sur **ActuCameroun** évoquait les « *doubles standards* » de la France concernant le soutien que Paris accorde aux nouvelles autorités de la République de Guinée ce « *qui contraste fortement avec la position sur la transition au Mali* ».
 

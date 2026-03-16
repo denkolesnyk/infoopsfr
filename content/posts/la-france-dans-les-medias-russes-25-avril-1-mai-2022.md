@@ -2,6 +2,8 @@
 title: "La France dans les médias russes - 25 avril-1 mai 2022"
 date: "2022-05-04T22:35:10+01:00"
 tags: ["France", "Mali", "Russie", "Ukraine"]
+series: ["La France dans les médias russes"]
+description: "Rapport hebdomadaire du 25 avril au 1er mai 2022 : après-présidentielles, retrait français du Mali et narratif russe sur la fatigue des Français face aux réfugiés ukrainiens."
 show_image_on_homepage: false
 image: "/images/fan_france_refugies_ukrainiens.webp"
 draft: false
@@ -15,7 +17,7 @@ Sur la politique intérieure, nous pouvons évoquer l’article publié par le s
 
 Le nouveau sujet qui commence à être promu par les médias russe concerne les Ukrainiens fuyant la guerre. Ce sujet a été relevé dans plusieurs sources russes, notamment l’agence de presse **FAN** dans l’article du 30 avril 2022 intitulé « *Les médias : En France on est fatigué des réfugiés Ukrainiens* », visant à souligner « la fatigue » des Français de l’accueil des réfugiés Ukrainiens.
 
-![](/images/narodnye_novosti_france_mali.webp)
+![Narodnye Novosti accusant la France de désinformation sur le Mali](/images/narodnye_novosti_france_mali.webp)
 
 Sur le Mali, le site russe **Narodnye Novosti** a publié l’article intitulé « *Le FBR (Fondation pour la lutte contre la répression) russe a accusé la France de répandre de la désinformation sur les enterrements au Mali* », alors que le site ***Politros** a publié l’article titré « *Mira Terada reproche à la France d’avoir nié toute implication dans des enterrements au Mali* ». Ce messaging négatif cible l’image de la France et s’inscrit dans les campagnes anti-françaises organisées et menées par la Russie en Afrique francophone.
 

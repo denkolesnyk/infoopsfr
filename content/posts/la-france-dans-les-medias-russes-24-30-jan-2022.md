@@ -2,6 +2,8 @@
 title: "La France dans les médias russes - 24-30 janvier 2022"
 date: "2022-01-30T22:14:30+01:00"
 tags: ["France","Russie", "Burkina Faso", "Ukraine"]
+series: ["La France dans les médias russes"]
+description: "Rapport hebdomadaire du 24 au 30 janvier 2022 : la crise russo-ukrainienne et la présence française en Afrique dans les médias russes."
 show_image_on_homepage: false
 image: "/images/drapeau_russe_burkina_faso_fan.jpg"
 draft: false

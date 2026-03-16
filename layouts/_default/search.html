@@ -1,0 +1,57 @@
+{{ partial "head.html" . }}
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<style>
+  .search-container {
+    padding: 50px 0 80px;
+  }
+  .search-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f1f1f;
+    margin: 0 0 30px 0;
+    letter-spacing: 1px;
+  }
+  /* Pagefind overrides to match site palette */
+  :root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #e42b2b;
+    --pagefind-ui-text: #333333;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #f3f3f3;
+    --pagefind-ui-tag: #f3f3f3;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 4px;
+    --pagefind-ui-font: "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  }
+  .pagefind-ui__search-input {
+    font-size: 1rem !important;
+  }
+  .pagefind-ui__result-link {
+    color: #e42b2b !important;
+  }
+  .pagefind-ui__result-link:hover {
+    color: #8e0000 !important;
+  }
+</style>
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        {{ partial "nav.html" . }}
+        {{ partial "header.html" . }}
+        <div class="content">
+            <div class="search-container">
+                <h2>{{ .Title }}</h2>
+                <div id="search"></div>
+            </div>
+        </div>
+        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "js.html" . }}
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <script>
+      new PagefindUI({ element: "#search", showSubResults: true });
+    </script>
+</body>
+
+</html>

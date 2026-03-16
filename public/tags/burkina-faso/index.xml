@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Burkina Faso on Info Ops France</title>
-    <link>https://infoops.fr/tags/burkina-faso/</link>
-    <description>Recent content in Burkina Faso on Info Ops France</description>
-    <generator>Hugo</generator>
+    <title>Burkina Faso | Info Ops France</title>
+    <link>http://localhost:1313/tags/burkina-faso/</link>
+    <description>L’initiative Info Ops France a pour but d’améliorer la résilience informationnelle de la société française.</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 30 Jan 2022 22:14:30 +0100</lastBuildDate>
-    <atom:link href="https://infoops.fr/tags/burkina-faso/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>https://twitter.com/infoopsfr</managingEditor>
+    
     <item>
       <title>La France dans les médias russes - 24-30 janvier 2022</title>
-      <link>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</link>
-      <pubDate>Sun, 30 Jan 2022 22:14:30 +0100</pubDate>
-      <guid>https://infoops.fr/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</guid>
-      <description>&lt;p&gt;La semaine du 24 au 30 janvier 2022 dans les médias russes a été marquée par deux événements majeurs, notamment les pourparlers au niveau des conseillers des chefs d’État et de gouvernement du format Normandie sur le fond de l’escalade des tensions entre la Russie et l&amp;rsquo;Ukraine. Alors que le deuxième sujet important concernait la France en Afrique.&lt;/p&gt;&#xA;&lt;p&gt;Au cours de la semaine, nous avons analysé un nombre significatif de médias importants du pays, en particulier Ria Novosti, RT Russian, TASS, Regnum, Radio Sputnik, l&amp;rsquo;Agence fédérale de presse (FAN), Lenta.Ru, ainsi que d&amp;rsquo;autres médias et sites d&amp;rsquo;actualité émettant du contenu en langue russe.&lt;/p&gt;</description>
+      <link>http://localhost:1313/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</link>
+      <pubDate>Sun, 30 Jan 2022 22:14:30 &#43;0100</pubDate>
+      <guid>http://localhost:1313/posts/la-france-dans-les-medias-russes-24-30-jan-2022/</guid>
+      <description>&lt;p&gt;La semaine du 24 au 30 janvier 2022 dans les médias russes a été marquée par deux événements majeurs, notamment les pourparlers au niveau des conseillers des chefs d’État et de gouvernement du format Normandie sur le fond de l’escalade des tensions entre la Russie et l&amp;rsquo;Ukraine. Alors que le deuxième sujet important concernait la France en Afrique.&lt;/p&gt;
+&lt;p&gt;Au cours de la semaine, nous avons analysé un nombre significatif de médias importants du pays, en particulier Ria Novosti, RT Russian, TASS, Regnum, Radio Sputnik, l&amp;rsquo;Agence fédérale de presse (FAN), Lenta.Ru, ainsi que d&amp;rsquo;autres médias et sites d&amp;rsquo;actualité émettant du contenu en langue russe.&lt;/p&gt;
+&lt;p&gt;Les pourparlers au format Normandie ont été décrits plutôt de façon neutre, même si certains médias orientaient la couverture de façon plutôt favorable à la Russie, choisissant une tonalité qui pourrait faire croire que Paris agissait de concert avec Moscou dans le cadre de la crise russo-ukrainienne. À titre d&amp;rsquo;exemple, l&amp;rsquo;article du 26 janvier de Lenta.Ru pointait que « &lt;em&gt;Scholz et Macron ont décidé de maintenir le dialogue avec la Russie malgré la crise avec l&amp;rsquo;Ukraine&lt;/em&gt; ».&lt;/p&gt;
+&lt;p&gt;Le président de la République a été mentionné dans le cadre de la préparation d&amp;rsquo;un échange téléphonique avec le président russe, où Emmanuel Macron « &lt;em&gt;a l&amp;rsquo;intention de proposer&lt;/em&gt; » à son homologue russe « &lt;em&gt;le chemin vers la désescalade&lt;/em&gt; », ainsi que l&amp;rsquo;idée d&amp;rsquo;Emmanuel Macron que l&amp;rsquo;Union européenne (UE) devrait également pleinement participer à l&amp;rsquo;élaboration de la réponse aux « &lt;em&gt;propositions faites par la Russie en décembre dernier&lt;/em&gt; ». Cela n&amp;rsquo;a pas été surprenant que certains médias, notamment l&amp;rsquo;Agence fédérale de presse (FAN), aient repris les commentaires laissés sur le site Le Figaro afin de faire des articles attaquant le président français, en particulier en le traitant de « &lt;em&gt;nain de jardin&lt;/em&gt; » pour son opinion concernant l&amp;rsquo;Ukraine.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/riafan_stats.jpg&#34; alt=&#34;L&amp;rsquo;agence fédérale de presse&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sur l&amp;rsquo;Afrique, nous avons observé une intensité importante de l&amp;rsquo;Agence fédérale de presse (FAN), qui a publié jusqu&amp;rsquo;à quelques articles par jour, ouvertement orientés contre la France. Plusieurs articles du FAN, lu majoritairement en Russie (59%) et au Bélarus (30%) avec plus de 13 millions visite mensuelles, évoquaient les manifestations au Sénégal en soutient du Mali, le « &lt;em&gt;blocage de l&amp;rsquo;espace aérien pour les avions français par les pays africains&lt;/em&gt; », ainsi que les drapeaux russes dans les rues du Burkina Faso. Alors que la Russie est décrite comme « &lt;em&gt;le symbole de liberté du néocolonialisme des anciennes métropoles&lt;/em&gt; ».&lt;/p&gt;
+&lt;p&gt;Le contenu publié par l&amp;rsquo;Agence fédérale de presse a été orienté de façon négative envers la France, jusqu&amp;rsquo;en impliquant que  l&amp;rsquo;Ambassade de France en Centrafrique « &lt;em&gt;donne des ordres aux militants&lt;/em&gt; » et suggérant que la France « &lt;em&gt;a fait de l&amp;rsquo;ONU un outil pour déstabiliser la RCA&lt;/em&gt; ». Deux sources citées étaient présentés comme des « &lt;em&gt;analystes&lt;/em&gt; » avec des liens pointant sur le blog &lt;strong&gt;Le Patriote Déchaîné&lt;/strong&gt; hébergé sur over-blog.com et &lt;strong&gt;Revue Centrafricaine&lt;/strong&gt; hébergé sur blogspot.com, alors que la troisième source était Nouvelles+.&lt;/p&gt;
+&lt;p&gt;Il est aussi important de noter, que les médias russes n&amp;rsquo;ont pas évité le thème des élections en France. Notamment, l&amp;rsquo;article de Ria Novosti du 24 janvier 2022 a repris les déclarations du ministre de l’Intérieur Gérald Darmanin sur Marine Le Pen en soulignant une « &lt;em&gt;éventuelle discorde nationale et une guerre civile&lt;/em&gt; » si jamais Le Pen était élue. Concernant Eric Zemmour, un autre candidat à la présidentielle 2022, les médias russes ont repris ses déclarations au sujet de la nécessité de lever les sanctions introduites contre la Russie et de nouer l&amp;rsquo;amitié avec Moscou.&lt;/p&gt;
+&lt;p&gt;D&amp;rsquo;autres sujets mentionnant la France couverts par les médias russes concernaient le Congrès juif européen (CJE), l&amp;rsquo;antisémitisme en France, le nombre de nouveaux cas Covid, les manifestations contre les restrictions liées au Covid, la volonté de la part de Paris de déployer les troupes en Roumanie afin d&amp;rsquo;appuyer son allié, ainsi que l&amp;rsquo;opinion du député de l&amp;rsquo;Assemblée nationale Michel Larive (La France Insoumise) concernant la nécessité pour la France de quitter l&amp;rsquo;OTAN.&lt;/p&gt;
+&lt;p&gt;La liste des médias russes examinés est disponible sur demande.&lt;/p&gt;
+</description>
+      <category>France</category><category>Russie</category><category>Burkina Faso</category><category>Ukraine</category>
     </item>
+    
   </channel>
 </rss>

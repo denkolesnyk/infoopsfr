@@ -4,13 +4,28 @@
 <head>
     <meta charset="utf-8" />
 
-    <!-- Twitter Card metadata -->
+    <!-- Open Graph -->
+    {{ $ogImage := "" }}
+    {{ with .Params.image }}{{ $ogImage = (print $.Site.BaseURL (. | strings.TrimPrefix "/")) }}{{ else }}{{ $ogImage = (print $.Site.BaseURL "images/logo.png") }}{{ end }}
+    {{ $ogDesc := "" }}
+    {{ if .Description }}{{ $ogDesc = .Description | plainify }}{{ else if .IsPage }}{{ $ogDesc = .Summary | plainify }}{{ else }}{{ $ogDesc = .Site.Params.description }}{{ end }}
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+    <meta property="og:description" content="{{ $ogDesc | htmlEscape }}" />
+    <meta property="og:image" content="{{ $ogImage }}" />
+    {{ if .IsPage }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+    {{ range .Params.tags }}<meta property="article:tag" content="{{ . }}" />{{ end }}
+    {{ end }}
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ .Title }}">
-    <meta name="twitter:description" content="{{ .Summary | plainify | htmlEscape }}">
-    <meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}/default-image.jpg{{ end }}">
-    <meta name="twitter:site" content="@YourTwitterHandle">
-    <meta name="twitter:creator" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ $ogDesc | htmlEscape }}">
+    <meta name="twitter:image" content="{{ $ogImage }}">
+    <meta name="twitter:site" content="@infoopsfr">
+    <meta name="twitter:creator" content="@infoopsfr">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,10 +58,12 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
     
+    <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" />
+    <link rel="apple-touch-icon" href="{{ "images/apple-touch-icon.png" | absURL }}" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/normalize.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/animate.min.css" | absURL }}" />
     <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/zozo.css" |absURL }}" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/highlight.css" | absURL }}" />

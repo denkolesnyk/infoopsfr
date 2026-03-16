@@ -10,12 +10,14 @@ summaryLength = 100
 [pagination]
 pagerSize = 4
 enableEmoji = false
-googleAnalytics = ""
-disqusShortname = ""
 
 pygmentsUseClasses = true
 pygmentCodeFences = true
 pygmentscodefencesguesssyntax = true
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
 
 [blackfriday]
   smartypants = false
@@ -35,6 +37,11 @@ pygmentscodefencesguesssyntax = true
   weight = 30
   identifier = "tags"
   url = "/tags/"
+[[menu.main]]
+  name = "Recherche"
+  weight = 35
+  identifier = "recherche"
+  url = "/recherche/"
 [[menu.main]]
   name = "À propos"
   weight = 40

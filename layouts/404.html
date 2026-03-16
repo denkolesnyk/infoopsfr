@@ -1,20 +1,69 @@
 {{ partial "head.html" . }}
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<style>
+  .not_found {
+    text-align: center;
+    padding: 60px 0 20px;
+  }
+  .not_found h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #e42b2b;
+    margin: 0;
+    line-height: 1;
+  }
+  .not_found h2 {
+    font-size: 1.4rem;
+    color: #1f1f1f;
+    margin: 16px 0 8px;
+  }
+  .not_found p {
+    color: #888;
+    margin-bottom: 40px;
+  }
+  .not_found a.home_link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #e42b2b;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #e42b2b;
+    padding-bottom: 2px;
+  }
+  .not_found a.home_link:hover {
+    color: #8e0000;
+    border-color: #8e0000;
+  }
+  :root {
+    --pagefind-ui-primary: #e42b2b;
+    --pagefind-ui-text: #333333;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #f3f3f3;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 4px;
+    --pagefind-ui-font: "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  }
+</style>
 
 <body>
     <div class="main animate__animated animate__fadeInDown">
         {{ partial "nav.html" . }}
         {{ partial "header.html" . }}
         <div class="content">
-            <div class="page_tags">
-                <h1>(≥o≤)</h1>
-                <h2>{{ with .Site.Params.title404 }}{{ . }}{{ else }}404 Page Not Found{{ end }}</h2>
-                <h3><a href="{{ .Site.BaseURL }}">{{ i18n "home" }}</a></h3>
+            <div class="not_found">
+                <h1>404</h1>
+                <h2>Page introuvable</h2>
+                <p>Cette page n'existe pas ou a été déplacée.</p>
+                <div id="search404"></div>
+                <a href="{{ .Site.BaseURL }}" class="home_link">← Retour à l'accueil</a>
             </div>
-            <div class="pagination"></div>
         </div>
     </div>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <script>
+      new PagefindUI({ element: "#search404", showSubResults: false, placeholder: "Rechercher…" });
+    </script>
 </body>
 
 </html>

@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Afrique on Info Ops France</title>
-    <link>https://infoops.fr/tags/afrique/</link>
-    <description>Recent content in Afrique on Info Ops France</description>
-    <generator>Hugo</generator>
+    <title>Afrique | Info Ops France</title>
+    <link>http://localhost:1313/tags/afrique/</link>
+    <description>L’initiative Info Ops France a pour but d’améliorer la résilience informationnelle de la société française.</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 02 Dec 2024 09:42:32 +0200</lastBuildDate>
-    <atom:link href="https://infoops.fr/tags/afrique/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>https://twitter.com/infoopsfr</managingEditor>
+    
     <item>
       <title>Denys Kolesnyk au colloque sur la guerre non-cinétique à Łódź</title>
-      <link>https://infoops.fr/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</link>
-      <pubDate>Mon, 02 Dec 2024 09:42:32 +0200</pubDate>
-      <guid>https://infoops.fr/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</guid>
-      <description>&lt;p&gt;Les 28 et 29 novembre 2024, le Centre pour l&amp;rsquo;analyse et la prévision stratégiques de l&amp;rsquo;Université de Łódź a organisé un colloque international consacré à l&amp;rsquo;agression russe envers l&amp;rsquo;Occident. Cet événement a exploré deux aspects clés de cette menace : les activités cinétiques et non-cinétiques menées par la Russie.&lt;/p&gt;&#xA;&lt;p&gt;Info Ops France a été présenté par son fondateur, Denys Kolesnyk, qui est intervenu avec un discours keynote dans le cadre d’un panel sur la guerre non-cinétique. Intitulée « &lt;em&gt;Winning without fighting: the strategic edge of non-kinetic warfare&lt;/em&gt; », sa présentation a abordé l’histoire des activités nocives soviétiques puis russes, la guerre de l’information menée par la Russie contre la France en Afrique, ainsi que le dispositifs français dans le domaine.&lt;/p&gt;</description>
+      <link>http://localhost:1313/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</link>
+      <pubDate>Mon, 02 Dec 2024 09:42:32 &#43;0200</pubDate>
+      <guid>http://localhost:1313/posts/denys-kolesnyk-au-colloque-sur-la-guerre-non-cinetique-a-lodz/</guid>
+      <description>&lt;p&gt;Les 28 et 29 novembre 2024, le Centre pour l&amp;rsquo;analyse et la prévision stratégiques de l&amp;rsquo;Université de Łódź a organisé un colloque international consacré à l&amp;rsquo;agression russe envers l&amp;rsquo;Occident. Cet événement a exploré deux aspects clés de cette menace : les activités cinétiques et non-cinétiques menées par la Russie.&lt;/p&gt;
+&lt;p&gt;Info Ops France a été présenté par son fondateur, Denys Kolesnyk, qui est intervenu avec un discours keynote dans le cadre d’un panel sur la guerre non-cinétique. Intitulée « &lt;em&gt;Winning without fighting: the strategic edge of non-kinetic warfare&lt;/em&gt; », sa présentation a abordé l’histoire des activités nocives soviétiques puis russes, la guerre de l’information menée par la Russie contre la France en Afrique, ainsi que le dispositifs français dans le domaine.&lt;/p&gt;
+&lt;p&gt;Le colloque s’est déroulé selon les règles de Chatham House, garantissant la confidentialité des échanges et l’absence d’enregistrements disponibles. Les participants représentaient une diversité de pays, notamment la Pologne, la Finlande, la Suède, la Bulgarie, et l’Allemagne. Du côté français, Denys Kolesnyk a été rejoint par Xavier Raufer (en ligne).&lt;/p&gt;
+&lt;p&gt;Les débats et présentations ont couvert un large éventail de sujets, allant du terrorisme au sabotage, en passant par la guerre de l’information et d’autres problématiques annexes. Ces échanges ont permis de comparer les visions et stratégies face à la menace russe selon différentes perspectives géographiques.&lt;/p&gt;
+&lt;p&gt;L’objectif principal du colloque était de dresser un état des lieux précis des enjeux actuels dans ces domaines, tout en élaborant des prévisions plausibles sur les évolutions futures. Ces analyses visent à permettre une préparation adéquate et la mise en place de contremesures efficaces face aux dangers potentiels liés à une éventuelle escalade des actions russes.&lt;/p&gt;
+&lt;p&gt;Ce colloque a également créé une plateforme pour l’échange d’idées et d’expériences entre spécialistes des domaines cinétiques et non-cinétiques, afin de proposer des solutions concrètes pouvant aider les gouvernements à protéger les États et les sociétés confrontés à des agressions constantes provenant de la Russie.&lt;/p&gt;
+&lt;p&gt;Le lien de l&amp;rsquo;événement : &lt;a href=&#34;https://www.wsmip.uni.lodz.pl/strefa-studenta/aktualnosci/szczegoly/drugie-miedzynarodowe-spotkanie-dyskusyjne-centrum-analiz-i-prognoz-strategicznych-wsmip-ul&#34;&gt;https://www.wsmip.uni.lodz.pl/strefa-studenta/aktualnosci/szczegoly/drugie-miedzynarodowe-spotkanie-dyskusyjne-centrum-analiz-i-prognoz-strategicznych-wsmip-ul&lt;/a&gt;&lt;/p&gt;
+</description>
+      <category>guerre non-cinétique</category><category>France</category><category>Russie</category><category>Afrique</category>
     </item>
+    
     <item>
       <title>Info Ops France au colloque sur la désinformation en Pologne</title>
-      <link>https://infoops.fr/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</link>
-      <pubDate>Mon, 18 Dec 2023 19:02:12 +0100</pubDate>
-      <guid>https://infoops.fr/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</guid>
-      <description>&lt;p&gt;Info Ops France a été représentée par son fondateur, Denys Kolesnyk, au colloque sur la désinformation qui s&amp;rsquo;est déroulé en Pologne. L&amp;rsquo;événement portait sur la résilience informationnelle et a facilité l&amp;rsquo;échange des meilleures pratiques et d&amp;rsquo;expériences dans le domaine entre les participants.&lt;/p&gt;&#xA;&lt;p&gt;Le colloque a rassemblé des représentants d&amp;rsquo;agences gouvernementales, du secteur privé, des universitaires, qui ont pu partager leurs expériences en matière d&amp;rsquo;identification des menaces informationnelles et de lutte contre la désinformation.&lt;/p&gt;&#xA;&lt;p&gt;Les échanges dans le cadre de cet événement ont permis d&amp;rsquo;accroître la résilience informationnelle et de faciliter l&amp;rsquo;échange de points de vue entre les différentes parties prenantes. Les points suivants ont été évoqués particulièrement :&lt;/p&gt;</description>
+      <link>http://localhost:1313/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</link>
+      <pubDate>Mon, 18 Dec 2023 19:02:12 &#43;0100</pubDate>
+      <guid>http://localhost:1313/posts/info-ops-france-au-colloque-sur-la-desinformation-en-pologne/</guid>
+      <description>&lt;p&gt;Info Ops France a été représentée par son fondateur, Denys Kolesnyk, au colloque sur la désinformation qui s&amp;rsquo;est déroulé en Pologne. L&amp;rsquo;événement portait sur la résilience informationnelle et a facilité l&amp;rsquo;échange des meilleures pratiques et d&amp;rsquo;expériences dans le domaine entre les participants.&lt;/p&gt;
+&lt;p&gt;Le colloque a rassemblé des représentants d&amp;rsquo;agences gouvernementales, du secteur privé, des universitaires, qui ont pu partager leurs expériences en matière d&amp;rsquo;identification des menaces informationnelles et de lutte contre la désinformation.&lt;/p&gt;
+&lt;p&gt;Les échanges dans le cadre de cet événement ont permis d&amp;rsquo;accroître la résilience informationnelle et de faciliter l&amp;rsquo;échange de points de vue entre les différentes parties prenantes. Les points suivants ont été évoqués particulièrement :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;les nouvelles stratégies de lutte contre la désinformation ;&lt;/li&gt;
+&lt;li&gt;l&amp;rsquo;échange des meilleures pratiques et méthodes pour contrer la désinformation (intelligence artificielle, etc) ;&lt;/li&gt;
+&lt;li&gt;l&amp;rsquo;identification et le traitement des fournisseurs individuels et institutionnels de la désinformation, et l&amp;rsquo;harmonisation des approches visant à identifier les récits trompeurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les présentations ont couvert des questions différentes allant de l&amp;rsquo;utilisation d&amp;rsquo;ondes radio dans la lutte informationnelle, les mesures actives russes, en passant par la place de l&amp;rsquo;intelligence artificielle dans l&amp;rsquo;identification et traitement de la désinformation, jusqu&amp;rsquo;aux campagnes informationnelles russes en Afrique. Alors que l&amp;rsquo;intervention de Denys Kolesnyk portait sur les ambitions africaines de la Russie dans la dimension informationnelle.&lt;/p&gt;
+</description>
+      <category>Afrique</category><category>désinformation</category><category>France</category><category>Russie</category>
     </item>
+    
   </channel>
 </rss>

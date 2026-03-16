@@ -17,7 +17,7 @@ Le rapport en question a accusé l'armée ukrainienne, entre autre, de mettre «
 
 Nous avons constaté, qu'au cours de la même journée du 4 août dernier - la date de parution du rapport - plusieurs médias ont publié des articles le citant. Il s’agit, notamment, mais pas seulement, de RT, Ria Novosti, MK, Izvestiya, TV Zvezda, Tsargrad etc.
 
-![](/images/amnesty_ru_media.webp)
+![Médias russes reprenant le rapport Amnesty International pour justifier leur propagande](/images/amnesty_ru_media.webp)
 
 La rédaction russe de **RT** a publié l'article intitulé « *"Une menace pour la population civile" : Amnesty International a annoncé la violation des normes humanitaires par les Forces armées ukrainiennes* ». La rédaction anglaise de cette même chaîne a publié quelques articles, dont le suivant : « *Moscou réagit au rapport d'Amnesty sur l'utilisation par l'Ukraine de "boucliers humains"* », or en aucun cas le rapport n'évoquait les « boucliers humains ».
 
@@ -33,7 +33,7 @@ La majorité des tweets (35302) a été émise en langue anglaise, suivie par l'
 
 Dans le top 10 des tweets ayant reçu le plus de réponses figurent les tweets émis par le compte officiel d'**Amnesty International** (@amnesty), la Secrétaire générale de cette ONG **Agnes Callamard** (@agnescallamard), le bloggeur ukrainien **Serhii Sternenko** (@sternenko), le compte français **Mediavenir** (@mediavenir), le compte ukrainien **Old Fat Sage** (@easternbear) ainsi que le compte officiel de l'**Ambassade russe au Royaume-Uni** (@russianembassy) - insistant que le rapport a confirmé « *exactement ce que la Russie disais depuis le début* ». Ces comptes ensemble ont généré 24664 réponses, 12901 retweets et 39203 likes.
 
-![](/images/amnesty_philippot_latynina.webp)
+![Florian Philippot et Yulia Latynina parmi les comptes les plus impactants sur Twitter autour du rapport Amnesty](/images/amnesty_philippot_latynina.webp)
 
 Dans le segment francophone, nous avons pu distinguer **Floriant Philippot** (@f_philippot) avec son tweet appelant à arrêter « *de leur envoyer armes et argent, car c'est pure folie !* » ayant été liké 857 fois, retweeté 478 fois tout en générant 119 réponses - le troisième compte le plus performant après **Mediavenir** (@mediavenir) et **France Info** (@franceinfo) en langue française émis le 4 août 2022. Son tweet, d'ailleurs, occupe 21ème place (toutes langues confondues) ayant reçu le plus de réponses.
  
@@ -41,7 +41,7 @@ Dans le segment russe de Twitter, le tweet le plus impactant a été émis par *
 
 Concernant les *hashtags*, 43112 tweets n'en contenaient aucun, alors que les trois hashtags les plus utilisés étaient les suivant : #russiaisaterroriststate (365 fois), #amnestyinternational (273 fois) et #russiaisaterrorisstate (272 fois).
 
-![](/images/russian_mission_geneva.webp)
+![La Mission diplomatique russe à Genève utilisant le rapport Amnesty pour justifier les frappes russes](/images/russian_mission_geneva.webp)
 
 Il est à noter, qu'à partir du 6 août (les tweets ont été repérés *a posteriori*) le compte officiel de la **Mission diplomatique russe à Genève** (@mission_russian) a commencé à utiliser le rapport publié par Amnesty International afin de justifier les frappes sur l'infrastructure civile ukrainienne en essayant de les légitimer, malgré le fait que le rapport souligne qu'il « *ne justifie en aucun cas les attaques menées sans discernement par les forces russes* ».
 

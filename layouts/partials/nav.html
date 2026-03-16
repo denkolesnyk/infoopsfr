@@ -1,8 +1,10 @@
 <div class="nav_container animated fadeInDown">
     <div class="site_nav" id="site_nav">
         <ul>
-            {{ range.Site.Menus.main }}
-            <li>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            {{ $active := or (eq $currentPage.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $currentPage.RelPermalink .URL)) }}
+            <li{{ if $active }} class="active"{{ end }}>
                 <a href="{{ .URL | safeURL }}">{{ .Name }}</a>
             </li>
             {{ end }}

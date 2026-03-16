@@ -129,6 +129,12 @@ hr {
   font-size: 0.9rem;
 }
 
+.nav_container .site_nav li.active > a {
+  color: #1f1f1f;
+  font-weight: 600;
+  border-bottom: 2px solid #e42b2b;
+}
+
 .header {
   width: 720px;
   padding: 50px 0 140px 0;
@@ -671,6 +677,30 @@ a.back_to_top:hover span {
   }
 }
 
+@media screen and (min-width: 681px) and (max-width: 900px) {
+  .header {
+    padding: 30px 0 80px;
+  }
+
+  .post .post_title a {
+    font-size: 1.3rem;
+  }
+
+  .post_nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .post_nav a {
+    max-width: 100%;
+  }
+
+  .post_nav_next {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .main {
     width: 95%;
@@ -745,6 +775,45 @@ a.back_to_top:hover span {
 
 .post .post_content a:hover {
   color: #8e0000;
+}
+
+/* Reading time */
+.reading_time {
+  color: rgba(0, 0, 0, 0.44);
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.reading_time i {
+  vertical-align: middle;
+}
+
+/* Prev/next post navigation */
+.post_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 10px;
+  border-top: 1px solid #f3f3f3;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.post_nav a {
+  color: #888888;
+  font-size: 0.85rem;
+  text-decoration: none;
+  max-width: 48%;
+  line-height: 1.4;
+  transition: color 0.15s linear;
+}
+
+.post_nav a:hover {
+  color: #e42b2b;
+}
+
+.post_nav_next {
+  text-align: right;
+  margin-left: auto;
 }
 
 /* Add spacing above the post image */

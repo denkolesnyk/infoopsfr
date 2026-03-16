@@ -2,6 +2,8 @@
 title: "La France dans les médias russes - 11-17 avril 2022"
 date: "2022-04-19T17:22:30+01:00"
 tags: ["France", "Russie", "Ukraine"]
+series: ["La France dans les médias russes"]
+description: "Rapport hebdomadaire du 11 au 17 avril 2022 : élections présidentielles avec une préférence russe pour Marine Le Pen et confrontation entre la Russie et l'Occident."
 show_image_on_homepage: false
 image: "/images/vzglyad_mlp.webp"
 draft: false
@@ -17,7 +19,7 @@ Alors que **Polit.info** (887k visites, dont 64.32% provenant de la Russie, 21.9
 
 Un article d’opinion intitulé « *La Russie attend trois mots principaux de Le Pen* » publié par **Vzglyad** (76.1 mln de visites, dont 78.34% provenant de la Russie et 4.76% — de l’Ukraine) maintient que Le Pen n’est pas une candidate pro-russe, mais une candidate du « peuple profond » — la formulation qui a été [évoquée](https://kolesnyk.fr/posts/vladislav-sourkov-sur-le-long-etat-de-potine/) en 2019 par **Vladislav Sourkov** par rapport au peuple russe. Cet article d’opinion résume que les trois mots principaux ne sont pas « je t’aime », mais « soyons égoïstes » (NB. en russe ce sont trois mots) et qu’un tel « *mariage de convenance* » peut devenir « *vraiment fort* ».
 
-![](/images/rusprimavera_macron_genocide_ukraine.webp)
+![RusPrimavera reliant Macron à la question du génocide en Ukraine dans les médias russes](/images/rusprimavera_macron_genocide_ukraine.webp)
 
 Quant à l’agenda international, l’article publié le 14 avril dernier par **Krasnaïa Vesna** (7.2 mln de visites mensuelles, dont 89.05% provenant de la Russie) a été titré « *Macron a exhorté à ne pas propager le mot « génocide » lorsqu’on parle de l’Ukraine* ». Vu les atrocités commises par l’armée russe en Ukraine, il n’est pas inattendu qu’une telle déclaration du président français ait vite été reprise par les médias russes afin d’appuyer la position officielle de Moscou.
 

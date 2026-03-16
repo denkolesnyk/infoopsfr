@@ -1,55 +1,54 @@
 'use strict';
 
-// back-to-top
-$(document).ready((function (_this) {
-  return function () {
-    let bt
-    bt = $('#back_to_top')
-    if ($(document).width() > 480) {
-      $(window).scroll(function () {
-        let st
-        st = $(window).scrollTop()
-        if (st > 30) {
-          return bt.css('display', 'block')
-        } else {
-          return bt.css('display', 'none')
-        }
-      })
-      return bt.click(function () {
-        $('body,html').animate({
-          scrollTop: 0,
-        }, 800)
-        return false
-      })
-    }
+document.addEventListener('DOMContentLoaded', function () {
+  // back-to-top
+  var bt = document.getElementById('back_to_top');
+  if (bt && document.documentElement.clientWidth > 480) {
+    window.addEventListener('scroll', function () {
+      bt.style.display = (window.scrollY > 30) ? 'block' : 'none';
+    });
+    bt.addEventListener('click', function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   }
-})(this))
 
-// nav-toggle
-$(document).ready((function (_this) {
-  return function () {
-    let nav,icon
-    icon = $('#menu_icon')
-    nav = $('#site_nav')
-    icon.click(function () {
-      nav.slideToggle(250)
-    })
+  // nav-toggle
+  var icon = document.getElementById('menu_icon');
+  var nav = document.getElementById('site_nav');
+  if (icon && nav) {
+    icon.addEventListener('click', function () {
+      if (nav.style.display === 'none' || nav.style.display === '') {
+        nav.style.display = 'block';
+      } else {
+        nav.style.display = 'none';
+      }
+    });
   }
-})(this))
+});
 
-// FancyBox
-$('[data-fancybox="gallery"]').fancybox({
-  arrows: false,
-  infobar: false,
-  buttons: [],
-  clickContent: "close",
-  autoFocus: false,
-  backFocus: false,
-  wheel: false,
-  mobile: {
-    clickContent: "close",
-    clickSlide: "close",
-    dblclickContent: false,
-    dblclickSlide: false
-  },
+// FancyBox (still depends on fancybox.min.js)
+document.addEventListener('DOMContentLoaded', function () {
+  if (typeof Fancybox !== 'undefined') {
+    Fancybox.bind('[data-fancybox="gallery"]', {
+      arrows: false,
+      infobar: false,
+      Toolbar: false,
+      clickContent: 'close',
+      autoFocus: false,
+      backFocus: false,
+      wheel: false,
+    });
+  } else if (typeof jQuery !== 'undefined' && jQuery.fn.fancybox) {
+    // legacy fallback for old fancybox
+    jQuery('[data-fancybox="gallery"]').fancybox({
+      arrows: false,
+      infobar: false,
+      buttons: [],
+      clickContent: 'close',
+      autoFocus: false,
+      backFocus: false,
+      wheel: false,
+    });
+  }
 });

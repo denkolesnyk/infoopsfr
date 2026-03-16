@@ -2,6 +2,8 @@
 title: "La France dans les médias russes - 7-13 février 2022"
 date: "2022-02-14T15:17:30+01:00"
 tags: ["France", "OTAN", "Mali", "Russie", "Ukraine"]
+series: ["La France dans les médias russes"]
+description: "Rapport hebdomadaire du 7 au 13 février 2022 : visite de Macron à Moscou et Kiev, décrédibilisation du président français et position des candidats vis-à-vis de la Russie."
 show_image_on_homepage: false
 image: "/images/poutine_macron_ria.jpg"
 draft: false
@@ -19,7 +21,7 @@ De l’autre côté, plusieurs tentatives ont été réalisées afin d’insulte
 
 Les médias russes ont, comme d'habitude, fait recours aux commentaires laissés sur les sites d’actualité français afin d’attaquer le président français. Il s’agit, notamment, de **News Rambler**, **Ria Novosti** et **Regnum**, qui ont traité Macron de « *ridicule* », « *stagiaire* » qui « *est venu voir le patron » ou encore de « petit chien* » qui suit Biden.
 
-![](/images/mlp_russie_tass.jpg)
+![Marine Le Pen et sa position pro-russe couverte par l'agence TASS](/images/mlp_russie_tass.jpg)
 
 L’opinion des candidats à la présidence française a aussi été exploitée à la fois dans le contexte des pourparlers Macron-Poutine et aussi dans le cadre de la démonstration du soutien à la Russie, y compris dans le cadre de la non-adhésion de l’Ukraine à l’OTAN.
 
