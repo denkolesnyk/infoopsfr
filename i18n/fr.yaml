@@ -24,5 +24,11 @@ back_to_top:
   other: "Retour en haut de page"
 menu:
   other: "Menu"
+theme_toggle:
+  other: "Basculer entre le thème clair et sombre"
+theme_light:
+  other: "Passer au thème clair"
+theme_dark:
+  other: "Passer au thème sombre"
 search:
   other: "Rechercher"

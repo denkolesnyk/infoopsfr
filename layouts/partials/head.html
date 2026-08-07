@@ -55,6 +55,20 @@
     <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" />
     <link rel="apple-touch-icon" href="{{ "images/apple-touch-icon.png" | absURL }}" />
 
+    {{- /* Applique le thème mémorisé avant le premier rendu, pour éviter
+           un flash de thème clair au chargement. Doit rester en ligne et
+           avant les feuilles de style. */ -}}
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("iof-theme");
+          if (t === "dark" || t === "light") {
+            document.documentElement.setAttribute("data-theme", t);
+          }
+        } catch (e) {}
+      })();
+    </script>
+
     <link rel="stylesheet" href="{{ "css/normalize.css" | absURL }}" />
     <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
     <link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}" />

@@ -1,6 +1,56 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function () {
+  // Theme toggle.
+  // The stored choice is applied by an inline script in <head> so there is
+  // no flash on load; this only wires up the control and keeps it in sync.
+  var KEY = 'iof-theme';
+  var root = document.documentElement;
+  var toggle = document.getElementById('theme_toggle');
+  var media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+  var stored = function () {
+    try {
+      var t = localStorage.getItem(KEY);
+      return (t === 'dark' || t === 'light') ? t : null;
+    } catch (e) { return null; }
+  };
+
+  var effective = function () {
+    return stored() || (media && media.matches ? 'dark' : 'light');
+  };
+
+  var sync = function () {
+    if (!toggle) return;
+    var now = effective();
+    toggle.setAttribute('data-state', now);
+    toggle.setAttribute('aria-label', now === 'dark' ? TEXT.light : TEXT.dark);
+    toggle.setAttribute('title', now === 'dark' ? TEXT.light : TEXT.dark);
+  };
+
+  var TEXT = {
+    light: (toggle && toggle.getAttribute('data-label-light')) || 'Passer au thème clair',
+    dark: (toggle && toggle.getAttribute('data-label-dark')) || 'Passer au thème sombre'
+  };
+
+  if (toggle) {
+    toggle.hidden = false;
+    sync();
+    toggle.addEventListener('click', function () {
+      var next = effective() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem(KEY, next); } catch (e) {}
+      sync();
+    });
+  }
+
+  // Follow the system if the reader has never chosen explicitly.
+  if (media && media.addEventListener) {
+    media.addEventListener('change', function () {
+      if (!stored()) sync();
+    });
+  }
+
   // Back to top
   var bt = document.getElementById('back_to_top');
   if (bt) {

@@ -4,7 +4,7 @@ date: 2026-03-26T14:30:11+02:00
 tags: ["Estonie", "infoguerre", "République populaire de Narva", "Russie", "Telegram"]
 show_image_on_homepage: false
 image: "/images/dss-22.webp"
-draft: false
+draft: true
 ---
 
 Son nom est un signal en soi. « Нарвская Народная Республика » — la République populaire de Narva. Sur Telegram, ce canal créé il y a quelques mois reprend mot pour mot la terminologie des républiques séparatistes du Donbass, ces entités autoproclamées que Moscou a reconnues avant d'envahir l'Ukraine en 2022. Sauf qu'ici, la cible n'est pas l'Ukraine. C'est l'Estonie. C'est l'OTAN.
