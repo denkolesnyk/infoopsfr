@@ -3,10 +3,15 @@
 <article class="post">
     <h2 class="post_title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 
+    {{- /* Extrait affiché : le premier paragraphe de l'article, pas le champ
+           « description ». Celui-ci est réservé aux métadonnées (moteurs de
+           recherche, vignettes sociales) et ne doit pas s'afficher ici. */ -}}
     {{- if .Site.Params.enableSummary }}
+    {{- $paras := findRE `(?s)<p>.*?</p>` .Content 1 }}
+    {{- $lead := cond (gt (len $paras) 0) (index $paras 0) (.Summary | string) }}
     <div class="list">
         <div class="post_content markdown">
-            <p>{{ or .Description (.Summary | plainify) }}</p>
+            <p>{{ $lead | plainify | htmlUnescape | safeHTML }}</p>
         </div>
     </div>
     {{- end }}
