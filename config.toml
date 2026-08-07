@@ -47,7 +47,7 @@ capitalizeListTitles = false
 
 [params]
   author = "Denys Kolesnyk"
-  subTitle = "« L'esprit des nations belligérantes est la 4ème dimension [de la guerre] »"
+  subTitle = "« L’esprit des nations belligérantes est la 4ème dimension [de la guerre] »"
   keywords = ["Info Ops France","désinformation","infoguerre"]
   description = "L’initiative Info Ops France a pour but d’améliorer la résilience informationnelle de la société française."
   enableMathJax = false

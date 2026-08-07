@@ -41,10 +41,17 @@
 
                     {{ partial "series.html" . }}
 
+                    {{- /* L'image de couverture sert aussi de vignette sociale
+                           (og:image). Si elle est déjà utilisée dans le corps
+                           de l'article, on ne l'affiche pas deux fois : la
+                           version en contexte, avec son texte alternatif
+                           descriptif, est conservée. */ -}}
                     {{- with .Params.image }}
+                    {{- if not (strings.Contains $.RawContent (printf "](%s)" .)) }}
                     <div class="post_image">
                         <img src="{{ . | absURL }}" alt="{{ $.Title }}" loading="eager" decoding="async" />
                     </div>
+                    {{- end }}
                     {{- end }}
 
                     <div class="post_content markdown" data-pagefind-body>{{ .Content }}</div>
