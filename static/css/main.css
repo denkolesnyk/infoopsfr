@@ -431,11 +431,11 @@ hr {
 }
 
 .footer .footer_slogan {
-  padding-top: 25px;
-  padding-bottom: 10px;
-  color: var(--text-strong);
-  font-size: 16px;
-  letter-spacing: 1px;
+  padding-top: 18px;
+  padding-bottom: 8px;
+  color: var(--text-faint);
+  font-size: 12px;
+  letter-spacing: 0.5px;
 }
 
 /*for archive*/
@@ -1315,9 +1315,10 @@ input:focus-visible,
   font-size: 1rem;
   line-height: 1.6;
   color: var(--text-muted);
-  max-width: 34ch;
+  max-width: 30rem;
   margin-left: auto;
-  text-wrap: balance;
+  text-align: right;
+  text-wrap: pretty;
 }
 
 .header .site_title_container .description .sub_title p {
@@ -1325,15 +1326,13 @@ input:focus-visible,
   line-height: inherit;
 }
 
+/* L'attribution suit la citation sur la même ligne, après un tiret cadratin.
+   nowrap : « — Evgueni Messner » ne se coupe jamais en fin de ligne. */
 .header .site_title_container .description .sub_title cite {
-  display: block;
-  margin-top: 8px;
   font-style: normal;
   font-weight: 400;
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
   color: var(--text-faint);
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 680px) {

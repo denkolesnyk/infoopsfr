@@ -30,16 +30,6 @@ capitalizeListTitles = false
   identifier = "series"
   url = "/series/"
 [[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Recherche"
-  weight = 35
-  identifier = "recherche"
-  url = "/recherche/"
-[[menu.main]]
   name = "À propos"
   weight = 40
   identifier = "a-propos"

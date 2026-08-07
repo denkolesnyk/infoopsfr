@@ -7,10 +7,7 @@
         </div>
         <div class="description">
             <blockquote class="sub_title">
-                <p>{{ .Site.Params.subTitle }}</p>
-                {{- with .Site.Params.subTitleAuthor }}
-                <cite>{{ . }}</cite>
-                {{- end }}
+                <p>{{ .Site.Params.subTitle }}{{ with .Site.Params.subTitleAuthor }}<cite>&#8202;— {{ . }}</cite>{{ end }}</p>
             </blockquote>
 
             <div class="my_socials">
@@ -22,6 +19,7 @@
                 {{- end }}
                 <a href="mailto:contact@infoops.fr" title="Contact">{{ partial "icon.html" "mail" }}<span class="sr_only">Email</span></a>
                 <a href="{{ "index.xml" | absURL }}" title="Flux RSS">{{ partial "icon.html" "rss" }}<span class="sr_only">RSS</span></a>
+                <a href="{{ "recherche/" | absURL }}" title="{{ i18n "search" }}">{{ partial "icon.html" "search" }}<span class="sr_only">{{ i18n "search" }}</span></a>
                 <button type="button" id="theme_toggle" class="theme_toggle"
                         aria-label="{{ i18n "theme_toggle" }}" title="{{ i18n "theme_toggle" }}"
                         data-label-light="{{ i18n "theme_light" }}" data-label-dark="{{ i18n "theme_dark" }}" hidden>
