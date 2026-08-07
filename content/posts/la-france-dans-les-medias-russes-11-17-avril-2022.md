@@ -4,7 +4,6 @@ date: "2022-04-19T17:22:30+01:00"
 tags: ["France", "Russie", "Ukraine"]
 series: ["La France dans les médias russes"]
 description: "Rapport hebdomadaire du 11 au 17 avril 2022 : élections présidentielles avec une préférence russe pour Marine Le Pen et confrontation entre la Russie et l'Occident."
-show_image_on_homepage: false
 image: "/images/vzglyad_mlp.webp"
 draft: false
 ---

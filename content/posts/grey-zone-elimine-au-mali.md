@@ -1,5 +1,6 @@
 ---
 title: "Grey Zone éliminé au Mali ensemble avec les mercenaires russes et les FAMa"
+description: "Analyse de réseau de la chaîne Telegram Grey Zone, liée à Wagner, et de son écosystème de diffusion, après l'élimination d'un convoi des FAMa et de mercenaires russes à Tinzaouatine, au nord du Mali."
 date: 2024-08-06T12:36:43+02:00
 tags: ["Grey_zone", "Mali", "Russie", "Telegram"]
 image: "/images/greyzonetg.webp"

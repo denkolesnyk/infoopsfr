@@ -6,3 +6,42 @@
   HUGO_VERSION = "0.163.3"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+
+# Les fichiers ci-dessous sont versionnés par leur nom : quand le contenu
+# change, le nom change. On peut donc les mettre en cache longtemps.
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Index de recherche : régénéré à chaque build, mais les fragments et shards
+# portent un hash dans leur nom.
+[[headers]]
+  for = "/pagefind/fragment/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/pagefind/index/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+# Le HTML doit toujours être revalidé pour que les nouveaux articles
+# apparaissent immédiatement.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"

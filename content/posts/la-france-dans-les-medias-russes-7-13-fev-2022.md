@@ -4,7 +4,6 @@ date: "2022-02-14T15:17:30+01:00"
 tags: ["France", "OTAN", "Mali", "Russie", "Ukraine"]
 series: ["La France dans les médias russes"]
 description: "Rapport hebdomadaire du 7 au 13 février 2022 : visite de Macron à Moscou et Kiev, décrédibilisation du président français et position des candidats vis-à-vis de la Russie."
-show_image_on_homepage: false
 image: "/images/poutine_macron_ria.jpg"
 draft: false
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Le rapport d’Amnesty International repris par la propagande russe"
+description: "Comment le rapport d'Amnesty International d'août 2022 sur les tactiques ukrainiennes a été repris et instrumentalisé par les médias d'État et la propagande russes, sur Twitter et au-delà."
 date: "2022-08-10T09:32:13+01:00"
 tags: ["Amnesty International", "Russie", "Twitter", "Ukraine"]
-show_image_on_homepage: false
 image: "/images/amnesty_rapport_ukraine.webp"
 draft: false
 ---

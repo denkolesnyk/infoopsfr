@@ -46,7 +46,7 @@ capitalizeListTitles = false
   mainSections = ["posts","post"]
 
   [params.social]
-    twitter = "https://twitter.com/infoopsfr"
+    twitter = "https://x.com/infoopsfr"
     facebook = "https://www.facebook.com/infoopsfr/"
 
 [markup]

@@ -1,8 +1,8 @@
 ---
 title: "Denys Kolesnyk au colloque sur la guerre non-cinétique à Łódź"
+description: "Denys Kolesnyk a prononcé le discours keynote « Winning without fighting » lors du colloque de l'Université de Łódź consacré à l'agression russe non-cinétique contre l'Occident, en novembre 2024."
 date: 2024-12-02T09:42:32+02:00
 tags: ["guerre non-cinétique", "France", "Russie", "Afrique"]
-show_image_on_homepage: false
 image: "/images/dk_wsmip_lodz.jpg"
 draft: false
 ---

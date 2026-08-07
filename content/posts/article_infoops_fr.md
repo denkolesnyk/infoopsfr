@@ -1,8 +1,8 @@
 ---
 title: "« République populaire de Narva » : anatomie d'une opération d'influence russe sur les Baltiques"
+description: "Analyse d'un réseau de 3 980 canaux Telegram ciblant les États baltes et leurs diasporas russophones, dont @narvarepublic, qui reprend la terminologie séparatiste du Donbass pour désigner l'Estonie."
 date: 2026-03-26T14:30:11+02:00
 tags: ["Estonie", "infoguerre", "République populaire de Narva", "Russie", "Telegram"]
-show_image_on_homepage: false
 image: "/images/dss-22.webp"
 draft: true
 ---
@@ -19,8 +19,10 @@ L'analyse d'un réseau de 3 980 canaux Telegram reliés par 111 544 liens de tra
 
 Quatre canaux en constituent les nœuds d'entrée : @narvarepublic donc, mais aussi @BalticBridge (« Pont baltique »), @tenipribaltiki (« Ombres de la Baltique ») et @VanaToomaseTeataja — ce dernier portant le nom du Vieux Thomas, la girouette médiévale de l'hôtel de ville de Tallinn, symbole fort de l'identité nationale estonienne. L'appropriation de ce symbole pour un canal aux narratifs pro-Kremlin n'est pas anodine.
 
-![Graphe du réseau centré sur les quatre canaux seeds et leurs principaux amplificateurs. En rouge : les quatre canaux sources. En orange : les hubs majeurs (plus de 1 000 liens entrants). Les traits représentent les flux de transferts de contenu.](figures/fig5_ego_network.png)
-*Graphe du réseau centré sur les quatre canaux seeds et leurs principaux amplificateurs. En rouge : les quatre canaux sources. En orange : les hubs majeurs. Les traits représentent les flux de transferts de contenu.*
+{{< figure src="/images/narva_ego_network.webp"
+           alt="Graphe du réseau centré sur les quatre canaux sources et leurs principaux amplificateurs. En rouge : les quatre canaux sources. En orange : les hubs majeurs (plus de 1 000 liens entrants). Les traits représentent les flux de transferts de contenu."
+           caption="Graphe du réseau centré sur les quatre canaux sources et leurs principaux amplificateurs. En rouge : les canaux sources ; en orange : les hubs majeurs. Les traits représentent les flux de transferts de contenu."
+           source="Analyse Info Ops France" >}}
 
 ---
 
@@ -32,8 +34,10 @@ Ces deux canaux se citent mutuellement de façon intense : @BalticBridge mention
 
 Les horodatages le confirment : certains transferts entre canaux s'effectuent en moins de trois secondes. Aucun opérateur humain ne travaille à cette vitesse. Des bots de transfert automatisé sont à l'œuvre.
 
-![Liens entrants et sortants des quatre canaux seeds. @tenipribaltiki et @BalticBridge dominent dans les deux dimensions. @narvarepublic est quasi-invisible à cette échelle.](figures/fig1_seeds_degree.png)
-*Liens entrants et sortants des quatre canaux seeds. @tenipribaltiki et @BalticBridge dominent dans les deux dimensions. @narvarepublic est quasi-invisible à cette échelle.*
+{{< figure src="/images/narva_seeds_degree.webp"
+           alt="Diagramme en barres des liens entrants et sortants des quatre canaux sources."
+           caption="Liens entrants et sortants des quatre canaux sources. @tenipribaltiki et @BalticBridge dominent dans les deux dimensions ; @narvarepublic est quasi-invisible à cette échelle."
+           source="Analyse Info Ops France" >}}
 
 ---
 
@@ -63,8 +67,10 @@ Le réseau cible avec précision les populations russophones des États baltes �
 
 @VanaToomaseTeataja est la pièce la plus subtile du dispositif. Il ne fait pas l'apologie de la Russie. Il sème le doute sur les institutions estoniennes, pointe leurs échecs, nourrit la méfiance — et le fait en estonien, avec le nom d'un symbole national. C'est une déstabilisation de l'intérieur, plus difficile à détecter et à contrer qu'une propagande déclarée.
 
-![Top 20 des canaux du réseau par nombre de liens entrants. @kochka_lv (« La butte lettone ») et @rusemblv (ambassade de Russie en Lettonie) figurent parmi les nœuds les plus connectés, révélant la concentration géographique du ciblage et l'intégration de sources officielles russes.](figures/fig2_top20_indegree.png)
-*Top 20 des canaux du réseau par nombre de liens entrants. La concentration sur des canaux lettons, biélorusses et officiels russes révèle la géographie précise du ciblage.*
+{{< figure src="/images/narva_top20_indegree.webp"
+           alt="Classement des vingt canaux du réseau ayant le plus de liens entrants."
+           caption="Top 20 des canaux du réseau par nombre de liens entrants. La concentration sur des canaux lettons, biélorusses et officiels russes — dont @MID_Russia et @rusemblv — révèle la géographie précise du ciblage."
+           source="Analyse Info Ops France" >}}
 
 ---
 
@@ -76,9 +82,11 @@ Telegram n'est pas l'aboutissement. Les deux hubs renvoient massivement vers VK,
 
 La « République populaire de Narva » n'a pas de territoire. Elle a un canal Telegram, trois liens dans un graphe de réseau, et un nom qui a déjà servi une fois.
 
-![Activité mensuelle du réseau en nombre de transferts entre canaux, de 2022 à mars 2026. La courbe montre une montée en puissance régulière et un pic marqué en mars 2026, coïncidant avec les incidents de drones sur les territoires baltes.](figures/fig3_activite_temporelle.png)
-*Activité mensuelle du réseau (nombre de transferts entre canaux). La progression régulière sur deux ans et demi, avec un pic en mars 2026, est le signe d'une opération installée dans la durée — pas d'un phénomène opportuniste.*
+{{< figure src="/images/narva_activite_temporelle.webp"
+           alt="Courbe de l'activité mensuelle du réseau, de 2022 à mars 2026."
+           caption="Activité mensuelle du réseau (nombre de transferts entre canaux). La progression régulière sur deux ans et demi, avec un pic en mars 2026, est le signe d'une opération installée dans la durée — pas d'un phénomène opportuniste."
+           source="Analyse Info Ops France" >}}
 
----
-
-*Analyse basée sur 3 980 canaux Telegram, 111 544 liens directionnels et 194 228 messages collectés entre septembre 2023 et mars 2026.*
+{{< methodology >}}
+Collecte et analyse : **Denys Kolesnyk**. L'étude porte sur 3 980 canaux Telegram, 111 544 liens directionnels et 194 228 messages collectés entre septembre 2023 et mars 2026. Les liens de transfert entre canaux ont servi à reconstruire le graphe de diffusion ; les horodatages ont permis d'identifier les transferts automatisés.
+{{< /methodology >}}
