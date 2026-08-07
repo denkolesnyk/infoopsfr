@@ -1301,38 +1301,44 @@ input:focus-visible,
 .theme_toggle[data-state="light"] .theme_icon_moon { display: inline-flex; }
 .theme_toggle[data-state="dark"] .theme_icon_sun { display: inline-flex; }
 
-/* Citation de l'en-tête ---------------------------------------------------- */
-
-/* EB Garamond (SIL Open Font License 1.1) — auto-hébergé, sous-ensemble
-   latin + guillemets, axe de graisse figé à 400. Voir
-   static/fonts/LICENSE-EBGaramond.txt. */
-@font-face {
-  font-family: "EB Garamond";
-  src: url("../fonts/ebgaramond-italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  unicode-range: U+0000-00FF, U+0152-0153, U+0178, U+2018-201A, U+201C-201E,
-                 U+2026, U+2039, U+203A;
-}
+/* Citation de l'en-tête ----------------------------------------------------
+   Traitement sobre : la police du site, en italique légère, et l'attribution
+   en capitales espacées. C'est l'attribution qui donne son poids au bloc,
+   pas un caractère décoratif. */
 
 .header .site_title_container .description .sub_title {
-  font-family: "EB Garamond", Palatino, "Palatino Linotype", Georgia, serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-style: italic;
-  font-size: 1.16rem;
-  line-height: 1.5;
-  letter-spacing: 0.01em;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6;
   color: var(--text-muted);
-  max-width: 30ch;
+  max-width: 34ch;
   margin-left: auto;
-  /* Garamond a un œil petit : on remonte légèrement l'optique. */
-  font-feature-settings: "kern" 1, "liga" 1;
   text-wrap: balance;
+}
+
+.header .site_title_container .description .sub_title p {
+  margin: 0;
+  line-height: inherit;
+}
+
+.header .site_title_container .description .sub_title cite {
+  display: block;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
 }
 
 @media screen and (max-width: 680px) {
   .header .site_title_container .description .sub_title {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     max-width: none;
   }
 }

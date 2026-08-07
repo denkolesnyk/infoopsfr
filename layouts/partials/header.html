@@ -6,7 +6,12 @@
             </a>
         </div>
         <div class="description">
-            <p class="sub_title">{{ .Site.Params.subTitle }}</p>
+            <blockquote class="sub_title">
+                <p>{{ .Site.Params.subTitle }}</p>
+                {{- with .Site.Params.subTitleAuthor }}
+                <cite>{{ . }}</cite>
+                {{- end }}
+            </blockquote>
 
             <div class="my_socials">
                 {{- with .Site.Params.social.twitter }}
