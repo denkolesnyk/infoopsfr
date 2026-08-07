@@ -869,6 +869,13 @@ a.back_to_top:hover span {
     margin: 0 auto; /* Center the logo */
 }
 
+/* Le logo est une image monochrome sur fond transparent (logo-mark.png).
+   En thème sombre on l'inverse : l'encre foncée devient claire et la
+   transparence est préservée — pas de rectangle blanc. */
+@media (prefers-color-scheme: dark) {
+  .site_logo { filter: invert(1); }
+}
+
 /* Add spacing below tables */
 table {
     margin-bottom: 20px; /* Space below the table */
