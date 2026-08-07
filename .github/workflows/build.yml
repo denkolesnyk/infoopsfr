@@ -1,10 +1,18 @@
-name: Build & Deploy
+name: Build
+
+# Netlify is the production deploy (see netlify.toml). This workflow only
+# checks that the site still builds — keep HUGO_VERSION identical to the one
+# pinned in netlify.toml so the two cannot drift apart.
 
 on:
   push:
     branches: [main, master]
   pull_request:
     branches: [main, master]
+
+env:
+  HUGO_VERSION: '0.163.3'
+  PAGEFIND_VERSION: '1.4.0'
 
 jobs:
   build:
@@ -13,24 +21,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
-          extended: false
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --gc --minify
 
       - name: Index search (Pagefind)
-        run: npx pagefind --site public
+        run: npx -y pagefind@${{ env.PAGEFIND_VERSION }} --site public
 
-      - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: Check search index was produced
+        run: test -f public/pagefind/pagefind-ui.js

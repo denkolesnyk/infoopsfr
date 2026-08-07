@@ -1,0 +1,25 @@
+{{- /* Figure with caption and optional source line.
+
+   {{< figure src="/images/fig5.png"
+              alt="Description pour lecteurs d'écran"
+              caption="Légende affichée sous la figure."
+              source="Analyse Info Ops France, mars 2026"
+              link="https://exemple.org" >}}
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default (.Get "caption") -}}
+{{- $caption := .Get "caption" -}}
+{{- $source := .Get "source" -}}
+{{- $link := .Get "link" -}}
+{{- $wide := .Get "wide" -}}
+<figure class="fig{{ if $wide }} fig_wide{{ end }}">
+    {{- if $link }}<a href="{{ $link }}" rel="noopener" target="_blank">{{ end -}}
+    <img src="{{ $src | absURL }}" alt="{{ $alt }}" loading="lazy" decoding="async" />
+    {{- if $link }}</a>{{ end -}}
+    {{- if or $caption $source }}
+    <figcaption>
+        {{- with $caption }}<span class="fig_caption">{{ . | markdownify }}</span>{{ end }}
+        {{- with $source }}<span class="fig_source">{{ . | markdownify }}</span>{{ end }}
+    </figcaption>
+    {{- end }}
+</figure>

@@ -1,0 +1,28 @@
+prev_page:
+  other: "← Page précédente"
+next_page:
+  other: "Page suivante →"
+reading_time:
+  other: "{{ .Count }} min de lecture"
+published_on:
+  other: "Publié le"
+updated_on:
+  other: "Mis à jour le"
+by_author:
+  other: "Par"
+tags:
+  other: "Tags"
+series:
+  other: "Série"
+in_this_series:
+  other: "Dans cette série"
+part_of:
+  other: "Cet article fait partie de la série"
+methodology:
+  other: "Méthodologie et données"
+back_to_top:
+  other: "Retour en haut de page"
+menu:
+  other: "Menu"
+search:
+  other: "Rechercher"

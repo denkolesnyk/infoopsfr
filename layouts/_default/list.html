@@ -1,35 +1,32 @@
-
 {{ partial "head.html" . }}
 
 <body>
-    <div class="main animate__animated animate__fadeInDown">
+    <div class="main">
         {{ partial "nav.html" . }}
         {{ partial "header.html" . }}
         <div class="content">
+            <h1 class="page_heading">{{ .Title }}</h1>
+            {{- with .Content }}<div class="page_intro markdown">{{ . }}</div>{{ end }}
+
             <div class="list_with_title">
-                {{ range .Data.Pages.GroupByDate "2006" }}
+                {{- range .Pages.GroupByDate "2006" }}
                 <div class="listing_title">{{ .Key }}</div>
-                <div class="listing">
-                    {{ range .Pages }}
-                    <div class="listing_item">
+                <ul class="listing">
+                    {{- range .Pages }}
+                    <li class="listing_item">
                         <div class="listing_post">
                             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                            <div class="post_time"><span class="date">{{ .Date.Format "01-02" }}</span></div>
-                            <!-- Show image only if 'show_image_on_homepage' is true -->
-                            {{ if and (.Params.image) (.Params.show_image_on_homepage) }}
-                            <div class="post_image">
-                                <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" style="max-width: 100%; height: auto;" />
+                            <div class="post_time">
+                                <time class="date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01" }}</time>
                             </div>
-                            {{ end }}
                         </div>
-                    </div>
-                    {{ end }}
-                </div>
-                {{ end }}
+                    </li>
+                    {{- end }}
+                </ul>
+                {{- end }}
             </div>
-            <div class="pagination"></div>
         </div>
-        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+        <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
     </div>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}

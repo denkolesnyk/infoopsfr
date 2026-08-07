@@ -10,24 +10,33 @@
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
+{{- $author := .Site.Params.author -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>{{ .Site.Params.description }}</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>{{ .Site.LanguageCode }}</language>
-    {{ with .Site.Params.social.twitter }}<managingEditor>{{ . }}</managingEditor>{{ end }}
-    {{ range $pages }}
+    <language>{{ .Site.Language.Lang }}</language>
+    <copyright>© Info Ops France 2022–{{ now.Year }}</copyright>
+    {{- with .OutputFormats.Get "rss" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType.Type | safeHTML }}
+    {{- end }}
+    {{- range $pages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
-      <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | html }}</description>
-      {{ range .Params.tags }}<category>{{ . }}</category>{{ end }}
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      {{- with (cond (isset .Params "author") (.Params.author | default "") $author) }}
+      <dc:creator>{{ . }}</dc:creator>
+      {{- end }}
+      <description>{{ .Content | transform.XMLEscape | safeHTML }}</description>
+      {{- range .Params.tags }}
+      <category>{{ . }}</category>
+      {{- end }}
     </item>
-    {{ end }}
+    {{- end }}
   </channel>
 </rss>

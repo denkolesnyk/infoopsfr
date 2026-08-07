@@ -1,0 +1,25 @@
+{{- /* Lists every post in the same series, so a reader landing mid-run
+       can reach the rest of it. Renders nothing for standalone posts. */ -}}
+{{- $current := . -}}
+{{- range .GetTerms "series" -}}
+{{- $posts := .Pages.ByDate -}}
+{{- if gt (len $posts) 1 }}
+<aside class="series_box" aria-label="{{ i18n "in_this_series" }}">
+    <div class="series_head">
+        {{ partial "icon.html" "layers" }}
+        <span>{{ i18n "part_of" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+    </div>
+    <ol class="series_list">
+        {{- range $posts }}
+        <li{{ if eq .RelPermalink $current.RelPermalink }} class="is_current" aria-current="true"{{ end }}>
+            {{- if eq .RelPermalink $current.RelPermalink }}
+            <span>{{ .Title }}</span>
+            {{- else }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{- end }}
+        </li>
+        {{- end }}
+    </ol>
+</aside>
+{{- end }}
+{{- end -}}

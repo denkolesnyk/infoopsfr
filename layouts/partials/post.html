@@ -1,52 +1,47 @@
 {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-{{ range $paginator.Pages }}
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
-    </div>
-    {{ if .Site.Params.enableSummary }}
+{{- range $paginator.Pages }}
+<article class="post">
+    <h2 class="post_title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+
+    {{- if .Site.Params.enableSummary }}
     <div class="list">
         <div class="post_content markdown">
-            <p>{{ .Summary }}......</p>
+            <p>{{ or .Description (.Summary | plainify) }}</p>
         </div>
     </div>
-    {{ end }}
+    {{- end }}
+
     <div class="post_footer">
         <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">{{ .Date.Format "2006.01.02" }}</span>
-                </span>
-                <span class="field">
-                    <i class="ri-time-line"></i>
-                    <span>{{ .ReadingTime }} min</span>
-                </span>
-                {{ with .Params.tags }}
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    {{ range . }}
-                    <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
-                    {{ end }}
-                </span>
-                {{ end }}
-            </div>
+            <span class="field">
+                {{ partial "icon.html" "calendar" }}
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>
+            </span>
+            <span class="field">
+                {{ partial "icon.html" "clock" }}
+                <span>{{ i18n "reading_time" (dict "Count" .ReadingTime) }}</span>
+            </span>
+            {{- with .Params.tags }}
+            <span class="field tags">
+                {{ partial "icon.html" "tag" }}
+                {{- range . }}
+                <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+                {{- end }}
+            </span>
+            {{- end }}
         </div>
     </div>
-</div>
-{{ end }}
+</article>
+{{- end }}
 
-<div class="pagination">
-    {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-    {{ if $paginator.HasPrev }}
-    <a href="{{$paginator.Prev.URL}}" class="pre">
-        {{ i18n "prev_page" }}
-    </a>
-    {{ end }}
-    {{ if $paginator.HasNext }}
-    <a href="{{$paginator.Next.URL}}" class="next">
-        {{ i18n "next_page" }}
-    </a>
-    {{ end }}
-    {{ end }}
-</div>
+{{- if or $paginator.HasPrev $paginator.HasNext }}
+<nav class="pagination" aria-label="Pagination">
+    {{- if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="pre" rel="prev">{{ i18n "prev_page" }}</a>
+    {{- end }}
+    <span class="pagination_status">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+    {{- if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="next" rel="next">{{ i18n "next_page" }}</a>
+    {{- end }}
+</nav>
+{{- end }}

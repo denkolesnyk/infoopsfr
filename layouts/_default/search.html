@@ -1,56 +1,46 @@
 {{ partial "head.html" . }}
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<style>
-  .search-container {
-    padding: 50px 0 80px;
-  }
-  .search-container h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #1f1f1f;
-    margin: 0 0 30px 0;
-    letter-spacing: 1px;
-  }
-  /* Pagefind overrides to match site palette */
-  :root {
-    --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: #e42b2b;
-    --pagefind-ui-text: #333333;
-    --pagefind-ui-background: #ffffff;
-    --pagefind-ui-border: #f3f3f3;
-    --pagefind-ui-tag: #f3f3f3;
-    --pagefind-ui-border-width: 1px;
-    --pagefind-ui-border-radius: 4px;
-    --pagefind-ui-font: "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  }
-  .pagefind-ui__search-input {
-    font-size: 1rem !important;
-  }
-  .pagefind-ui__result-link {
-    color: #e42b2b !important;
-  }
-  .pagefind-ui__result-link:hover {
-    color: #8e0000 !important;
-  }
-</style>
+<link href="{{ "pagefind/pagefind-ui.css" | absURL }}" rel="stylesheet" />
 
 <body>
-    <div class="main animate__animated animate__fadeInDown">
+    <div class="main">
         {{ partial "nav.html" . }}
         {{ partial "header.html" . }}
         <div class="content">
             <div class="search-container">
-                <h2>{{ .Title }}</h2>
+                <h1 class="page_heading">{{ .Title }}</h1>
                 <div id="search"></div>
+                <noscript>
+                    <p class="search_noscript">La recherche nécessite JavaScript. Vous pouvez parcourir
+                    l'<a href="{{ "posts/" | absURL }}">archive</a> ou les <a href="{{ "tags/" | absURL }}">tags</a>.</p>
+                </noscript>
             </div>
         </div>
-        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+        <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
     </div>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
-    <script src="/pagefind/pagefind-ui.js"></script>
+    <script src="{{ "pagefind/pagefind-ui.js" | absURL }}"></script>
     <script>
-      new PagefindUI({ element: "#search", showSubResults: true });
+      window.addEventListener('DOMContentLoaded', function () {
+        new PagefindUI({
+          element: "#search",
+          showSubResults: true,
+          showImages: false,
+          translations: {
+            placeholder: "Rechercher dans les publications",
+            clear_search: "Effacer",
+            load_more: "Afficher plus de résultats",
+            search_label: "Rechercher sur ce site",
+            filters_label: "Filtres",
+            zero_results: "Aucun résultat pour [SEARCH_TERM]",
+            many_results: "[COUNT] résultats pour [SEARCH_TERM]",
+            one_result: "[COUNT] résultat pour [SEARCH_TERM]",
+            alt_search: "Aucun résultat pour [SEARCH_TERM]. Résultats affichés pour [DIFFERENT_TERM]",
+            search_suggestion: "Aucun résultat pour [SEARCH_TERM]. Essayez l'une de ces recherches :",
+            searching: "Recherche en cours…"
+          }
+        });
+      });
     </script>
 </body>
 

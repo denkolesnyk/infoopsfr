@@ -1,0 +1,14 @@
+{{- $author := cond (isset .Params "author") (.Params.author | default "") .Site.Params.author -}}
+<div class="byline">
+    {{- with $author }}
+    <span class="byline_author" rel="author">{{ i18n "by_author" }} <strong>{{ . }}</strong></span>
+    {{- end }}
+    <span class="byline_sep" aria-hidden="true">·</span>
+    <time class="byline_date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>
+    {{- if gt (.Lastmod.Sub .Date).Hours 24 }}
+    <span class="byline_sep" aria-hidden="true">·</span>
+    <span class="byline_updated">{{ i18n "updated_on" }} <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod | time.Format "2 January 2006" }}</time></span>
+    {{- end }}
+    <span class="byline_sep" aria-hidden="true">·</span>
+    <span class="byline_reading">{{ partial "icon.html" "clock" }} {{ i18n "reading_time" (dict "Count" .ReadingTime) }}</span>
+</div>

@@ -1,26 +1,18 @@
-
 baseURL = "https://infoops.fr"
-languageCode = "fr"
+locale = "fr"
 defaultContentLanguage = "fr"
 title = "Info Ops France"
-theme = "zozo"
-hasCJKLanguage = true
-summaryLength = 100
+summaryLength = 40
+enableEmoji = false
+# Français : pas de Title Case sur les titres de listes/taxonomies.
+capitalizeListTitles = false
 
 [pagination]
-pagerSize = 4
-enableEmoji = false
-
-pygmentsUseClasses = true
-pygmentCodeFences = true
-pygmentscodefencesguesssyntax = true
+  pagerSize = 4
 
 [taxonomies]
   tag = "tags"
   series = "series"
-
-[blackfriday]
-  smartypants = false
 
 [[menu.main]]
   name = "Accueil"
@@ -32,6 +24,11 @@ pygmentscodefencesguesssyntax = true
   weight = 20
   identifier = "archive"
   url = "/posts/"
+[[menu.main]]
+  name = "Séries"
+  weight = 25
+  identifier = "series"
+  url = "/series/"
 [[menu.main]]
   name = "Tags"
   weight = 30
@@ -49,8 +46,8 @@ pygmentscodefencesguesssyntax = true
   url = "/a-propos/"
 
 [params]
+  author = "Denys Kolesnyk"
   subTitle = "« L'esprit des nations belligérantes est la 4ème dimension [de la guerre] »"
-  footerSlogan = "@ Info Ops France 2022-2025"
   keywords = ["Info Ops France","désinformation","infoguerre"]
   description = "L’initiative Info Ops France a pour but d’améliorer la résilience informationnelle de la société française."
   enableMathJax = false
@@ -62,6 +59,10 @@ pygmentscodefencesguesssyntax = true
     facebook = "https://www.facebook.com/infoopsfr/"
 
 [markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-  unsafe = true
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3

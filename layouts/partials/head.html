@@ -1,75 +1,64 @@
-
 <!DOCTYPE html>
-<html {{ with .Site.LanguageCode }}lang="{{ . }}" {{ end }}>
+<html lang="{{ .Site.Language.Lang }}">
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {{- $author := cond (isset .Params "author") (.Params.author | default "") .Site.Params.author }}
+    {{- $desc := "" }}
+    {{- if .Description }}{{ $desc = .Description | plainify }}
+    {{- else if .IsPage }}{{ $desc = .Summary | plainify }}
+    {{- else }}{{ $desc = .Site.Params.description }}{{ end }}
+    {{- $ogImage := "" }}
+    {{- with .Params.image }}{{ $ogImage = (print $.Site.BaseURL (. | strings.TrimPrefix "/")) }}
+    {{- else }}{{ $ogImage = (print $.Site.BaseURL "images/logo.png") }}{{ end }}
+
+    <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.subTitle | plainify }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ $desc }}" />
+    <meta name="author" content="{{ $author }}" />
+    {{- with .Keywords }}
+    <meta name="keywords" content="{{ delimit . ", " }}" />
+    {{- else }}{{ with .Site.Params.keywords }}
+    <meta name="keywords" content="{{ delimit . ", " }}" />
+    {{- end }}{{ end }}
 
     <!-- Open Graph -->
-    {{ $ogImage := "" }}
-    {{ with .Params.image }}{{ $ogImage = (print $.Site.BaseURL (. | strings.TrimPrefix "/")) }}{{ else }}{{ $ogImage = (print $.Site.BaseURL "images/logo.png") }}{{ end }}
-    {{ $ogDesc := "" }}
-    {{ if .Description }}{{ $ogDesc = .Description | plainify }}{{ else if .IsPage }}{{ $ogDesc = .Summary | plainify }}{{ else }}{{ $ogDesc = .Site.Params.description }}{{ end }}
     <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
     <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
-    <meta property="og:description" content="{{ $ogDesc | htmlEscape }}" />
+    <meta property="og:description" content="{{ $desc }}" />
     <meta property="og:image" content="{{ $ogImage }}" />
-    {{ if .IsPage }}
+    {{- if .IsPage }}
     <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
-    {{ range .Params.tags }}<meta property="article:tag" content="{{ . }}" />{{ end }}
-    {{ end }}
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
+    <meta property="article:author" content="{{ $author }}" />
+    {{- range .Params.tags }}
+    <meta property="article:tag" content="{{ . }}" />
+    {{- end }}
+    {{- end }}
+
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
-    <meta name="twitter:description" content="{{ $ogDesc | htmlEscape }}">
-    <meta name="twitter:image" content="{{ $ogImage }}">
-    <meta name="twitter:site" content="@infoopsfr">
-    <meta name="twitter:creator" content="@infoopsfr">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+    <meta name="twitter:description" content="{{ $desc }}" />
+    <meta name="twitter:image" content="{{ $ogImage }}" />
+    <meta name="twitter:site" content="@infoopsfr" />
+    <meta name="twitter:creator" content="@infoopsfr" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="{{ if .Params.author }}{{ .Params.author | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}" />
-	{{ $title := ( .Title ) }}
-	{{ $siteTitle := ( .Site.Title ) }}
-	{{ if .IsHome }}
-	<title>{{ $siteTitle }} {{ if isset .Site.Params "subtitle" }}｜ {{ .Site.Params.Subtitle }}{{ end }} </title>
-	{{ else }}
-	<title>{{ $title }} ｜ {{ $siteTitle }}</title>
-	{{ end }}
-    <!-- description & keywords -->
-    {{ if .Description }}
-    <meta name="description" content="{{ .Description | safeHTML }}" />
-    {{ else if .IsPage }}
-    <meta name="description" content="{{ .Summary | plainify }}" />
-    {{ else if .Site.Params.description }}
-    <meta name="description" content="{{ .Site.Params.description | safeHTML }}" />
-    {{ end }}
-
-    {{ if .Keywords }}
-    {{ $length := len .Keywords | add -1 }}
-    <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
-    {{ else if .Site.Params.keywords }}
-    {{ $length := len .Site.Params.keywords | add -1 }}
-    <meta name="keywords" content="{{ range $index, $element := .Site.Params.keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
-    {{ end }}
-
-	{{ with .OutputFormats.Get "rss" }}
-	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end }}
-    
+    {{- with .OutputFormats.Get "rss" }}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}" />
+    {{- end }}
     <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" />
     <link rel="apple-touch-icon" href="{{ "images/apple-touch-icon.png" | absURL }}" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/normalize.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/animate.min.css" | absURL }}" />
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/zozo.css" |absURL }}" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/highlight.css" | absURL }}" />
-
-    <!-- custom css -->
-    {{ range .Site.Params.customCSS }}
+    <link rel="stylesheet" href="{{ "css/normalize.css" | absURL }}" />
+    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
+    <link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}" />
+    {{- range .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ "css/" | absURL }}{{ . }}" />
-    {{ end }}
+    {{- end }}
 </head>

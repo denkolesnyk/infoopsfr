@@ -1,13 +1,15 @@
 {{ partial "head.html" . }}
 
 <body>
-    <div class="main animate__animated animate__fadeInDown">
+    <div class="main">
         {{ partial "nav.html" . }}
         {{ partial "header.html" . }}
+        <h1 class="sr_only">{{ .Site.Title }} — {{ .Site.Params.description }}</h1>
         <div class="content">
-            {{ partial "post.html" .}}
+            {{ partial "post.html" . }}
         </div>
     </div>
+    <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
 </body>
