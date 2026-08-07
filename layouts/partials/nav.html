@@ -10,17 +10,9 @@
             {{- end }}
         </ul>
     </nav>
-    <div class="nav_actions">
-        <button type="button" id="theme_toggle" class="theme_toggle"
-                aria-label="{{ i18n "theme_toggle" }}" title="{{ i18n "theme_toggle" }}"
-                data-label-light="{{ i18n "theme_light" }}" data-label-dark="{{ i18n "theme_dark" }}" hidden>
-            <span class="theme_icon theme_icon_sun">{{ partial "icon.html" "sun" }}</span>
-            <span class="theme_icon theme_icon_moon">{{ partial "icon.html" "moon" }}</span>
+    <div class="menu_icon">
+        <button type="button" id="menu_icon" aria-controls="site_nav" aria-expanded="false" aria-label="{{ i18n "menu" }}">
+            {{ partial "icon.html" "menu" }}
         </button>
-        <div class="menu_icon">
-            <button type="button" id="menu_icon" aria-controls="site_nav" aria-expanded="false" aria-label="{{ i18n "menu" }}">
-                {{ partial "icon.html" "menu" }}
-            </button>
-        </div>
     </div>
 </div>

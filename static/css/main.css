@@ -253,18 +253,17 @@ hr {
   margin: 5px 0;
 }
 
-.header .my_socials i {
-  margin-left: 10px;
-}
-
-.header .my_socials a {
+/* Liens sociaux et sélecteur de thème : une seule rangée, une seule taille. */
+.header .my_socials a,
+.header .my_socials .theme_toggle {
   color: var(--text-muted);
-  font-size: 12px;
+  font-size: 1.05rem;
   float: none;
   cursor: pointer;
 }
 
-.header .my_socials a:hover {
+.header .my_socials a:hover,
+.header .my_socials .theme_toggle:hover {
   color: var(--text-strong);
 }
 
@@ -945,11 +944,16 @@ input:focus-visible,
   flex: none;
 }
 
+.my_socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
 .my_socials a {
   display: inline-flex;
   align-items: center;
-  font-size: 1.15rem;
-  margin: 0 6px;
 }
 
 /* Navigation mobile ------------------------------------------------------- */
@@ -1242,20 +1246,6 @@ input:focus-visible,
 @media print, screen and (max-width: 680px) {
   .nav_container .site_nav.is_open { display: block; }
 
-  /* Le bouton menu passe en position fixe sur mobile (règle héritée du
-     thème) ; on fixe le conteneur entier pour que le sélecteur de thème
-     reste collé à côté de lui au lieu de rester dans le flux. */
-  .nav_actions {
-    position: fixed;
-    right: 0;
-    top: 12px;
-    z-index: 1000;
-    float: none;
-  }
-  .nav_container .menu_icon {
-    position: static;
-  }
-
   .post_content th,
   .post_content td {
     padding: 6px 10px;
@@ -1280,27 +1270,23 @@ input:focus-visible,
 
 /* Sélecteur de thème clair / sombre ---------------------------------------- */
 
-.nav_actions {
-  float: right;
-  display: flex;
-  align-items: center;
-}
-
+/* Le sélecteur vit dans la rangée d'icônes sociales : mêmes dimensions,
+   même couleur et même espacement que les liens qui l'entourent. */
 .theme_toggle {
   background: none;
   border: 0;
-  padding: 10px;
+  padding: 0;
   margin: 0;
   cursor: pointer;
   color: var(--text-muted);
-  font-size: 1.05rem;
   line-height: 1;
   display: inline-flex;
   align-items: center;
-  border-radius: 4px;
+  vertical-align: middle;
+  border-radius: 3px;
 }
 
-.theme_toggle:hover { color: var(--text); }
+.theme_toggle:hover { color: var(--text-strong); }
 
 .theme_toggle[hidden] { display: none; }
 

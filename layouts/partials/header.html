@@ -8,16 +8,22 @@
         <div class="description">
             <p class="sub_title">{{ .Site.Params.subTitle }}</p>
 
-            <nav class="my_socials" aria-label="Réseaux sociaux">
+            <div class="my_socials">
                 {{- with .Site.Params.social.twitter }}
-                <a href="{{ . }}" title="Twitter / X" rel="me noopener" target="_blank">{{ partial "icon.html" "twitter" }}<span class="sr_only">Twitter</span></a>
+                <a href="{{ . }}" title="X" rel="me noopener" target="_blank">{{ partial "icon.html" "x" }}<span class="sr_only">X</span></a>
                 {{- end }}
                 {{- with .Site.Params.social.facebook }}
                 <a href="{{ . }}" title="Facebook" rel="me noopener" target="_blank">{{ partial "icon.html" "facebook" }}<span class="sr_only">Facebook</span></a>
                 {{- end }}
                 <a href="mailto:contact@infoops.fr" title="Contact">{{ partial "icon.html" "mail" }}<span class="sr_only">Email</span></a>
                 <a href="{{ "index.xml" | absURL }}" title="Flux RSS">{{ partial "icon.html" "rss" }}<span class="sr_only">RSS</span></a>
-            </nav>
+                <button type="button" id="theme_toggle" class="theme_toggle"
+                        aria-label="{{ i18n "theme_toggle" }}" title="{{ i18n "theme_toggle" }}"
+                        data-label-light="{{ i18n "theme_light" }}" data-label-dark="{{ i18n "theme_dark" }}" hidden>
+                    <span class="theme_icon theme_icon_sun">{{ partial "icon.html" "sun" }}</span>
+                    <span class="theme_icon theme_icon_moon">{{ partial "icon.html" "moon" }}</span>
+                </button>
+            </div>
         </div>
     </div>
 </header>

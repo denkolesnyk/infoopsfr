@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
   };
 
   if (toggle) {
+    sync();            // set the icon state before revealing the button
     toggle.hidden = false;
-    sync();
     toggle.addEventListener('click', function () {
       var next = effective() === 'dark' ? 'light' : 'dark';
       root.setAttribute('data-theme', next);
