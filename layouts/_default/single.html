@@ -39,15 +39,17 @@
                         {{ partial "byline.html" . }}
                     </header>
 
-                    {{ partial "series.html" . }}
-
                     {{- /* L'image de couverture sert aussi de vignette sociale
                            (og:image). Si elle est déjà utilisée dans le corps
                            de l'article, on ne l'affiche pas deux fois : la
                            version en contexte, avec son texte alternatif
-                           descriptif, est conservée. */ -}}
+                           descriptif, est conservée. On teste les deux
+                           écritures possibles, l'image Markdown ![](…) et
+                           le src="…" du shortcode figure. */ -}}
                     {{- with .Params.image }}
-                    {{- if not (strings.Contains $.RawContent (printf "](%s)" .)) }}
+                    {{- $inBody := or (strings.Contains $.RawContent (printf "](%s)" .))
+                                     (strings.Contains $.RawContent (printf "src=%q" .)) }}
+                    {{- if not $inBody }}
                     <div class="post_image">
                         <img src="{{ . | absURL }}" alt="{{ $.Title }}" loading="eager" decoding="async" />
                     </div>

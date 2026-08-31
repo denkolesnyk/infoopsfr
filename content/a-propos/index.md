@@ -11,4 +11,4 @@ L'initiative Info Ops France a pour but d'améliorer la résilience informationn
 
 Le nom de l'initiative signifie « *opérations d'information - France* », même si l’abréviation correcte est « *OI* », Info Ops France a été privilégié du point de vue purement esthétique. L'initiative est à but non-lucratif, mais la possibilité de soutenir notre travail sera bientôt disponible. Elle a été fondée par [Denys Kolesnyk](https://kolesnyk.fr).
 
-Si vous maîtrisez des langues rares comme, par exemple, le wolof, le bambara, l'arabe ou le sango, et souhaiteriez rejoindre notre initiative, n'hésitez pas à prendre [contact](mailto:contact@infoops.fr) avec nous.
+Si vous maîtrisez des langues rares comme, par exemple, le wolof, le bambara, l'arabe ou le sango, et souhaiteriez rejoindre notre initiative, n'hésitez pas à prendre [contact](mailto:contact@kolesnyk.fr) avec nous.

@@ -1,0 +1,56 @@
+{{- /* Courbes d'évolution : une ligne par mot-clé, un point par jour.
+       Illustration du volume brut de la collecte, pas du tri éditorial.
+
+   {{< courbes >}}
+   { "mois": "août 2026", "ymax": 12, "legende": "…", "source": "…",
+     "jours": ["2026-08-17", …],
+     "series": [ {"nom": "France", "valeurs": [7,3,…]}, … ] }
+   {{< /courbes >}}
+*/ -}}
+{{- $d := .Inner | transform.Unmarshal -}}
+{{- $jours := $d.jours -}}{{- $series := $d.series -}}
+{{- $n := len $jours -}}
+{{- $w := 900.0 -}}{{- $h := 380.0 -}}
+{{- $l := 34.0 -}}{{- $r := 14.0 -}}{{- $t := 14.0 -}}{{- $b := 34.0 -}}
+{{- $pw := sub $w (add $l $r) -}}{{- $ph := sub $h (add $t $b) -}}
+{{- $ymax := float (default 12 $d.ymax) -}}
+{{- $dx := div $pw (float (sub $n 1)) -}}
+<figure class="courbes">
+  <svg viewBox="0 0 {{ $w }} {{ $h }}" role="img" preserveAspectRatio="xMidYMid meet"
+       aria-label="Nombre de messages par jour pour chaque mot-clé, du {{ index $jours 0 }} au {{ index $jours (sub $n 1) }}. Les données chiffrées suivent dans un tableau.">
+    {{- range $g := seq 0 4 }}
+    {{- $val := div (mul (float $g) $ymax) 4.0 }}
+    {{- $y := add $t (sub $ph (mul (div $val $ymax) $ph)) }}
+    <line class="cb_grid" x1="{{ $l }}" y1="{{ $y }}" x2="{{ sub $w $r }}" y2="{{ $y }}" />
+    <text class="cb_ytick" x="{{ sub $l 8 }}" y="{{ add $y 4 }}">{{ math.Round $val }}</text>
+    {{- end }}
+    <text class="cb_unit" x="{{ $l }}" y="{{ sub $t 2 }}">messages par jour</text>
+    {{- range $si, $s := $series }}
+    {{- $pts := slice }}
+    {{- range $i, $v := $s.valeurs }}
+    {{- $pts = $pts | append (printf "%.1f,%.1f" (add $l (mul (float $i) $dx)) (add $t (sub $ph (mul (div (float $v) $ymax) $ph)))) }}
+    {{- end }}
+    <polyline class="cb_line cb_s{{ add $si 1 }}" points="{{ delimit $pts " " }}" />
+    {{- range $i, $v := $s.valeurs }}{{ if gt $v 0 }}
+    <circle class="cb_dot cb_s{{ add $si 1 }}" cx="{{ add $l (mul (float $i) $dx) }}"
+            cy="{{ add $t (sub $ph (mul (div (float $v) $ymax) $ph)) }}" r="4" />
+    {{- end }}{{ end }}
+    {{- end }}
+    {{- range $i, $j := $jours }}
+    {{- $x := add $l (mul (float $i) $dx) }}
+    <text class="cb_xtick" x="{{ $x }}" y="{{ sub $h 12 }}">{{ substr $j 8 2 }}/{{ substr $j 5 2 }}</text>
+    <rect class="cb_hit" fill="none" pointer-events="all" x="{{ sub $x (div $dx 2) }}" y="{{ $t }}"
+          width="{{ $dx }}" height="{{ $ph }}"><title>{{ $j }}{{ range $series }}{{ if gt (index .valeurs $i) 0 }} · {{ .nom }} {{ index .valeurs $i }}{{ end }}{{ end }}</title></rect>
+    {{- end }}
+  </svg>
+  <ul class="cb_legend">
+    {{- range $si, $s := $series }}
+    {{- $tot := 0 }}{{ range $s.valeurs }}{{ $tot = add $tot . }}{{ end }}
+    <li><span class="cb_swatch cb_s{{ add $si 1 }}"></span>{{ $s.nom }} <span class="cb_total">{{ $tot }}</span></li>
+    {{- end }}
+  </ul>
+  <figcaption>
+    {{- with $d.legende }}<span class="fig_caption">{{ . | markdownify }}</span>{{ end }}
+    <span class="fig_source">{{ with $d.source }}{{ . }}{{ else }}Graphique Info Ops France, d'après la sortie de l'outil DFN.{{ end }}</span>
+  </figcaption>
+</figure>

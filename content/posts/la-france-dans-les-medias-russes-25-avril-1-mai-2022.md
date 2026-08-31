@@ -2,7 +2,6 @@
 title: "La France dans les médias russes - 25 avril-1 mai 2022"
 date: "2022-05-04T22:35:10+01:00"
 tags: ["France", "Mali", "Russie", "Ukraine"]
-series: ["La France dans les médias russes"]
 description: "Rapport hebdomadaire du 25 avril au 1er mai 2022 : après-présidentielles, retrait français du Mali et narratif russe sur la fatigue des Français face aux réfugiés ukrainiens."
 image: "/images/fan_france_refugies_ukrainiens.webp"
 draft: false

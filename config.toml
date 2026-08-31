@@ -6,13 +6,16 @@ summaryLength = 40
 enableEmoji = false
 # Français : pas de Title Case sur les titres de listes/taxonomies.
 capitalizeListTitles = false
+# URL sans accents : /bulletins/presidentielle-2027/ plutôt que la version
+# percent-encodée. Les anciennes adresses sont redirigées dans netlify.toml.
+removePathAccents = true
 
 [pagination]
   pagerSize = 4
 
 [taxonomies]
   tag = "tags"
-  series = "series"
+  bulletin = "bulletins"
 
 [[menu.main]]
   name = "Accueil"
@@ -25,10 +28,13 @@ capitalizeListTitles = false
   identifier = "archive"
   url = "/posts/"
 [[menu.main]]
-  name = "Séries"
+  name = "Bulletins"
   weight = 25
-  identifier = "series"
-  url = "/series/"
+  identifier = "bulletins"
+  # Une seule série pour l'instant : le menu pointe droit dessus plutôt que
+  # sur une page de liste à une entrée. À repasser sur /bulletins/ dès qu'une
+  # deuxième série existe.
+  url = "/bulletins/presidentielle-2027/"
 [[menu.main]]
   name = "À propos"
   weight = 40

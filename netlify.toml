@@ -7,6 +7,64 @@
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
+# La taxonomie « series » a été renommée « bulletins », et la série 2022
+# « La France dans les médias russes » n'est plus une série : ses articles
+# restent dans l'archive. Les règles les plus spécifiques d'abord, Netlify
+# appliquant la première qui correspond.
+[[redirects]]
+  from = "/series/la-france-dans-les-médias-russes/"
+  to = "/posts/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bulletins/la-france-dans-les-médias-russes/"
+  to = "/posts/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bulletins/la-france-dans-les-medias-russes/"
+  to = "/posts/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/series/"
+  to = "/bulletins/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/series/*"
+  to = "/bulletins/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bulletins/présidentielle-2027/"
+  to = "/bulletins/presidentielle-2027/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/présidentielle-2027/"
+  to = "/tags/presidentielle-2027/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/désinformation/"
+  to = "/tags/desinformation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/guerre-non-cinétique/"
+  to = "/tags/guerre-non-cinetique/"
+  status = 301
+  force = true
+
 # Les fichiers ci-dessous sont versionnés par leur nom : quand le contenu
 # change, le nom change. On peut donc les mettre en cache longtemps.
 [[headers]]

@@ -2,7 +2,6 @@
 title: "La France dans les médias russes - 21-27 mars 2022"
 date: "2022-03-28T19:23:30+02:00"
 tags: ["France", "Russie", "Ukraine"]
-series: ["La France dans les médias russes"]
 description: "Rapport hebdomadaire du 21 au 27 mars 2022 : reprise des rapports après la pause liée à l'invasion russe de l'Ukraine, rôle diplomatique de la France et propagande russe."
 image: "/images/ria_zelensky.jpg"
 draft: false
