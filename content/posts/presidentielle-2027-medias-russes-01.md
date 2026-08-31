@@ -19,7 +19,7 @@ Ce premier numéro du bulletin couvre la période du 17 au 30 août 2026 et port
 ## En bref
 
 - Sur 115 messages, 60 sont de tonalité négative.
-- Les formulations les plus dures ne visent pas des candidats, mais l'État français : la France est désignée le 27 août comme portant « une responsabilité directe » dans des actes terroristes en Russie, et tout contingent étranger en Ukraine comme « cible militaire légitime ».
+- Les formulations les plus dures ne visent pas des candidats, mais l'État français : la France est désignée le 27 août comme portant « une responsabilité directe » dans des « actes terroristes » en Russie, et tout contingent étranger en Ukraine comme « cible militaire légitime ».
 - Vzglyad sur Raphaël Glucksmann : « On prépare un russophobe pire encore pour succéder à Macron ».
 - Les sondages plaçant Marine Le Pen en tête sont relayés sans commentaire par la chaîne la plus suivie de notre collecte.
 - Aucune action coordonnée n'a été relevée dans cette collecte.
