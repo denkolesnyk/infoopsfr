@@ -69,10 +69,20 @@
       })();
     </script>
 
-    <link rel="stylesheet" href="{{ "css/normalize.css" | absURL }}" />
-    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
-    <link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}" />
+    {{- /* Feuilles de style passées par le pipeline Hugo : le nom de fichier
+           porte une empreinte du contenu (main.<hash>.css). Quand le CSS change,
+           l'URL change, et le cache long défini dans netlify.toml pour /css/*
+           cesse de servir une version périmée aux visiteurs déjà venus. */ -}}
+    {{- range slice "normalize" "main" "highlight" }}
+    {{- with resources.Get (printf "css/%s.css" .) }}
+    {{- $css := . | fingerprint "sha256" }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+    {{- end }}
+    {{- end }}
     {{- range .Site.Params.customCSS }}
-    <link rel="stylesheet" href="{{ "css/" | absURL }}{{ . }}" />
+    {{- with resources.Get (printf "css/%s" .) }}
+    {{- $css := . | fingerprint "sha256" }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+    {{- end }}
     {{- end }}
 </head>
