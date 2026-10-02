@@ -52,6 +52,22 @@ removePathAccents = true
   enableSummary = true
   mainSections = ["posts","post"]
 
+  # Soutien : page /soutenir/, ligne en fin d'article et lien dans le pied
+  # de page. Pour ajouter un portefeuille crypto, décommenter et compléter
+  # un bloc [[params.support.crypto]] : il apparaît sur la page Soutenir
+  # avec son réseau et un bouton « Copier ». Toujours préciser le réseau.
+  [params.support]
+    buymeacoffee = "https://buymeacoffee.com/kolesnyk"
+    paypal = "https://paypal.me/denkolesnyk"
+#   [[params.support.crypto]]
+#     name = "Bitcoin"
+#     network = "réseau Bitcoin"
+#     address = "bc1…"
+#   [[params.support.crypto]]
+#     name = "USDT"
+#     network = "réseau Tron (TRC-20)"
+#     address = "T…"
+
   [params.social]
     twitter = "https://x.com/infoopsfr"
     facebook = "https://www.facebook.com/infoopsfr/"

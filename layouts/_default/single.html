@@ -82,6 +82,10 @@
             </footer>
             {{- end }}
 
+            {{- if site.Params.support }}
+            <p class="support_line">Info Ops France est un projet indépendant. <a href="{{ "soutenir/" | relURL }}">Soutenir notre travail →</a></p>
+            {{- end }}
+
             {{- /* Entre deux bulletins : « numéro précédent / suivant ».
                    Sinon : « article précédent / suivant ». PrevInSection
                    est l'article plus ancien. */}}

@@ -1,0 +1,25 @@
+{{- /* Moyens de soutien, lus dans [params.support] de config.toml :
+       une seule source pour les liens et les adresses.
+   Usage, dans content/soutenir.md : {{< soutien >}} */ -}}
+{{- with site.Params.support }}
+<ul class="support_list">
+    {{- with .buymeacoffee }}
+    <li><a href="{{ . }}" rel="noopener" target="_blank">Buy Me a Coffee</a> <span class="support_note">paiement ponctuel ou mensuel</span></li>
+    {{- end }}
+    {{- with .paypal }}
+    <li><a href="{{ . }}" rel="noopener" target="_blank">PayPal</a> <span class="support_note">paiement ponctuel</span></li>
+    {{- end }}
+</ul>
+{{- with .crypto }}
+<h2>Cryptomonnaies</h2>
+<p>Vérifiez le réseau avant tout envoi : des fonds envoyés sur un autre réseau sont perdus.</p>
+<ul class="support_list support_crypto">
+    {{- range . }}
+    <li>
+        <span class="support_coin">{{ .name }}</span> <span class="support_note">{{ .network }}</span>
+        <span class="support_addr"><code>{{ .address }}</code> <button type="button" class="copy_btn" data-copy="{{ .address }}">Copier</button></span>
+    </li>
+    {{- end }}
+</ul>
+{{- end }}
+{{- end }}

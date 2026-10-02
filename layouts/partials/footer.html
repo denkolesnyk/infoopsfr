@@ -1,5 +1,5 @@
 <footer class="footer">
     <div class="wrap">
-        <p class="footer_legal">© Info Ops France 2022–{{ now.Year }}</p>
+        <p class="footer_legal">© Info Ops France 2022–{{ now.Year }}{{ if site.Params.support }} · <a href="{{ "soutenir/" | relURL }}">Nous soutenir</a>{{ end }}</p>
     </div>
 </footer>

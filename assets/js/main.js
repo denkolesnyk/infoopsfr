@@ -64,4 +64,16 @@ document.addEventListener('DOMContentLoaded', function () {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }
+
+  // Page Soutenir : copier une adresse de portefeuille.
+  document.querySelectorAll('.copy_btn').forEach(function (b) {
+    b.addEventListener('click', function () {
+      if (!navigator.clipboard) return;
+      navigator.clipboard.writeText(b.getAttribute('data-copy')).then(function () {
+        var t = b.textContent;
+        b.textContent = 'Copié';
+        setTimeout(function () { b.textContent = t; }, 1500);
+      });
+    });
+  });
 });
