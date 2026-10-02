@@ -1,0 +1,13 @@
+{{- /* Une ligne de liste : date, surtitre, titre, chapeau, vignette.
+       Utilisée par l'accueil et par les pages de série et de tag. */ -}}
+<li class="item">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>
+    <div class="item_body">
+        {{ partial "kicker.html" (dict "page" .) }}
+        <h3 class="item_title"><a href="{{ .RelPermalink }}">{{ partial "headline.html" . }}</a></h3>
+        <p class="item_stand">{{ partial "standfirst.html" . }}</p>
+    </div>
+    {{- with .Params.image }}
+    <a class="item_thumb" href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . | relURL }}" alt="" loading="lazy" decoding="async" /></a>
+    {{- end }}
+</li>

@@ -1,14 +1,15 @@
 {{ partial "head.html" . }}
 
 <body>
-    <div class="main">
-        {{ partial "nav.html" . }}
-        {{ partial "header.html" . }}
+    {{ partial "header.html" . }}
+    <main class="content wrap">
         <h1 class="sr_only">{{ .Site.Title }} — {{ .Site.Params.description }}</h1>
-        <div class="content">
-            {{ partial "post.html" . }}
-        </div>
-    </div>
+        {{- /* L'épigraphe n'apparaît que sur l'accueil. */}}
+        <blockquote class="epigraph">
+            <p>{{ .Site.Params.subTitle }}{{ with .Site.Params.subTitleAuthor }} <cite>— {{ . }}</cite>{{ end }}</p>
+        </blockquote>
+        {{ partial "post.html" . }}
+    </main>
     <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}

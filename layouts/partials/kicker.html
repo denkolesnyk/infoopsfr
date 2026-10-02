@@ -1,0 +1,36 @@
+{{- /* Surtitre en capitales rouges : la série et le numéro du bulletin,
+       et sur la page de l'article la période couverte.
+
+   Usage : {{ partial "kicker.html" (dict "page" . "period" true) }}
+
+   Un article hors série peut fournir son propre surtitre dans le front
+   matter : kicker: "Analyse de réseau". Sans l'un ni l'autre, rien n'est
+   affiché. */ -}}
+{{- $p := .page -}}
+{{- $parts := slice -}}
+{{- with $p.Params.bulletins }}
+  {{- $nom := index . 0 }}
+  {{- with $p.GetTerms "bulletins" }}
+    {{- $parts = $parts | append (printf `<a href="%s">%s</a>` (index . 0).RelPermalink $nom) }}
+  {{- else }}
+    {{- $parts = $parts | append $nom }}
+  {{- end }}
+  {{- with $p.Params.numero }}
+    {{- /* « 03 » → 3. TrimLeft plutôt que int : « 08 » serait lu en octal. */ -}}
+    {{- $parts = $parts | append (printf "Bulletin n° %s" (strings.TrimLeft "0" (string .))) }}
+  {{- end }}
+  {{- if and $.period $p.Params.periode_debut $p.Params.periode_fin }}
+    {{- $d := time.AsTime $p.Params.periode_debut }}
+    {{- $f := time.AsTime $p.Params.periode_fin }}
+    {{- if eq ($d.Format "2006-01") ($f.Format "2006-01") }}
+      {{- $parts = $parts | append (printf "%s–%s" ($d.Format "2") ($f | time.Format "2 January 2006")) }}
+    {{- else }}
+      {{- $parts = $parts | append (printf "%s – %s" ($d | time.Format "2 January") ($f | time.Format "2 January 2006")) }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- with $p.Params.kicker }}{{ $parts = $parts | append (string .) }}{{ end }}
+{{- end }}
+{{- with $parts }}
+<div class="kicker">{{ delimit . " · " | safeHTML }}</div>
+{{- end }}

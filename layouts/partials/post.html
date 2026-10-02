@@ -1,52 +1,43 @@
-{{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-{{- range $paginator.Pages }}
-<article class="post">
-    <h2 class="post_title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+{{- /* Accueil. Page 1 : l'article le plus récent à la une, les suivants
+       en liste. Pages suivantes : la liste seule. */ -}}
+{{- $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+{{- $pages := $paginator.Pages }}
 
-    {{- /* Extrait affiché : le premier paragraphe de l'article, pas le champ
-           « description ». Celui-ci est réservé aux métadonnées (moteurs de
-           recherche, vignettes sociales) et ne doit pas s'afficher ici. */ -}}
-    {{- if .Site.Params.enableSummary }}
-    {{- $paras := findRE `(?s)<p>.*?</p>` .Content 1 }}
-    {{- $lead := cond (gt (len $paras) 0) (index $paras 0) (.Summary | string) }}
-    <div class="list">
-        <div class="post_content markdown">
-            <p>{{ $lead | plainify | htmlUnescape | safeHTML }}</p>
-        </div>
+{{- if and (eq $paginator.PageNumber 1) (gt (len $pages) 0) }}
+{{- with index $pages 0 }}
+<article class="lead">
+    <div class="lead_body">
+        {{ partial "kicker.html" (dict "page" .) }}
+        <h2 class="lead_title"><a href="{{ .RelPermalink }}">{{ partial "headline.html" . }}</a></h2>
+        <p class="standfirst">{{ partial "standfirst.html" . }}</p>
+        {{ partial "byline.html" . }}
     </div>
+    {{- with .Params.image }}
+    <a class="lead_image" href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . | relURL }}" alt="" decoding="async" /></a>
     {{- end }}
-
-    <div class="post_footer">
-        <div class="meta">
-            <span class="field">
-                {{ partial "icon.html" "calendar" }}
-                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>
-            </span>
-            <span class="field">
-                {{ partial "icon.html" "clock" }}
-                <span>{{ i18n "reading_time" (dict "Count" .ReadingTime) }}</span>
-            </span>
-            {{- with .Params.tags }}
-            <span class="field tags">
-                {{ partial "icon.html" "tag" }}
-                {{- range . }}
-                <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
-                {{- end }}
-            </span>
-            {{- end }}
-        </div>
-    </div>
 </article>
 {{- end }}
+{{- $pages = after 1 $pages }}
+<div class="sec_head">
+    <h2>Dernières publications</h2>
+    <a href="{{ "posts/" | relURL }}">Toute l’archive →</a>
+</div>
+{{- end }}
+
+<ul class="items">
+    {{- range $pages }}
+    {{ partial "item.html" . }}
+    {{- end }}
+</ul>
 
 {{- if or $paginator.HasPrev $paginator.HasNext }}
 <nav class="pagination" aria-label="Pagination">
     {{- if $paginator.HasPrev }}
-    <a href="{{ $paginator.Prev.URL }}" class="pre" rel="prev">{{ i18n "prev_page" }}</a>
-    {{- end }}
+    <a href="{{ $paginator.Prev.URL }}" rel="prev">{{ i18n "prev_page" }}</a>
+    {{- else }}<span></span>{{ end }}
     <span class="pagination_status">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
     {{- if $paginator.HasNext }}
-    <a href="{{ $paginator.Next.URL }}" class="next" rel="next">{{ i18n "next_page" }}</a>
-    {{- end }}
+    <a href="{{ $paginator.Next.URL }}" rel="next">{{ i18n "next_page" }}</a>
+    {{- else }}<span></span>{{ end }}
 </nav>
 {{- end }}

@@ -2,21 +2,18 @@
 <link href="{{ "pagefind/pagefind-ui.css" | absURL }}" rel="stylesheet" />
 
 <body>
-    <div class="main">
-        {{ partial "nav.html" . }}
-        {{ partial "header.html" . }}
-        <div class="content">
-            <div class="search-container">
-                <h1 class="page_heading">{{ .Title }}</h1>
-                <div id="search"></div>
-                <noscript>
-                    <p class="search_noscript">La recherche nécessite JavaScript. Vous pouvez parcourir
-                    l'<a href="{{ "posts/" | absURL }}">archive</a> ou les <a href="{{ "tags/" | absURL }}">tags</a>.</p>
-                </noscript>
-            </div>
+    {{ partial "header.html" . }}
+    <main class="content wrap">
+        <div class="search-container">
+            <h1 class="page_heading">{{ .Title }}</h1>
+            <div id="search"></div>
+            <noscript>
+                <p class="search_noscript">La recherche nécessite JavaScript. Vous pouvez parcourir
+                l'<a href="{{ "posts/" | absURL }}">archive</a> ou les <a href="{{ "tags/" | absURL }}">tags</a>.</p>
+            </noscript>
         </div>
-        <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
-    </div>
+    </main>
+    <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
     <script src="{{ "pagefind/pagefind-ui.js" | absURL }}"></script>

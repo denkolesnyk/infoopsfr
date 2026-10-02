@@ -1,0 +1,41 @@
+{{- /* Vignette de partage (og:image) générée pour chaque article : fond
+       assets/og/base.png (logo, adresse), surtitre en rouge et titre
+       affiché, en IBM Plex Sans. Hugo la produit au build et la met en
+       cache dans resources/ ; rien à faire à la publication.
+
+   Renvoie l'URL absolue de l'image, ou "" hors des articles. */ -}}
+{{- $url := "" -}}
+{{- if and .IsPage (in site.Params.mainSections .Section) -}}
+  {{- $base := resources.Get "og/base.png" -}}
+  {{- $font := resources.Get "og/IBMPlexSans-SemiBold.ttf" -}}
+
+  {{- $kicker := partial "kicker.html" (dict "page" . "period" true) | plainify | htmlUnescape | strings.TrimSpace | upper -}}
+  {{- $title := partial "headline.html" . | htmlUnescape -}}
+
+  {{- /* Retour à la ligne fait ici, à ~30 signes, pour garder une marge
+         à droite ; au-delà de quatre lignes, le titre est tronqué. */ -}}
+  {{- $lines := slice -}}
+  {{- $cur := "" -}}
+  {{- range split $title " " -}}
+    {{- if and $cur (gt (add (strings.RuneCount $cur) (strings.RuneCount .) 1) 30) -}}
+      {{- $lines = $lines | append $cur -}}
+      {{- $cur = . -}}
+    {{- else -}}
+      {{- $cur = cond (eq $cur "") . (printf "%s %s" $cur .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $lines = $lines | append $cur -}}
+  {{- if gt (len $lines) 4 -}}
+    {{- $lines = first 4 $lines -}}
+    {{- $lines = (first 3 $lines) | append (printf "%s…" (index $lines 3)) -}}
+  {{- end -}}
+
+  {{- $filters := slice -}}
+  {{- with $kicker -}}
+    {{- $filters = $filters | append (images.Text . (dict "font" $font "size" 24 "color" "#c0182b" "x" 72 "y" 214)) -}}
+  {{- end -}}
+  {{- $filters = $filters | append (images.Text (delimit $lines "\n") (dict "font" $font "size" 58 "linespacing" 14 "color" "#141414" "x" 72 "y" 258)) -}}
+  {{- $img := $base | images.Filter $filters -}}
+  {{- $url = $img.Permalink -}}
+{{- end -}}
+{{- return $url -}}

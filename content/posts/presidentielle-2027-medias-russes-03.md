@@ -1,5 +1,7 @@
 ---
 title: "Présidentielle 2027 : la France dans les médias russes n° 3"
+headline: "Le Kremlin répond pour la première fois à Marine Le Pen"
+chapeau: "La crise du carburant devient un argument contre l'aide à l'Ukraine, et la mort de Natacha Rey est le message le plus partagé de la collecte."
 date: 2026-10-02T14:45:00+02:00
 description: "Bulletin du 14 au 27 septembre 2026 : le Kremlin répond pour la première fois à Marine Le Pen, la crise du carburant devient un argument contre l'aide à l'Ukraine, et la mort de Natacha Rey est le message le plus partagé de la collecte."
 bulletins: ["Présidentielle 2027"]
@@ -9,6 +11,7 @@ periode_fin: "2026-09-27"
 tags: ["France", "Russie", "Présidentielle 2027", "Telegram"]
 narratifs: ["Le Pen : l'Ukraine compte plus que la Russie", "Le carburant, ou l'Ukraine au prix du litre", "Macron : la rumeur plutôt que le bilan", "Paris–Moscou : une relation sans ambassadeur"]
 image: "/images/vzglyad_lepen_podcast_card.webp"
+legende_image: "Vzglyad : « Le Pen menace la Russie. Qu'est-ce qui lui arrive ? » Capture Telegram, traduction Info Ops France."
 draft: false
 ---
 
@@ -23,6 +26,7 @@ Ce troisième numéro du bulletin bi-mensuel couvre la période du 14 au 27 sept
 
 {{< courbes >}}
 {
+  "titre": "Messages par jour et par mot-clé, 14–27 septembre 2026",
   "ymax": 24,
   "jours": ["2026-09-14","2026-09-15","2026-09-16","2026-09-17","2026-09-18","2026-09-19","2026-09-20","2026-09-21","2026-09-22","2026-09-23","2026-09-24","2026-09-25","2026-09-26","2026-09-27"],
   "series": [
@@ -46,13 +50,14 @@ Ce troisième numéro du bulletin bi-mensuel couvre la période du 14 au 27 sept
            float="right"
            zoom="true"
            alt="Nouveau podcast sur nos plateformes : Le Pen menace la Russie. Qu'est-ce qui lui arrive ? La favorite de la présidentielle française Marine Le Pen a publié une lettre accusatrice envers la Russie, reprochant à Moscou un chantage et des tentatives d'influencer la politique de Paris. De quoi s'est-elle offusquée ? Faut-il s'en inquiéter ?"
-           caption="Nouveau podcast sur nos plateformes : Le Pen menace la Russie. Qu'est-ce qui lui arrive ? La favorite de la présidentielle française Marine Le Pen a publié une lettre accusatrice envers la Russie, reprochant à Moscou un chantage et des tentatives d'influencer la politique de Paris. De quoi s'est-elle offusquée ? Faut-il s'en inquiéter ?" >}}
+           caption="Vzglyad : « Le Pen menace la Russie. Qu'est-ce qui lui arrive ? »"
+           source="Capture Telegram, traduction Info Ops France." >}}
 
 Marine Le Pen apparaît dans 28 messages, en trois temps.
 
 Du 17 au 19, onze messages reprennent son entretien du 16 septembre sur LCI. Sa phrase sur les retraites « *on ne peut pas dire d'un côté il n'y a pas un euro […] pour indexer les retraites* » tout en finançant l'Ukraine est traduite fidèlement, alors que sa formule sur la guerre ne l'est pas. Marine Le Pen posait une alternative : « *Soit l'OTAN entre dans cette guerre et ça sera la Troisième Guerre mondiale, soit ça sera la guerre de Cent Ans* ». Une chaîne russe en fait une prédiction « *le conflit durera cent ans* », et Vzglyad titre « *Le Pen a prolongé la guerre en Ukraine de cent ans* ».
 
-Le 19 septembre, Marine Le Pen et Jordan Bardella publient un communiqué commun : « *Nous ne tolérerons jamais qu'une puissance étrangère, en l'occurrence la Russie, puisse espérer dicter directement ou indirectement la politique de notre pays par l'intimidation, la menace, la déstabilisation ou la pression psychologique* ». Aucune chaîne observée ne le relaie avant le 21, date à laquelle il entre dans la collecte par la réponse de Dmitri Peskov : la Russie « *ne menace aucun État européen, y compris la France* ». Jordan Bardella a presque disparu, et le communiqué est devenu une « *lettre* » de la seule candidate. TASS rapporte le même soir que Dmitri Medvedev juge le Rassemblelent national devenu russophobe.
+Le 19 septembre, Marine Le Pen et Jordan Bardella publient un communiqué commun : « *Nous ne tolérerons jamais qu'une puissance étrangère, en l'occurrence la Russie, puisse espérer dicter directement ou indirectement la politique de notre pays par l'intimidation, la menace, la déstabilisation ou la pression psychologique* ». Aucune chaîne observée ne le relaie avant le 21, date à laquelle il entre dans la collecte par la réponse de Dmitri Peskov : la Russie « *ne menace aucun État européen, y compris la France* ». Jordan Bardella a presque disparu, et le communiqué est devenu une « *lettre* » de la seule candidate. TASS rapporte le même soir que Dmitri Medvedev juge le Rassemblement national devenu russophobe.
 
 Le 23 septembre, dans le seul commentaire développé, Vzglyad juge le texte « *rempli de clichés russophobes, ce qui est impardonnable. Mais compréhensible* ». Ce n'est pourtant « *pas une raison de souhaiter sa défaite* », car « *son attitude envers la Russie est indifférente pour la Russie, alors que son attitude envers l'Ukraine compte* », en résumant que « *rien pour aider Kiev. C'est déjà bien* ». Une élection de Jean-Luc Mélenchon « *serait bien mieux* », mais il ne vise que la troisième place.
 
@@ -86,7 +91,8 @@ Le reste relève de l'insulte de la part de la propagandiste russe Skabeïeva qu
            float="right"
            zoom="true"
            alt="Le Sahel mène une guerre contre un complot de recolonisation, selon le Premier ministre du Niger. D'après lui, le complot visant à déstabiliser le Sahel a été ourdi par la France avec la complicité active de l'Ukraine."
-           caption="Le Sahel mène une guerre contre un complot de recolonisation, selon le Premier ministre du Niger. D'après lui, le complot visant à déstabiliser le Sahel a été ourdi par la France avec la complicité active de l'Ukraine." >}}
+           caption="African Initiative : le Premier ministre nigérien dénonce un « complot de recolonisation »."
+           source="Capture Telegram, traduction Info Ops France." >}}
 
 Le 24 septembre, Vladimir Poutine rappelle Alexeï Mechkov, ambassadeur en France depuis 2017. Dmitri Peskov précise que rien ne presse pour le remplacer, « *vu l'absence de relations bilatérales* ». Les huit messages (785 mille vues) sont tous neutres. Maria Zakharova évoque de son côté « *la crise profonde des relations avec la France officielle* ».
 
@@ -98,14 +104,15 @@ Le registre africain observé dans le bulletin précédent persiste à bas bruit
 
 | Entité | Messages | Tonalité des mentions |
 | --- | ---: | --- |
-| Emmanuel Macron | 81 | neutre / négative* |
+| Emmanuel Macron | 81 | neutre / négative |
 | Marine Le Pen | 28 | mixte |
 | Jean-Noël Barrot | 3 | négative |
 | Sébastien Chenu | 2 | neutre |
 | Nicolas Dupont-Aignan | 1 | neutre |
 | Gabriel Attal | 1 | négative |
-| Jean-Luc Mélenchon | 1 | positive** |
+| Jean-Luc Mélenchon | 1 | positive |
 | Jordan Bardella | 1 | neutre |
+{caption="Personnalités politiques françaises mentionnées, 14–27 septembre 2026"}
 
 ---
 Collecte et analyse : [Denys Kolesnyk](https://kolesnyk.fr/fr/a-propos/) pour **Info Ops France**. 243 messages publiés du 14 au 27 septembre 2026 par 17 chaînes Telegram russes (médias d'État, presse, chaînes d'opinion, blogueurs et comptes anonymes). Citations françaises en version originale lorsqu’elles existent, sinon traduites du russe. Tonalité attribuée automatiquement, puis relue. Outil (propriétaire) utilisé est DFN.

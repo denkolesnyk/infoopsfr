@@ -3,6 +3,7 @@ title: "La France dans les médias russes - 18-24 avril 2022"
 date: "2022-04-26T15:12:30+01:00"
 tags: ["France", "Russie", "Ukraine"]
 description: "Rapport hebdomadaire du 18 au 24 avril 2022 : deuxième tour des présidentielles françaises et agenda international dans les médias russes."
+kicker: "Rapport hebdomadaire"
 image: "/images/mlp_russie_ue_embargo.webp"
 draft: false
 ---

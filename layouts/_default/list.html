@@ -1,33 +1,41 @@
 {{ partial "head.html" . }}
 
 <body>
-    <div class="main">
-        {{ partial "nav.html" . }}
-        {{ partial "header.html" . }}
-        <div class="content">
+    {{ partial "header.html" . }}
+    <main class="content wrap">
+        <header class="page_head">
             <h1 class="page_heading">{{ .Title }}</h1>
+            {{- with .Description }}<p class="standfirst">{{ replace . "'" "’" }}</p>{{ end }}
             {{- with .Content }}<div class="page_intro markdown">{{ . }}</div>{{ end }}
+        </header>
 
-            <div class="list_with_title">
-                {{- range .Pages.GroupByDate "2006" }}
-                <div class="listing_title">{{ .Key }}</div>
+        {{- if eq .Kind "term" }}
+        {{- /* Série de bulletins ou tag : liste détaillée. */}}
+        <ul class="items">
+            {{- range .Pages }}
+            {{ partial "item.html" . }}
+            {{- end }}
+        </ul>
+        {{- else }}
+        {{- /* Archive : liste compacte, par année. */}}
+        <div class="archive">
+            {{- range .Pages.GroupByDate "2006" }}
+            <section class="archive_year">
+                <h2 class="archive_title">{{ .Key }}</h2>
                 <ul class="listing">
                     {{- range .Pages }}
-                    <li class="listing_item">
-                        <div class="listing_post">
-                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                            <div class="post_time">
-                                <time class="date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01" }}</time>
-                            </div>
-                        </div>
+                    <li class="listing_post">
+                        <a href="{{ .RelPermalink }}">{{ replace (replace .Title "n° " "n° ") "'" "’" }}</a>
+                        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January" }}</time>
                     </li>
                     {{- end }}
                 </ul>
-                {{- end }}
-            </div>
+            </section>
+            {{- end }}
         </div>
-        <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
-    </div>
+        {{- end }}
+    </main>
+    <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
 </body>

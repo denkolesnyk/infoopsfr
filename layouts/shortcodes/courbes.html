@@ -2,7 +2,8 @@
        Illustration du volume brut de la collecte, pas du tri éditorial.
 
    {{< courbes >}}
-   { "mois": "août 2026", "ymax": 12, "legende": "…", "source": "…",
+   { "titre": "Messages par jour et par mot-clé, 17–30 août 2026",
+     "mois": "août 2026", "ymax": 12, "legende": "…", "source": "…",
      "jours": ["2026-08-17", …],
      "series": [ {"nom": "France", "valeurs": [7,3,…]}, … ] }
    {{< /courbes >}}
@@ -11,11 +12,14 @@
 {{- $jours := $d.jours -}}{{- $series := $d.series -}}
 {{- $n := len $jours -}}
 {{- $w := 900.0 -}}{{- $h := 380.0 -}}
-{{- $l := 34.0 -}}{{- $r := 14.0 -}}{{- $t := 14.0 -}}{{- $b := 34.0 -}}
+{{- $l := 34.0 -}}{{- $r := 24.0 -}}{{- $t := 14.0 -}}{{- $b := 34.0 -}}
 {{- $pw := sub $w (add $l $r) -}}{{- $ph := sub $h (add $t $b) -}}
 {{- $ymax := float (default 12 $d.ymax) -}}
 {{- $dx := div $pw (float (sub $n 1)) -}}
 <figure class="courbes">
+  {{- with $d.titre }}
+  <p class="fig_title">{{ . }}</p>
+  {{- end }}
   <svg viewBox="0 0 {{ $w }} {{ $h }}" role="img" preserveAspectRatio="xMidYMid meet"
        aria-label="Nombre de messages par jour pour chaque mot-clé, du {{ index $jours 0 }} au {{ index $jours (sub $n 1) }}. Les données chiffrées suivent dans un tableau.">
     {{- range $g := seq 0 4 }}

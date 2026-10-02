@@ -1,9 +1,15 @@
 {{- /* Enveloppe chaque tableau Markdown dans un conteneur défilable :
        un tableau plus large que la colonne de texte défile à l'intérieur
        de son cadre au lieu de déborder de la page. Les styles
-       correspondants sont dans main.css (.table_wrap). */ -}}
+       correspondants sont dans main.css (.table_wrap).
+
+       Légende facultative, en attribut de bloc sous le tableau :
+       {caption="Personnalités politiques françaises mentionnées"} */ -}}
 <div class="table_wrap">
   <table>
+    {{- with .Attributes.caption }}
+    <caption>{{ . | markdownify }}</caption>
+    {{- end }}
     <thead>
       {{- range .THead }}
       <tr>

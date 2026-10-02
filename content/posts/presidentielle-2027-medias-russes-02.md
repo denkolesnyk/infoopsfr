@@ -1,5 +1,7 @@
 ---
 title: "Présidentielle 2027 : la France dans les médias russes n° 2"
+headline: "Les candidats n'existent que lorsqu'ils parlent de l'Ukraine"
+chapeau: "Macron tombe à 16 %, et Glucksmann disparaît du corpus aussi vite qu'il y était entré."
 date: 2026-09-14T16:40:00+02:00
 description: "Bulletin du 1er au 13 septembre 2026 : les candidats n'existent pour les chaînes russes que lorsqu'ils parlent de l'Ukraine, Macron tombe à 16 %, et Glucksmann disparaît du corpus aussi vite qu'il y était entré."
 bulletins: ["Présidentielle 2027"]
@@ -9,6 +11,7 @@ periode_fin: "2026-09-13"
 tags: ["France", "Russie", "Présidentielle 2027", "Telegram"]
 narratifs: ["De partie au conflit à obstacle à la paix", "Le Niger accuse la France", "Macron à 16 %", "L'Ukraine comme filtre : ce que les chaînes russes retiennent des candidats", "Le Pen : une victoire qui « ne changerait rien » pour la Russie"]
 image: "/images/skabeeva_attal_card.webp"
+legende_image: "Olga Skabeïeva relaie l'entretien de Gabriel Attal sur BFMTV. Capture Telegram."
 draft: false
 ---
 
@@ -28,6 +31,7 @@ Cependant, deux évolutions méritent une attention particulière. Tout d'abord,
 
 {{< courbes >}}
 {
+  "titre": "Messages par jour et par mot-clé, 1er–13 septembre 2026",
   "ymax": 24,
   "jours": ["2026-09-01","2026-09-02","2026-09-03","2026-09-04","2026-09-05","2026-09-06","2026-09-07","2026-09-08","2026-09-09","2026-09-10","2026-09-11","2026-09-12","2026-09-13"],
   "series": [
@@ -91,7 +95,8 @@ Les autres mentions sont des relais, tels que Louis Aliot et son « *nous fermer
            float="right"
            zoom="true"
 		   alt="Extrait vidéo de Jean-Luc Mélenchon publié par la chaîne Telegram de Vladimir Soloviev le 7 septembre 2026"
-           caption="Extrait vidéo de Jean-Luc Mélenchon publié par la chaîne Telegram de Vladimir Soloviev le 7 septembre 2026" >}}
+           caption="Extrait vidéo de Jean-Luc Mélenchon relayé par Vladimir Soloviev, 7 septembre 2026."
+           source="Capture Telegram." >}}
 
 Le message le plus vu consacré à un candidat est un extrait vidéo de Jean-Luc Mélenchon, publié le 7 septembre par la chaîne du propagandiste Soloviev, dans lequel il affirme que « *les décisions de soutien à l’Ukraine frappent le peuple français* » et que ceux qui les ont prises « *n’ont rien préparé, rien organisé* ». Il totalise 81 mille vues, contre 86 mille pour les dix messages mentionnant Marine Le Pen réunis. Rien ne permet d’y voir une préférence pour qui que ce soit, mais l’effet du filtre est de favoriser celui qui tient le propos jugé utile par le Kremlin, quel que soit son camp.
 
@@ -121,6 +126,7 @@ Ce qui n’a pas changé, en revanche, c’est l’absence de tout message de so
 | Jean-Noël Barrot | 4 | négative |
 | Jean-Luc Mélenchon | 3 | neutre** |
 | Gabriel Attal | 1 | négative |
+{caption="Personnalités politiques françaises mentionnées, 1er–13 septembre 2026"}
 
 \* Les mentions de Marine Le Pen se répartissent entre des relais factuels de sondages (Kommersant, Vzglyad, une chaîne anonyme citant le Wall Street Journal), une analyse hostile à ses chances et sceptique sur son utilité pour la Russie, et deux textes qui l'inscrivent dans une vague conservatrice européenne jugée favorable. Aucun message n'exprime de soutien.
 

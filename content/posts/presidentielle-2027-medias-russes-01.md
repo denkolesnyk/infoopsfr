@@ -1,5 +1,7 @@
 ---
 title: "Présidentielle 2027 : la France dans les médias russes n° 1"
+headline: "La candidature Glucksmann réoriente l'hostilité des chaînes russes"
+chapeau: "Les sondages favorables à Marine Le Pen, eux, circulent sans commentaire."
 date: 2026-08-31T22:14:00+02:00
 description: "Bulletin du 17 au 30 août 2026 : la candidature de Raphaël Glucksmann réoriente l'hostilité russophone, tandis que les sondages favorables à Marine Le Pen circulent sans commentaire."
 bulletins: ["Présidentielle 2027"]
@@ -9,6 +11,7 @@ periode_fin: "2026-08-30"
 tags: ["France", "Russie", "Présidentielle 2027", "Telegram"]
 narratifs: ["La France comme partie au conflit", "Macron en fin de règne", "Glucksmann, nouvelle cible désignée", "Le Pen en tête, sans soutien affiché"]
 image: "/images/vzglyad_glucksmann_podcast_card.webp"
+legende_image: "Vzglyad : « On prépare pour remplacer Macron un russophobe encore pire », podcast consacré à Raphaël Glucksmann. Capture Telegram, traduction Info Ops France."
 draft: false
 ---
 
@@ -26,6 +29,7 @@ Ce premier numéro du bulletin couvre la période du 17 au 30 août 2026 et port
 
 {{< courbes >}}
 {
+  "titre": "Messages par jour et par mot-clé, 17–30 août 2026",
   "ymax": 12,
   "jours": ["2026-08-17","2026-08-18","2026-08-19","2026-08-20","2026-08-21","2026-08-22","2026-08-23","2026-08-24","2026-08-25","2026-08-26","2026-08-27","2026-08-28","2026-08-29","2026-08-30"],
   "series": [
@@ -72,7 +76,8 @@ Ce qui en ressort, c’est l’absence de remise en question de ce récit. Aucun
            float="right"
            zoom="true"
            alt="Vzglyad : Raphaël Glucksmann, un ennemi notoire de la Russie qui a réellement des chances de succéder à Emmanuel Macron, a annoncé sa candidature à la présidence française. Et qu'en est-il de Marine Le Pen ?"
-           caption="Raphaël Glucksmann, un ennemi notoire de la Russie qui a réellement des chances de succéder à Emmanuel Macron, a annoncé sa candidature à la présidence française. Et qu'en est-il de Marine Le Pen ?" >}}
+           caption="Vzglyad présente Raphaël Glucksmann comme « un ennemi notoire de la Russie »."
+           source="Capture Telegram, traduction Info Ops France." >}}
 
 Alors que Raphaël Glucksmann ne figurait pas parmi les mots-clés de cette collecte, il est entré dans le corpus par la force de l'actualité — le 24 août, il a annoncé sa candidature à l'élection présidentielle. Et en seulement six jours, il est devenu le responsable politique français le plus commenté par les chaînes russes observées après Emmanuel Macron.
 
@@ -105,6 +110,7 @@ Cependant, à ce stade, il ne s’agit évidemment pas d’affirmer que la même
 | Marine Le Pen | 7 | neutre |
 | Jean-Luc Mélenchon | 4 | neutre |
 | Gabriel Attal | 1 | négative |
+{caption="Personnalités politiques françaises mentionnées, 17–30 août 2026"}
 
 Une précision sur la tonalité « mixte » des mentions de Raphaël Glucksmann. Elle recouvre surtout deux traitements différents : hostile de la part des chaînes d'opinion et des blogueurs anonymes, strictement factuel dans la presse.
 

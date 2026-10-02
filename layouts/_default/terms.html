@@ -1,28 +1,21 @@
 {{ partial "head.html" . }}
 
 <body>
-    <div class="main">
-        {{ partial "nav.html" . }}
-        {{ partial "header.html" . }}
-        <div class="content">
+    {{ partial "header.html" . }}
+    <main class="content wrap">
+        <header class="page_head">
             <h1 class="page_heading">{{ .Title }}</h1>
-            <div class="page_tags">
-                <ul>
-                    {{- $data := .Data }}
-                    {{- range $key, $value := .Data.Terms.ByCount }}
-                    {{- if $value.Name }}
-                    <li>
-                        <a href="{{ $data.Plural | absURL }}/{{ $value.Name | urlize }}/">
-                            {{ $value.Name }} <span class="terms_count">{{ $value.Count }}</span>
-                        </a>
-                    </li>
-                    {{- end }}
-                    {{- end }}
-                </ul>
-            </div>
-        </div>
-        <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
-    </div>
+            {{- with .Description }}<p class="standfirst">{{ replace . "'" "’" }}</p>{{ end }}
+        </header>
+        <ul class="page_tags">
+            {{- range .Data.Terms.ByCount }}
+            {{- with .Page }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> <span class="terms_count">{{ len .Pages }}</span></li>
+            {{- end }}
+            {{- end }}
+        </ul>
+    </main>
+    <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
 </body>

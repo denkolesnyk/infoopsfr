@@ -1,6 +1,7 @@
 ---
 title: "La guerre mentale - la guerre cognitive à la russe"
 description: "Décryptage de la « guerre mentale » d'Andreï Ilnitski, conseiller du ministre russe de la Défense : origines doctrinales, objectifs et place dans la pensée militaire russe contemporaine."
+kicker: "Décryptage"
 date: "2023-01-27T09:32:13+02:00"
 tags: ["guerre cognitive", "guerre mentale", "Russie"]
 image: "/images/guerre_mentale_chart.jpg"

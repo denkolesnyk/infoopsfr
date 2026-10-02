@@ -11,7 +11,8 @@ capitalizeListTitles = false
 removePathAccents = true
 
 [pagination]
-  pagerSize = 4
+  # Accueil : un article à la une et six en liste.
+  pagerSize = 7
 
 [taxonomies]
   tag = "tags"
@@ -23,18 +24,18 @@ removePathAccents = true
   identifier = "accueil"
   url = "/"
 [[menu.main]]
-  name = "Archive"
+  # Une seule série pour l'instant : le menu la nomme et pointe droit
+  # dessus. À remplacer par « Bulletins » → /bulletins/ dès qu'une
+  # deuxième série existe.
+  name = "Présidentielle 2027"
   weight = 20
+  identifier = "bulletins"
+  url = "/bulletins/presidentielle-2027/"
+[[menu.main]]
+  name = "Archive"
+  weight = 30
   identifier = "archive"
   url = "/posts/"
-[[menu.main]]
-  name = "Bulletins"
-  weight = 25
-  identifier = "bulletins"
-  # Une seule série pour l'instant : le menu pointe droit dessus plutôt que
-  # sur une page de liste à une entrée. À repasser sur /bulletins/ dès qu'une
-  # deuxième série existe.
-  url = "/bulletins/presidentielle-2027/"
 [[menu.main]]
   name = "À propos"
   weight = 40
@@ -58,6 +59,9 @@ removePathAccents = true
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
+  # Attributs de bloc : permet {caption="…"} sous un tableau.
+  [markup.goldmark.parser.attribute]
+    block = true
   [markup.highlight]
     noClasses = false
   [markup.tableOfContents]

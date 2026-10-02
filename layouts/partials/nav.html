@@ -1,18 +1,16 @@
-<div class="nav_container">
-    <nav class="site_nav" id="site_nav" aria-label="Navigation principale">
-        <ul>
-            {{- $currentPage := . }}
-            {{- range .Site.Menus.main }}
-            {{- $active := or (eq $currentPage.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $currentPage.RelPermalink .URL)) }}
-            <li{{ if $active }} class="active"{{ end }}>
-                <a href="{{ .URL | safeURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
-            </li>
-            {{- end }}
-        </ul>
-    </nav>
-    <div class="menu_icon">
-        <button type="button" id="menu_icon" aria-controls="site_nav" aria-expanded="false" aria-label="{{ i18n "menu" }}">
-            {{ partial "icon.html" "menu" }}
-        </button>
-    </div>
-</div>
+{{- /* Rubrique active : correspondance exacte, ou préfixe d'URL. Un
+       bulletin vit sous /posts/ mais appartient à sa série : c'est la
+       série qui est soulignée, pas l'archive. */ -}}
+{{- $cur := . }}
+{{- $isBulletin := and .IsPage .Params.bulletins }}
+<nav class="site_nav" id="site_nav" aria-label="Navigation principale">
+    <ul>
+        {{- range .Site.Menus.main }}
+        {{- $active := or (eq $cur.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $cur.RelPermalink .URL)) }}
+        {{- if $isBulletin }}{{ $active = eq .Identifier "bulletins" }}{{ end }}
+        <li>
+            <a href="{{ .URL | safeURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        </li>
+        {{- end }}
+    </ul>
+</nav>

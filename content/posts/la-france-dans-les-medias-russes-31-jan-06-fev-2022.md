@@ -3,6 +3,7 @@ title: "La France dans les médias russes - 31 janvier-06 février 2022"
 date: "2022-02-07T09:40:30+01:00"
 tags: ["Centrafrique", "France", "Mali", "Russie", "Ukraine"]
 description: "Rapport hebdomadaire du 31 janvier au 6 février 2022 : visite de Macron à Moscou, contexte électoral français et campagne anti-française de l'Agence fédérale de presse en Afrique."
+kicker: "Rapport hebdomadaire"
 image: "/images/arkatov_sur_macron_slovoidelo.jpg"
 draft: false
 ---

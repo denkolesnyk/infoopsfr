@@ -3,6 +3,7 @@ title: "La France dans les médias russes - 14-20 février 2022"
 date: "2022-02-21T15:23:30+01:00"
 tags: ["France", "OTAN", "Mali", "Russie", "Ukraine"]
 description: "Rapport hebdomadaire du 14 au 20 février 2022 : la crise russo-ukrainienne, les efforts diplomatiques français et la couverture de l'Afrique francophone par les médias russes."
+kicker: "Rapport hebdomadaire"
 image: "/images/candidats_france_russie_ria.jpg"
 draft: false
 ---

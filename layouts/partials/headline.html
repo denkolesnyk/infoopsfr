@@ -1,0 +1,7 @@
+{{- /* Titre affiché : « headline » du front matter s'il existe, sinon le
+       titre. Le champ « title » reste celui des onglets, des moteurs de
+       recherche, du flux RSS et de l'archive. Espace insécable après
+       « n° » : le numéro ne passe jamais seul à la ligne. */ -}}
+{{- $t := replace (.Params.headline | default .Title) "n° " "n° " -}}
+{{- /* Apostrophe typographique, comme dans le corps de texte. */ -}}
+{{- return replace $t "'" "’" -}}

@@ -28,61 +28,75 @@
 </script>
 
 <body>
-    <div class="main">
-        {{ partial "nav.html" . }}
-        {{ partial "header.html" . }}
-        <div class="content">
-            <div class="post_page">
-                <article class="post">
-                    <header class="post_title post_detail_title">
-                        <h1>{{ .Title }}</h1>
-                        {{ partial "byline.html" . }}
-                    </header>
+    {{ partial "header.html" . }}
+    <main class="content wrap">
+        <article class="article">
+            <header class="art_head">
+                {{ partial "kicker.html" (dict "page" . "period" true) }}
+                <h1>{{ partial "headline.html" . }}</h1>
+                {{- with .Description }}
+                <p class="standfirst">{{ partial "standfirst.html" $ }}</p>
+                {{- end }}
+                {{ partial "byline.html" . }}
+            </header>
 
-                    {{- /* L'image de couverture sert aussi de vignette sociale
-                           (og:image). Si elle est déjà utilisée dans le corps
-                           de l'article, on ne l'affiche pas deux fois : la
-                           version en contexte, avec son texte alternatif
-                           descriptif, est conservée. On teste les deux
-                           écritures possibles, l'image Markdown ![](…) et
-                           le src="…" du shortcode figure. */ -}}
-                    {{- with .Params.image }}
-                    {{- $inBody := or (strings.Contains $.RawContent (printf "](%s)" .))
-                                     (strings.Contains $.RawContent (printf "src=%q" .)) }}
-                    {{- if not $inBody }}
-                    <div class="post_image">
-                        <img src="{{ . | absURL }}" alt="{{ $.Title }}" loading="eager" decoding="async" />
-                    </div>
-                    {{- end }}
-                    {{- end }}
+            {{- /* L'image de couverture sert aussi de vignette sociale
+                   (og:image). Si elle est déjà utilisée dans le corps
+                   de l'article, on ne l'affiche pas deux fois : la
+                   version en contexte, avec son texte alternatif
+                   descriptif, est conservée. On teste les deux
+                   écritures possibles, l'image Markdown ![](…) et
+                   le src="…" du shortcode figure. */ -}}
+            {{- with .Params.image }}
+            {{- $inBody := or (strings.Contains $.RawContent (printf "](%s)" .))
+                             (strings.Contains $.RawContent (printf "src=%q" .)) }}
+            {{- if not $inBody }}
+            <figure class="cover">
+                <img src="{{ . | relURL }}" alt="{{ $.Params.legende_image | default $.Title | plainify }}" loading="eager" decoding="async" />
+                {{- with $.Params.legende_image }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+            </figure>
+            {{- end }}
+            {{- end }}
 
-                    <div class="post_content markdown" data-pagefind-body>{{ .Content }}</div>
+            {{- /* Deux conventions des bulletins, mises en forme ici pour
+                   que les fichiers Markdown restent simples :
+                   - « **Tonalité :** mixte » devient une étiquette ;
+                   - la note finale « --- / Collecte et analyse : … »
+                     devient le bloc Méthodologie et données. */ -}}
+            {{- $c := .Content }}
+            {{- $c = replaceRE `<p><strong>Tonalité[\s\x{00a0}\x{202f}]*:</strong>\s*(.+?)</p>` `<p class="tone"><span class="tone_label">Tonalité</span> <span class="tone_value">$1</span></p>` $c }}
+            {{- $c = replaceRE `(?s)<hr>\s*(<p>Collecte et analyse.*)$` (printf `<aside class="methodology" aria-label="%s"><h2 class="methodology_title">%s</h2><div class="methodology_body">$1</div></aside>` (i18n "methodology") (i18n "methodology")) $c }}
+            <div class="post_content markdown" data-pagefind-body>{{ $c | safeHTML }}</div>
 
-                    {{- with .Params.tags }}
-                    <footer class="post_footer">
-                        <div class="meta">
-                            <span class="field tags">
-                                {{ partial "icon.html" "tag" }}
-                                {{- range . }}
-                                <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
-                                {{- end }}
-                            </span>
-                        </div>
-                    </footer>
-                    {{- end }}
-                </article>
+            {{- with .GetTerms "tags" }}
+            <footer class="art_tags">
+                <span class="sr_only">{{ i18n "tags" }}</span>
+                {{- range . }}
+                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                {{- end }}
+            </footer>
+            {{- end }}
 
-                <nav class="post_nav" aria-label="Navigation entre articles">
-                    {{- with .PrevInSection }}
-                    <a href="{{ .RelPermalink }}" class="post_nav_prev">{{ partial "icon.html" "arrow-left" }} <span>{{ .Title }}</span></a>
-                    {{- end }}
-                    {{- with .NextInSection }}
-                    <a href="{{ .RelPermalink }}" class="post_nav_next"><span>{{ .Title }}</span> {{ partial "icon.html" "arrow-right" }}</a>
-                    {{- end }}
-                </nav>
-            </div>
-        </div>
-    </div>
+            {{- /* Entre deux bulletins : « numéro précédent / suivant ».
+                   Sinon : « article précédent / suivant ». PrevInSection
+                   est l'article plus ancien. */}}
+            {{- $serie := .Params.bulletins }}
+            <nav class="post_nav" aria-label="Navigation entre articles">
+                {{- with .PrevInSection }}
+                <a href="{{ .RelPermalink }}" class="post_nav_prev">
+                    <span class="post_nav_label">← {{ if and $serie .Params.bulletins }}Numéro précédent{{ else }}Article précédent{{ end }}</span>
+                    <span class="post_nav_title">{{ partial "headline.html" . }}</span>
+                </a>
+                {{- end }}
+                {{- with .NextInSection }}
+                <a href="{{ .RelPermalink }}" class="post_nav_next">
+                    <span class="post_nav_label">{{ if and $serie .Params.bulletins }}Numéro suivant{{ else }}Article suivant{{ end }} →</span>
+                    <span class="post_nav_title">{{ partial "headline.html" . }}</span>
+                </a>
+                {{- end }}
+            </nav>
+        </article>
+    </main>
     <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}

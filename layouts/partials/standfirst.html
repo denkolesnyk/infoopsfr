@@ -1,0 +1,28 @@
+{{- /* Chapeau : le champ « chapeau » du front matter s'il existe (il
+       complète le titre affiché « headline » sans le répéter), sinon
+       « description », qui sert aussi aux moteurs de recherche.
+
+   Dans un bulletin, la description commence par « Bulletin du 14 au
+   27 septembre 2026 : ». Le surtitre affiche déjà le numéro et la
+   période : on retire ce préfixe et on remet une capitale.
+
+   Sans description, on reprend le premier paragraphe de l'article.
+   Renvoie une chaîne. */ -}}
+{{- $s := "" -}}
+{{- with .Params.chapeau }}
+  {{- $s = . | plainify }}
+{{- else with .Description }}
+  {{- $s = . | plainify }}
+  {{- if $.Params.bulletins }}
+    {{- $t := replaceRE `^Bulletin du [^:]+?\s*:\s*` "" $s }}
+    {{- if ne $t $s }}
+      {{- $s = printf "%s%s" (substr $t 0 1 | upper) (substr $t 1) }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- $paras := findRE `(?s)<p>.*?</p>` .Content 1 }}
+  {{- $s = cond (gt (len $paras) 0) (index $paras 0) (.Summary | string) | plainify | htmlUnescape }}
+{{- end -}}
+{{- /* Apostrophe typographique, comme dans le corps de texte. */ -}}
+{{- $s = replace $s "'" "’" -}}
+{{- return $s -}}
