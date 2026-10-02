@@ -3,12 +3,12 @@ title: "Présidentielle 2027 : la France dans les médias russes n° 3"
 headline: "Le Kremlin répond pour la première fois à Marine Le Pen"
 chapeau: "La crise du carburant devient un argument contre l'aide à l'Ukraine, et la mort de Natacha Rey est le message le plus partagé de la collecte."
 date: 2026-10-02T14:45:00+02:00
-description: "Bulletin du 14 au 27 septembre 2026 : le Kremlin répond pour la première fois à Marine Le Pen, la crise du carburant devient un argument contre l'aide à l'Ukraine, et la mort de Natacha Rey est le message le plus partagé de la collecte."
+description: "Bulletin du 14 au 27 septembre 2026 : le Kremlin répond pour la première fois à Marine Le Pen, et la pénurie de carburant sert d'argument contre l'aide à Kiev."
 bulletins: ["Présidentielle 2027"]
 numero: "03"
 periode_debut: "2026-09-14"
 periode_fin: "2026-09-27"
-tags: ["France", "Russie", "Présidentielle 2027", "Telegram"]
+tags: ["France", "Russie", "Telegram", "Élections"]
 narratifs: ["Le Pen : l'Ukraine compte plus que la Russie", "Le carburant, ou l'Ukraine au prix du litre", "Macron : la rumeur plutôt que le bilan", "Paris–Moscou : une relation sans ambassadeur"]
 image: "/images/vzglyad_lepen_podcast_card.webp"
 legende_image: "Vzglyad : « Le Pen menace la Russie. Qu'est-ce qui lui arrive ? » Capture Telegram, traduction Info Ops France."

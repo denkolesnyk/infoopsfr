@@ -1,10 +1,11 @@
 ---
 title: "La France dans les médias russes - 7-13 février 2022"
 date: "2022-02-14T15:17:30+01:00"
-tags: ["France", "OTAN", "Mali", "Russie", "Ukraine"]
-description: "Rapport hebdomadaire du 7 au 13 février 2022 : visite de Macron à Moscou et Kiev, décrédibilisation du président français et position des candidats vis-à-vis de la Russie."
+tags: ["France", "Russie", "Ukraine", "Afrique", "Élections"]
+description: "Rapport hebdomadaire du 7 au 13 février 2022 : Macron à Moscou et à Kiev, sa décrédibilisation et la position des candidats envers la Russie."
 kicker: "Rapport hebdomadaire"
 image: "/images/poutine_macron_ria.jpg"
+legende_image: "RIA Novosti, 8 février 2022 : « Poutine a mis Macron devant un choix ». Capture d'écran, traduction Info Ops France."
 draft: false
 ---
 
@@ -20,7 +21,12 @@ De l’autre côté, plusieurs tentatives ont été réalisées afin d’insulte
 
 Les médias russes ont, comme d'habitude, fait recours aux commentaires laissés sur les sites d’actualité français afin d’attaquer le président français. Il s’agit, notamment, de **News Rambler**, **Ria Novosti** et **Regnum**, qui ont traité Macron de « *ridicule* », « *stagiaire* » qui « *est venu voir le patron » ou encore de « petit chien* » qui suit Biden.
 
-![Marine Le Pen et sa position pro-russe couverte par l'agence TASS](/images/mlp_russie_tass.jpg)
+{{< figure src="/images/mlp_russie_tass.jpg"
+           float="right"
+           zoom="true"
+           alt="Marine Le Pen et sa position pro-russe couverte par l'agence TASS"
+           caption="TASS, 8 février 2022 : « Le Pen juge erronée la “guerre froide” menée contre Poutine »."
+           source="Capture d'écran, traduction Info Ops France." >}}
 
 L’opinion des candidats à la présidence française a aussi été exploitée à la fois dans le contexte des pourparlers Macron-Poutine et aussi dans le cadre de la démonstration du soutien à la Russie, y compris dans le cadre de la non-adhésion de l’Ukraine à l’OTAN.
 

@@ -1,18 +1,21 @@
 ---
-title: "Présidentielle 2027 : la France dans les médias russes — n° N"
+title: "Présidentielle 2027 : la France dans les médias russes n° N"
+headline: "CONSTAT PRINCIPAL DE LA QUINZAINE"
+chapeau: "CE QUI COMPLÈTE LE TITRE SANS LE RÉPÉTER."
 date: {{ .Date }}
-description: "Bulletin du JJ au JJ MOIS AAAA : NARRATIF DOMINANT, et ce qui a changé depuis le n° N-1."
+description: "Bulletin du JJ au JJ MOIS AAAA : CONSTAT PRINCIPAL, EN 160 SIGNES AU PLUS."
 bulletins: ["Présidentielle 2027"]
 numero: "NN"
 periode_debut: "AAAA-MM-JJ"
 periode_fin: "AAAA-MM-JJ"
-tags: ["France", "Russie", "Présidentielle 2027"]
+tags: ["France", "Russie", "Telegram", "Élections"]
 narratifs: []
 image: ""
+legende_image: "MÉDIA : « CITATION TRADUITE ». Capture Telegram, traduction Info Ops France."
 draft: true
 ---
 
-TEXTE DU CHAPÔ.
+TEXTE D'INTRODUCTION : période, corpus, ce qui change depuis le numéro précédent.
 
 ## En bref
 
@@ -20,44 +23,43 @@ TEXTE DU CHAPÔ.
 - CONSTAT 2.
 - CONSTAT 3.
 
-## Narratifs dominants
+{{< courbes >}}
+{
+  "titre": "Messages par jour et par mot-clé, JJ–JJ MOIS AAAA",
+  "ymax": 24,
+  "jours": ["AAAA-MM-JJ", "AAAA-MM-JJ"],
+  "series": [
+    {"nom": "France", "valeurs": [0, 0]}
+  ]
+}
+{{< /courbes >}}
+
+## Narratifs dominants observés
 
 ### LIBELLÉ DU NARRATIF
-
-**Volume :** N messages · N chaînes · N % du corpus
 
 **Tonalité :** négative / neutre / mixte
 
 DESCRIPTION DU NARRATIF : de quoi il s'agit, qui le porte, sur quel registre.
 
-Les cadrages divergent selon les sources : SOURCE A CADRE AINSI, tandis que
-SOURCE B CADRE AUTREMENT.
-
 {{< figure src="/images/NOM.webp"
-           alt="Description factuelle et complète, pour lecteurs d'écran."
-           caption="Ce que la capture montre et pourquoi elle est retenue."
-           source="Capture : NOM DU CANAL, JJ MOIS AAAA" >}}
+           float="right"
+           zoom="true"
+           alt="Traduction complète du message, pour lecteurs d'écran."
+           caption="MÉDIA : « CITATION COURTE »."
+           source="Capture Telegram, traduction Info Ops France." >}}
 
 ### LIBELLÉ DU NARRATIF
 
-## Signaux de coordination
-
-OBSERVATION, avec délai, nombre de chaînes et étendue de la reprise.
+**Tonalité :** négative / neutre / mixte
 
 ## Acteurs et cibles
 
-| Entité | Messages | Tonalité des mentions | Évolution |
-| --- | --- | --- | --- |
-| NOM | N | négative | ↑ nouveau |
-| NOM | N | neutre | → stable |
+| Entité | Messages | Tonalité des mentions |
+| --- | --- | --- |
+| NOM | N | négative |
+{caption="Personnalités politiques françaises mentionnées, JJ–JJ MOIS AAAA"}
 
-## Évolution depuis le bulletin précédent
+---
 
-CE QUI PROGRESSE. CE QUI RECULE. CE QUI DISPARAÎT.
-
-{{< methodology >}}
-Collecte et analyse : Denys Kolesnyk pour Info Ops France.
-N messages publiés entre le JJ et le JJ MOIS AAAA par les N chaînes Telegram
-russophones que nous suivons : agences et médias d'État, presse russe,
-chaînes d'opinion, blogueurs et influenceurs.
-{{< /methodology >}}
+Collecte et analyse : [Denys Kolesnyk](https://kolesnyk.fr/fr/a-propos/) pour **Info Ops France**. N messages publiés du JJ au JJ MOIS AAAA par N chaînes Telegram russes (médias d'État, presse, chaînes d'opinion, blogueurs et comptes anonymes). Tonalité attribuée automatiquement, puis relue. Outil (propriétaire) utilisé est DFN.

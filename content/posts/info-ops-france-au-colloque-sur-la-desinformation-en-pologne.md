@@ -1,9 +1,9 @@
 ---
 title: "Info Ops France au colloque sur la désinformation en Pologne"
-description: "Info Ops France, représentée par son fondateur Denys Kolesnyk, au colloque polonais sur la désinformation et la résilience informationnelle réunissant agences gouvernementales, secteur privé et universitaires."
+description: "Info Ops France, représentée par Denys Kolesnyk, au colloque polonais sur la désinformation et la résilience informationnelle."
 kicker: "Événement"
 date: "2023-12-18T19:02:12+01:00"
-tags: ["Afrique", "désinformation", "France", "Russie"]
+tags: ["Désinformation", "Afrique", "France", "Russie"]
 image: "/images/infoops_france_colloque_pologne.webp"
 draft: false
 ---

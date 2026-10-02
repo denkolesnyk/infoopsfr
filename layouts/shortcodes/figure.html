@@ -21,7 +21,8 @@
 {{- if and $zoom (not $link) }}{{ $link = $src | absURL }}{{ end -}}
 <figure class="fig{{ if $wide }} fig_wide{{ end }}{{ with $float }} fig_float fig_float_{{ . }}{{ end }}"{{ with $width }} style="max-width:{{ . }}px"{{ end }}>
     {{- if $link }}<a href="{{ $link }}" rel="noopener" target="_blank">{{ end -}}
-    <img src="{{ $src | absURL }}" alt="{{ $alt }}" loading="lazy" decoding="async" />
+    {{- $sizes := cond (ne $float "") "(min-width: 880px) 18rem, 100vw" "(min-width: 880px) 50rem, 100vw" }}
+    {{ partial "img.html" (dict "src" $src "alt" $alt "sizes" $sizes) }}
     {{- if $link }}</a>{{ end -}}
     {{- if or $caption $source }}
     <figcaption>

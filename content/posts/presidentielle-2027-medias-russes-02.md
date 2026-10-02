@@ -3,12 +3,12 @@ title: "Présidentielle 2027 : la France dans les médias russes n° 2"
 headline: "Les candidats n'existent que lorsqu'ils parlent de l'Ukraine"
 chapeau: "Macron tombe à 16 %, et Glucksmann disparaît du corpus aussi vite qu'il y était entré."
 date: 2026-09-14T16:40:00+02:00
-description: "Bulletin du 1er au 13 septembre 2026 : les candidats n'existent pour les chaînes russes que lorsqu'ils parlent de l'Ukraine, Macron tombe à 16 %, et Glucksmann disparaît du corpus aussi vite qu'il y était entré."
+description: "Bulletin du 1er au 13 septembre 2026 : les candidats n'existent pour les chaînes russes que lorsqu'ils parlent de l'Ukraine. Glucksmann disparaît du corpus."
 bulletins: ["Présidentielle 2027"]
 numero: "02"
 periode_debut: "2026-09-01"
 periode_fin: "2026-09-13"
-tags: ["France", "Russie", "Présidentielle 2027", "Telegram"]
+tags: ["France", "Russie", "Telegram", "Élections"]
 narratifs: ["De partie au conflit à obstacle à la paix", "Le Niger accuse la France", "Macron à 16 %", "L'Ukraine comme filtre : ce que les chaînes russes retiennent des candidats", "Le Pen : une victoire qui « ne changerait rien » pour la Russie"]
 image: "/images/skabeeva_attal_card.webp"
 legende_image: "Olga Skabeïeva relaie l'entretien de Gabriel Attal sur BFMTV. Capture Telegram."

@@ -5,6 +5,7 @@ tags: ["France", "Russie", "Ukraine"]
 description: "Rapport hebdomadaire du 21 au 27 mars 2022 : reprise des rapports après la pause liée à l'invasion russe de l'Ukraine, rôle diplomatique de la France et propagande russe."
 kicker: "Rapport hebdomadaire"
 image: "/images/ria_zelensky.jpg"
+legende_image: "RIA Novosti, 23 mars 2022 : « C'est de la folie ! La demande de Zelensky irrite les Français ». Capture d'écran, traduction Info Ops France."
 draft: false
 ---
 
@@ -18,7 +19,12 @@ Les médias ont orienté les déclarations venant de la France afin de positionn
 
 Les déclarations et les efforts de la France sur la scène internationale ont été couverts de façon à présenter la position française comme plus favorable à la Russie de ce qu’elle est réellement. Les pourparlers entre Emmanuel Macron et autres leaders du monde occidental ont été couverts avec un accent sur le refus par l’Occident, et surtout la France, de livrer des armes lourdes à l’Ukraine. Ceci est fait dans le but de démontrer à la fois à la population russe que l’Occident ne soutiendrait pas assez l’Ukraine, et à la population ukrainienne russophone que l’Ukraine est soit-disant abandonnée par l’Occident. Ceci vise également à endommager plus encore la réputation de la France dans la région de l’Europe Centre-Est.
 
-![Vladimir Soloviev ridiculisant Macron dans son émission de propagande russe](/images/soloviev_sur_macron.jpg)
+{{< figure src="/images/soloviev_sur_macron.jpg"
+           float="right"
+           zoom="true"
+           alt="Vladimir Soloviev ridiculisant Macron dans son émission de propagande russe"
+           caption="Vladimir Soloviev en direct sur Rossiya 1."
+           source="Capture d'écran." >}}
 
 La déclaration d’Emmanuel Macron du 27 mars dernier sur la chaîne France 3, indiquant qu’il n’insulterait jamais Vladimir Poutine comme l’a fait le président américain Joe Biden a été repérée dans les médias russes. Cependant, le président de la République a été ridiculisé pour cette position de « leader faible » dans le show du propagandiste russe Vladimir Soloviev, où il a dénigré Macron en disant qu'il n'était pas nécessaire de valoriser ses paroles, « *car il [Macron] n’a aucune influence que ce soit* ». Les tentatives d’apaisement et la volonté de Paris de dialoguer avec Moscou malgré l’invasion russe de l’Ukraine, ne suscitent que des moqueries et l’absence de respect envers la France dans les médias et la société russe.
 

@@ -1,10 +1,11 @@
 ---
 title: "La France dans les médias russes - 18-24 avril 2022"
 date: "2022-04-26T15:12:30+01:00"
-tags: ["France", "Russie", "Ukraine"]
+tags: ["France", "Russie", "Ukraine", "Élections"]
 description: "Rapport hebdomadaire du 18 au 24 avril 2022 : deuxième tour des présidentielles françaises et agenda international dans les médias russes."
 kicker: "Rapport hebdomadaire"
 image: "/images/mlp_russie_ue_embargo.webp"
+legende_image: "FAN, 21 avril 2022 : « Marine Le Pen : l'embargo de l'UE sur l'énergie n'affectera pas la Russie ». Capture d'écran, traduction Info Ops France."
 draft: false
 ---
 

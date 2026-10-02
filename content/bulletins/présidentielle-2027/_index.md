@@ -1,4 +1,4 @@
 ---
 title: "Présidentielle 2027"
-description: "Le bulletin bimensuel d'Info Ops France sur le traitement des acteurs politiques français par les chaînes Telegram russophones, à l'approche de la présidentielle du 18 avril 2027."
+description: "Bulletin bimensuel d'Info Ops France : comment les chaînes Telegram russes traitent les acteurs politiques français avant la présidentielle d'avril 2027."
 ---

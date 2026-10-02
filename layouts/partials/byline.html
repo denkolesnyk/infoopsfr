@@ -1,4 +1,7 @@
-{{- /* Chaque élément porte son séparateur : au retour à la ligne, le « · »
+{{- /* Pas de date de mise à jour affichée, par choix éditorial : elle
+       reste dans les métadonnées (article:modified_time, schema.org).
+
+       Chaque élément porte son séparateur : au retour à la ligne, le « · »
        part avec l'élément qu'il précède et ne reste jamais seul en fin
        de ligne. */ -}}
 {{- $author := cond (isset .Params "author") (.Params.author | default "") .Site.Params.author -}}
@@ -8,8 +11,5 @@
     <span rel="author">{{ i18n "by_author" }} <strong>{{ . }}</strong></span>
     {{- end }}
     <span>{{ if $author }}{{ $sep }}{{ end }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time></span>
-    {{- if gt (.Lastmod.Sub .Date).Hours 24 }}
-    <span>{{ $sep }}{{ i18n "updated_on" }} <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod | time.Format "2 January 2006" }}</time></span>
-    {{- end }}
     <span>{{ $sep }}{{ i18n "reading_time" (dict "Count" .ReadingTime) }}</span>
 </div>

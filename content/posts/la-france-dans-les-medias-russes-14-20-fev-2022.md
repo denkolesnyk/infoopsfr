@@ -1,10 +1,11 @@
 ---
 title: "La France dans les médias russes - 14-20 février 2022"
 date: "2022-02-21T15:23:30+01:00"
-tags: ["France", "OTAN", "Mali", "Russie", "Ukraine"]
-description: "Rapport hebdomadaire du 14 au 20 février 2022 : la crise russo-ukrainienne, les efforts diplomatiques français et la couverture de l'Afrique francophone par les médias russes."
+tags: ["France", "Russie", "Ukraine", "Afrique"]
+description: "Rapport hebdomadaire du 14 au 20 février 2022 : la crise russo-ukrainienne, la diplomatie française et l'Afrique francophone vues par les médias russes."
 kicker: "Rapport hebdomadaire"
 image: "/images/candidats_france_russie_ria.jpg"
+legende_image: "TASS, 17 février 2022 : « L'ambassadeur de Russie : tous les candidats à la présidentielle française sont favorables au développement des relations avec Moscou ». Capture d'écran, traduction Info Ops France."
 draft: false
 ---
 
@@ -18,7 +19,12 @@ Dans ce même contexte, les médias russes se focalisent sur l’importance de d
 
 Un autre message que l’on a pu observer consiste à expliquer aux lecteurs russes et russophones que la France partage l'inquiétude « *légitime* » de la Russie concernant le « *rapprochement de l’OTAN aux frontières russes* ». Afin d’illustrer cela, nous pouvons citer l’article publié par TASS le 20 février dernier intitulé « *L’Eurodéputé a déclaré que la Fédération de Russie exige à juste titre que l’OTAN ne s'approche pas aux frontières du pays* ». Il s’agit des propos de **Jordan Bardella** qui, en tant qu’invité chez BFMTV, a évoqué la soi-disant promesse du non-élargissement de l’OTAN prétendument donnée à la Russie en 1991.
 
-![Couverture du Burkina Faso par l'Agence fédérale de presse russe FAN](/images/burkina_faso_riafan.jpg)
+{{< figure src="/images/burkina_faso_riafan.jpg"
+           float="right"
+           zoom="true"
+           alt="Couverture du Burkina Faso par l'Agence fédérale de presse russe FAN"
+           caption="FAN, 18 février 2022 : « Les habitants du Burkina Faso appellent les autorités à renoncer à la coopération militaire avec la France »."
+           source="Capture d'écran, traduction Info Ops France." >}}
 
 Et même si le sujet principal gravitait autour de la crise russo-ukrainienne, l’**Agence fédérale de presse (FAN)**, comme d’habitude, s’est beaucoup focalisée sur la France dans le contexte africain. 
 

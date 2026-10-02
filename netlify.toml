@@ -49,7 +49,7 @@
 
 [[redirects]]
   from = "/tags/présidentielle-2027/"
-  to = "/tags/presidentielle-2027/"
+  to = "/bulletins/presidentielle-2027/"
   status = 301
   force = true
 
@@ -61,7 +61,75 @@
 
 [[redirects]]
   from = "/tags/guerre-non-cinétique/"
-  to = "/tags/guerre-non-cinetique/"
+  to = "/tags/guerre-informationnelle/"
+  status = 301
+  force = true
+
+# Tags regroupés (octobre 2026) : 16 tags ramenés à 9. Les anciennes
+# adresses renvoient vers le tag qui les a absorbés.
+[[redirects]]
+  from = "/tags/presidentielle-2027/"
+  to = "/bulletins/presidentielle-2027/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/mali/"
+  to = "/tags/afrique/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/burkina-faso/"
+  to = "/tags/afrique/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/centrafrique/"
+  to = "/tags/afrique/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/grey_zone/"
+  to = "/tags/telegram/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/guerre-cognitive/"
+  to = "/tags/guerre-informationnelle/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/guerre-mentale/"
+  to = "/tags/guerre-informationnelle/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/guerre-non-cinetique/"
+  to = "/tags/guerre-informationnelle/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/twitter/"
+  to = "/tags/reseaux-sociaux/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/amnesty-international/"
+  to = "/tags/desinformation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/otan/"
+  to = "/tags/"
   status = 301
   force = true
 
@@ -77,16 +145,23 @@
   [headers.values]
     Cache-Control = "public, max-age=604800"
 
+# Vignettes de partage générées : le nom porte une empreinte.
+[[headers]]
+  for = "/og/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
 # Polices : fichiers figés, jamais modifiés en place.
 [[headers]]
   for = "/fonts/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# Le script passe par le pipeline Hugo (main.<empreinte>.js) : cache long.
 [[headers]]
   for = "/js/*"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=31536000, immutable"
 
 # Index de recherche : régénéré à chaque build, mais les fragments et shards
 # portent un hash dans leur nom.
@@ -100,12 +175,15 @@
   [headers.values]
     Cache-Control = "public, max-age=2592000"
 
-# Le HTML doit toujours être revalidé pour que les nouveaux articles
-# apparaissent immédiatement.
+# En-têtes de sécurité pour tout le site. Le motif « /*.html » utilisé
+# auparavant ne s'appliquait jamais : les pages sont demandées en
+# /posts/…/, sans « .html ». Pas de Cache-Control ici : Netlify revalide
+# déjà le HTML par défaut (max-age=0, must-revalidate), et les règles
+# ci-dessus fixent celui des fichiers statiques.
 [[headers]]
-  for = "/*.html"
+  for = "/*"
   [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "SAMEORIGIN"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

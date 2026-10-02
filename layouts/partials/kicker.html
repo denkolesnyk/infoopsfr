@@ -19,7 +19,11 @@
     {{- /* « 03 » → 3. TrimLeft plutôt que int : « 08 » serait lu en octal. */ -}}
     {{- $parts = $parts | append (printf "Bulletin n° %s" (strings.TrimLeft "0" (string .))) }}
   {{- end }}
-  {{- if and $.period $p.Params.periode_debut $p.Params.periode_fin }}
+  {{- /* Période affichée seulement si les deux dates sont au format
+         AAAA-MM-JJ : un brouillon encore rempli de gabarits ne casse pas
+         la prévisualisation. */ -}}
+  {{- $iso := `^\d{4}-\d{2}-\d{2}$` }}
+  {{- if and $.period (findRE $iso (string $p.Params.periode_debut)) (findRE $iso (string $p.Params.periode_fin)) }}
     {{- $d := time.AsTime $p.Params.periode_debut }}
     {{- $f := time.AsTime $p.Params.periode_fin }}
     {{- if eq ($d.Format "2006-01") ($f.Format "2006-01") }}

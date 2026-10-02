@@ -1,1 +1,5 @@
-<script src="{{ "js/main.js" | absURL }}" defer></script>
+{{- /* Script via le pipeline Hugo : minifié, nom à empreinte (main.<hash>.js),
+       donc mis en cache longtemps sans risque de version périmée. */ -}}
+{{- with resources.Get "js/main.js" | minify | fingerprint "sha256" }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{- end }}

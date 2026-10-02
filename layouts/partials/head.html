@@ -2,14 +2,20 @@
 <html lang="{{ .Site.Language.Lang }}">
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     {{- $author := cond (isset .Params "author") (.Params.author | default "") .Site.Params.author }}
+    {{- /* Description : celle de la page ; à défaut, une description
+           propre à chaque tag ; à défaut, celle du site. */ -}}
     {{- $desc := "" }}
     {{- if .Description }}{{ $desc = .Description | plainify }}
     {{- else if .IsPage }}{{ $desc = .Summary | plainify }}
+    {{- else if eq .Kind "term" }}{{ $desc = printf "Publications d’Info Ops France sur le thème « %s » : analyses de la désinformation et des opérations d’information visant la France." .Title }}
     {{- else }}{{ $desc = .Site.Params.description }}{{ end }}
+    {{- /* Numéro de page dans le titre de l'accueil paginé (seule page
+           paginée du site). */ -}}
+    {{- $pageNum := "" }}
+    {{- if .IsHome }}{{ if gt .Paginator.PageNumber 1 }}{{ $pageNum = printf " — page %d" .Paginator.PageNumber }}{{ end }}{{ end }}
     {{- /* Vignette de partage : carte générée pour les articles
            (og-image.html), sinon l'image de couverture, sinon le logo. */ -}}
     {{- $ogImage := partial "og-image.html" . }}
@@ -18,14 +24,9 @@
     {{- else }}{{ $ogImage = (print $.Site.BaseURL "images/logo.png") }}{{ end }}
     {{- end }}
 
-    <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.subTitle | plainify }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.homeTitle }}{{ $pageNum }}{{ else }}{{ .Title }}{{ $pageNum }} — {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ $desc }}" />
     <meta name="author" content="{{ $author }}" />
-    {{- with .Keywords }}
-    <meta name="keywords" content="{{ delimit . ", " }}" />
-    {{- else }}{{ with .Site.Params.keywords }}
-    <meta name="keywords" content="{{ delimit . ", " }}" />
-    {{- end }}{{ end }}
 
     <!-- Open Graph -->
     <meta property="og:site_name" content="{{ .Site.Title }}" />
@@ -85,14 +86,8 @@
            le changement de police au premier affichage. */ -}}
     <link rel="preload" href="{{ "fonts/ibm-plex-sans-latin-400-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="{{ "fonts/ibm-plex-sans-latin-600-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin />
-    {{- range slice "fonts" "normalize" "main" "highlight" }}
+    {{- range slice "fonts" "normalize" "main" }}
     {{- with resources.Get (printf "css/%s.css" .) }}
-    {{- $css := . | fingerprint "sha256" }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
-    {{- end }}
-    {{- end }}
-    {{- range .Site.Params.customCSS }}
-    {{- with resources.Get (printf "css/%s" .) }}
     {{- $css := . | fingerprint "sha256" }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
     {{- end }}

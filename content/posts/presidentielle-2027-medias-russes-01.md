@@ -3,12 +3,12 @@ title: "Présidentielle 2027 : la France dans les médias russes n° 1"
 headline: "La candidature Glucksmann réoriente l'hostilité des chaînes russes"
 chapeau: "Les sondages favorables à Marine Le Pen, eux, circulent sans commentaire."
 date: 2026-08-31T22:14:00+02:00
-description: "Bulletin du 17 au 30 août 2026 : la candidature de Raphaël Glucksmann réoriente l'hostilité russophone, tandis que les sondages favorables à Marine Le Pen circulent sans commentaire."
+description: "Bulletin du 17 au 30 août 2026 : la candidature Glucksmann réoriente l'hostilité des chaînes russes, les sondages favorables à Le Pen circulent sans commentaire."
 bulletins: ["Présidentielle 2027"]
 numero: "01"
 periode_debut: "2026-08-17"
 periode_fin: "2026-08-30"
-tags: ["France", "Russie", "Présidentielle 2027", "Telegram"]
+tags: ["France", "Russie", "Telegram", "Élections"]
 narratifs: ["La France comme partie au conflit", "Macron en fin de règne", "Glucksmann, nouvelle cible désignée", "Le Pen en tête, sans soutien affiché"]
 image: "/images/vzglyad_glucksmann_podcast_card.webp"
 legende_image: "Vzglyad : « On prépare pour remplacer Macron un russophobe encore pire », podcast consacré à Raphaël Glucksmann. Capture Telegram, traduction Info Ops France."

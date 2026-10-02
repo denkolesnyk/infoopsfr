@@ -2,7 +2,7 @@
 
 <body>
     {{ partial "header.html" . }}
-    <main class="content wrap">
+    <main class="content wrap" id="contenu">
         <header class="page_head">
             <h1 class="page_heading">{{ .Title }}</h1>
             {{- with .Description }}<p class="standfirst">{{ replace . "'" "’" }}</p>{{ end }}

@@ -46,9 +46,9 @@ removePathAccents = true
   author = "Denys Kolesnyk"
   subTitle = "« L’esprit des nations belligérantes est la 4ème dimension [de la guerre] »"
   subTitleAuthor = "Evgueni Messner"
-  keywords = ["Info Ops France","désinformation","infoguerre"]
-  description = "L’initiative Info Ops France a pour but d’améliorer la résilience informationnelle de la société française."
-  enableMathJax = false
+  # Titre de l'accueil dans l'onglet et les résultats de recherche.
+  homeTitle = "analyse des opérations d’information visant la France"
+  description = "Info Ops France analyse le traitement de la France par les médias et chaînes Telegram russes, pour renforcer la résilience informationnelle française."
   enableSummary = true
   mainSections = ["posts","post"]
 
@@ -62,8 +62,20 @@ removePathAccents = true
   # Attributs de bloc : permet {caption="…"} sous un tableau.
   [markup.goldmark.parser.attribute]
     block = true
-  [markup.highlight]
-    noClasses = false
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 3
+
+# Les images restent servies telles quelles depuis static/ (adresses
+# inchangées), mais sont aussi exposées au pipeline d'images de Hugo, qui
+# en produit des versions WebP redimensionnées (partials/img.html).
+[module]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"

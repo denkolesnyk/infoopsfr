@@ -1,10 +1,11 @@
 ---
 title: "La France dans les médias russes - 24-30 janvier 2022"
 date: "2022-01-30T22:14:30+01:00"
-tags: ["France","Russie", "Burkina Faso", "Ukraine"]
+tags: ["France", "Russie", "Ukraine", "Afrique"]
 description: "Rapport hebdomadaire du 24 au 30 janvier 2022 : la crise russo-ukrainienne et la présence française en Afrique dans les médias russes."
 kicker: "Rapport hebdomadaire"
 image: "/images/drapeau_russe_burkina_faso_fan.jpg"
+legende_image: "FAN : drapeaux burkinabè, russe et malien lors d'une manifestation à Ouagadougou. Capture d'écran."
 draft: false
 ---
 
@@ -16,7 +17,12 @@ Les pourparlers au format Normandie ont été décrits plutôt de façon neutre,
 
 Le président de la République a été mentionné dans le cadre de la préparation d'un échange téléphonique avec le président russe, où Emmanuel Macron « *a l'intention de proposer* » à son homologue russe « *le chemin vers la désescalade* », ainsi que l'idée d'Emmanuel Macron que l'Union européenne (UE) devrait également pleinement participer à l'élaboration de la réponse aux « *propositions faites par la Russie en décembre dernier* ». Cela n'a pas été surprenant que certains médias, notamment l'Agence fédérale de presse (FAN), aient repris les commentaires laissés sur le site Le Figaro afin de faire des articles attaquant le président français, en particulier en le traitant de « *nain de jardin* » pour son opinion concernant l'Ukraine.
 
-![L'agence fédérale de presse](/images/riafan_stats.jpg)
+{{< figure src="/images/riafan_stats.jpg"
+           float="right"
+           zoom="true"
+           alt="L'agence fédérale de presse"
+           caption="Audience du site riafan.ru en décembre 2021 : 13,2 millions de visites."
+           source="Capture d'écran, données Similarweb." >}}
 
 Sur l'Afrique, nous avons observé une intensité importante de l'Agence fédérale de presse (FAN), qui a publié jusqu'à quelques articles par jour, ouvertement orientés contre la France. Plusieurs articles du FAN, lu majoritairement en Russie (59%) et au Bélarus (30%) avec plus de 13 millions visite mensuelles, évoquaient les manifestations au Sénégal en soutient du Mali, le « *blocage de l'espace aérien pour les avions français par les pays africains* », ainsi que les drapeaux russes dans les rues du Burkina Faso. Alors que la Russie est décrite comme « *le symbole de liberté du néocolonialisme des anciennes métropoles* ».
 

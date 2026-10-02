@@ -1,0 +1,35 @@
+{{- /* Image adaptative : versions WebP en 480, 800 et 1200 px de large
+       (jamais plus que l'original) et à la largeur d'origine ; le
+       navigateur choisit selon l'écran. src = version 800 px.
+
+   Usage : {{ partial "img.html" (dict "src" "/images/x.jpg" "alt" "…" "sizes" "(min-width: 880px) 40rem, 100vw" "eager" false) }}
+
+   Si l'image n'est pas trouvée dans le pipeline (GIF, SVG, URL externe),
+   on rend une balise <img> simple. */ -}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $sizes := .sizes | default "(min-width: 880px) 40rem, 100vw" -}}
+{{- $loading := cond (.eager | default false) "eager" "lazy" -}}
+{{- $r := "" -}}
+{{- if and (strings.HasPrefix $src "/images/") (not (strings.HasSuffix $src ".gif")) (not (strings.HasSuffix $src ".svg")) -}}
+  {{- $r = resources.Get (strings.TrimPrefix "/" $src) -}}
+{{- end -}}
+{{- with $r -}}
+  {{- $set := slice -}}
+  {{- $fallback := $r.Resize (printf "%dx webp q80" (cond (lt $r.Width 800) $r.Width 800)) -}}
+  {{- range slice 480 800 1200 -}}
+    {{- if le . $r.Width -}}
+      {{- $v := $r.Resize (printf "%dx webp q80" .) -}}
+      {{- $set = $set | append (printf "%s %dw" $v.RelPermalink .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- /* Plus la pleine largeur de l'original (écrans haute densité),
+         si elle n'est pas déjà dans la liste. */ -}}
+  {{- if not (in (slice 480 800 1200) $r.Width) -}}
+    {{- $full := $r.Resize (printf "%dx webp q80" $r.Width) -}}
+    {{- $set = $set | append (printf "%s %dw" $full.RelPermalink $r.Width) -}}
+  {{- end -}}
+<img src="{{ $fallback.RelPermalink }}" srcset="{{ delimit $set ", " }}" sizes="{{ $sizes }}" width="{{ $r.Width }}" height="{{ $r.Height }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="async" />
+{{- else -}}
+<img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="async" />
+{{- end -}}

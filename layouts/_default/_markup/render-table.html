@@ -5,7 +5,7 @@
 
        Légende facultative, en attribut de bloc sous le tableau :
        {caption="Personnalités politiques françaises mentionnées"} */ -}}
-<div class="table_wrap">
+<div class="table_wrap" tabindex="0" role="region" aria-label="{{ with .Attributes.caption }}{{ . | plainify }}{{ else }}Tableau de données{{ end }}">
   <table>
     {{- with .Attributes.caption }}
     <caption>{{ . | markdownify }}</caption>

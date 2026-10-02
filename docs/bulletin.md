@@ -26,19 +26,23 @@ Le `--kind bulletin` est obligatoire : sans lui, Hugo utilise
 
 | Champ | Rôle |
 | --- | --- |
-| `title` | Titre affiché. Format retenu : `Présidentielle 2027 : la France dans les médias russes — n° N` — numéro non paddé, c'est la seule forme lue par un humain. |
-| `description` | 160-200 caractères. Méta-description, vignette sociale et résumé sur la page d'accueil. Annoncer le résultat, pas le sujet. |
-| `numero` | **Toujours entre guillemets et sur deux chiffres** (`"01"`, `"02"`, … `"12"`). Non quoté, YAML lit `07` comme l'entier 7 et `08` comme la chaîne « 08 » : le type change d'un bulletin à l'autre. Le padding garantit en prime un tri correct, en YAML comme dans la liste des fichiers. |
-| `periode_debut` / `periode_fin` | Fenêtre d'observation, à ne pas confondre avec la date de publication. Format ISO, pour pouvoir reconstruire une série temporelle. |
-| `tags` | Thèmes, pays, acteurs. Vocabulaire libre. |
-| `narratifs` | Narratifs récurrents observés dans CE bulletin. Vocabulaire **contrôlé** : reprendre à l'identique les libellés déjà utilisés, ne créer une entrée que pour un narratif réellement inédit. C'est cette discipline qui transforme la série en catalogue exploitable. Ex. « France néocoloniale au Sahel », « Macron va-t-en-guerre », « France en déclin social », « Fatigue face aux réfugiés ukrainiens ». |
-| `image` | Capture la plus parlante du bulletin, qui sert aussi de vignette sociale. Laisser la chaîne vide tant qu'il n'y a pas d'image : le gabarit retombe alors sur le logo. Un chemin qui n'existe pas produit une vignette cassée sur les réseaux. |
+| `title` | Titre de référence : onglet, moteurs de recherche, flux RSS, archive. Format : `Présidentielle 2027 : la France dans les médias russes n° N`, numéro non paddé. |
+| `headline` | Titre affiché sur le site et sur la vignette de partage. Un constat, pas le nom de la série (celle-ci figure déjà dans le surtitre). |
+| `chapeau` | Une phrase sous le titre, qui le complète sans le répéter. |
+| `description` | **160 caractères au plus.** Ne sert plus qu'aux moteurs de recherche et aux aperçus de partage. |
+| `numero` | **Toujours entre guillemets et sur deux chiffres** (`"01"`, `"02"`, … `"12"`). Non quoté, YAML lit `07` comme l'entier 7 et `08` comme la chaîne « 08 ». Le surtitre affiche « Bulletin n° 3 ». |
+| `periode_debut` / `periode_fin` | Fenêtre d'observation, à ne pas confondre avec la date de publication. Format ISO. Le surtitre de l'article affiche la période. |
+| `tags` | Vocabulaire **fermé**, neuf tags : France, Russie, Ukraine, Afrique, Telegram, Élections, Désinformation, Guerre informationnelle, Réseaux sociaux. Un bulletin : `["France", "Russie", "Telegram", "Élections"]`. La série passe par `bulletins`, pas par un tag. |
+| `narratifs` | Narratifs observés dans CE bulletin. Vocabulaire **contrôlé** : reprendre à l'identique les libellés déjà utilisés. |
+| `image` | Capture la plus parlante : couverture de l'article et image à la une de l'accueil. Laisser vide tant qu'il n'y a pas d'image. |
+| `legende_image` | Légende de la couverture : `MÉDIA : « citation traduite ». Capture Telegram, traduction Info Ops France.` |
 | `draft` | Passer à `false` au moment de publier. |
 
-`numero`, `periode_*` et `narratifs` ne sont affichés par aucun
-gabarit aujourd'hui : ils servent à documenter le bulletin et à le traiter
-plus tard par machine. Les renseigner correctement coûte peu et évite d'avoir
-à rouvrir douze fichiers le jour où on les exploitera.
+La vignette de partage (X, Facebook) est générée automatiquement à partir du
+surtitre et de `headline`. Aucune date de mise à jour n'est affichée.
+
+`narratifs` n'est affiché par aucun gabarit : il sert à documenter le
+bulletin et à le traiter plus tard par machine.
 
 **Ne jamais laisser de commentaire `#` dans l'en-tête.** L'ancienne version de
 l'archétype en contenait, et supprimer un bloc de commentaires en laissant la
@@ -48,10 +52,9 @@ part en production avec ses gabarits apparents.
 
 ## Structure du corps
 
-**Chapô** — 2 à 3 phrases, sans titre. Ce que retient un lecteur qui ne lira
-rien d'autre : le fait dominant de la quinzaine, et son caractère nouveau ou
-non. Pas de méthodologie ici. C'est ce premier paragraphe qui est repris comme
-extrait sur la page d'accueil.
+**Introduction** — un paragraphe, sans titre : la période, le corpus, ce qui
+change depuis le numéro précédent. (Le résumé affiché sur l'accueil vient de
+`chapeau`, pas de ce paragraphe.)
 
 **En bref** — 3 à 5 puces. Une observation par puce, chiffrée quand c'est
 possible. Écrire des constats, pas des titres de section.
@@ -70,6 +73,11 @@ illisible. Pour chaque cluster :
 Ne conserver que les clusters sur lesquels vous pouvez porter un jugement. Un
 cluster que vous ne comprenez pas ne se publie pas.
 
+**Tonalité** — sous chaque `###`, la ligne `**Tonalité :** mixte`, exactement
+sous cette forme : le gabarit la transforme en étiquette.
+
+**Graphique** — le shortcode `courbes`, avec un champ `"titre"`.
+
 **Signaux de coordination** — *source : DFN, `analyzeCoordination`.* À ne
 conserver que si le résultat est significatif : reprises quasi identiques,
 délais de transfert anormalement courts, arrivée simultanée sur des chaînes sans
@@ -78,7 +86,10 @@ identique en moins de N minutes »), pas ce qui est supposé : l'attribution à 
 commanditaire ne se déduit pas d'un délai de propagation. Rien de probant cette
 quinzaine ? Supprimer la section — ne pas meubler.
 
-**Acteurs et cibles** — *source : DFN, onglet Entities (NER + stance).* Les
+**Acteurs et cibles** — *source : DFN, onglet Entities (NER + stance).*
+Tableau suivi, sur la ligne juste en dessous, de
+`{caption="Personnalités politiques françaises mentionnées, période"}`.
+Ne lister que les entités effectivement mentionnées. Les
 entités françaises les plus citées et la posture adoptée à leur égard. Utile
 surtout en variation : qui entre, qui sort, qui change de traitement par
 rapport au bulletin précédent.
@@ -94,7 +105,9 @@ première fois ? Qu'est-ce qui a **disparu** ? Les constats négatifs (« le th�
 X, dominant en n° NN-1, est absent de ce corpus ») ont autant de valeur que les
 constats positifs, et presque personne ne les publie.
 
-**Méthodologie** — bloc `{{< methodology >}}`. Court, quatre ou cinq lignes :
+**Méthodologie** — en fin de fichier, une ligne `---` puis un paragraphe
+commençant par « Collecte et analyse : ». Le gabarit en fait le bloc
+« Méthodologie et données ». Court, quatre ou cinq lignes :
 la fenêtre de collecte, le nombre de messages et de chaînes suivies, la nature
 de ces chaînes (agences et médias d'État, presse russe, chaînes d'opinion,
 blogueurs et influenceurs), et le cas échéant une ligne sur les messages
@@ -106,22 +119,24 @@ Les fichiers vont dans `static/images/`, référencés en `/images/nom.webp`.
 
 ```
 {{< figure src="/images/nom.webp"
-           alt="Description factuelle et complète, pour lecteurs d'écran."
-           caption="Ce que la capture montre et pourquoi elle est retenue."
-           source="Capture : NOM DU CANAL, JJ MOIS AAAA"
-           link="https://exemple.org"
-           wide="true" >}}
+           float="right"
+           zoom="true"
+           alt="Traduction complète du message, pour lecteurs d'écran."
+           caption="Une ligne : MÉDIA : « citation courte »."
+           source="Capture Telegram, traduction Info Ops France." >}}
 ```
 
-`link` et `wide` sont facultatifs. Si l'image de couverture (`image:`) est
-aussi utilisée dans le corps, le gabarit ne l'affiche qu'une fois : il détecte
-aussi bien `![](…)` que le `src="…"` du shortcode.
+Une capture Telegram : `float="right"` (elle se place dans la marge de
+droite). Un graphique ou un schéma : sans `float`, il occupe toute la largeur.
+La traduction intégrale va dans `alt`, pas dans `caption`. Si l'image de
+couverture est aussi utilisée dans le corps, elle n'est affichée qu'une fois.
 
 ## Relecture avant publication
 
 - `draft: false` ;
 - aucun gabarit en majuscules (`NARRATIF`, `NOM`, `JJ MOIS AAAA`) ne subsiste ;
 - `numero` entre guillemets et sur deux chiffres ;
+- `headline`, `chapeau`, `legende_image` renseignés ; `description` ≤ 160 signes ;
 - la fenêtre `periode_debut` / `periode_fin` correspond bien à celle de la
   collecte ;
 - `image` pointe vers un fichier qui existe dans `static/images/` ;

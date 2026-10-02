@@ -1,9 +1,9 @@
 ---
 title: "La guerre mentale - la guerre cognitive à la russe"
-description: "Décryptage de la « guerre mentale » d'Andreï Ilnitski, conseiller du ministre russe de la Défense : origines doctrinales, objectifs et place dans la pensée militaire russe contemporaine."
+description: "Décryptage de la « guerre mentale » d'Andreï Ilnitski, conseiller du ministre russe de la Défense : origines, objectifs et place dans la pensée militaire russe."
 kicker: "Décryptage"
 date: "2023-01-27T09:32:13+02:00"
-tags: ["guerre cognitive", "guerre mentale", "Russie"]
+tags: ["Guerre informationnelle", "Russie"]
 image: "/images/guerre_mentale_chart.jpg"
 draft: false
 ---
@@ -46,7 +46,11 @@ L’auteur propose également sa définition de la guerre mentale de façon suiv
 
 Karavayev propose également le schéma de la guerre mentale comme une partie principale de la théorie générale de la guerre (*cf. schéma ci-dessous*). Selon le schéma proposé, le **but** de la guerre mentale est la « *destruction ou la transformation de l'objet (la destruction de la conscience publique et des institutions publiques)* », ayant pour **résultat** « *la dégradation de la société et de l'État, de toutes ses sphères et institutions* ».
 
-![Guerre mentale](/images/guerre_mentale_chart.jpg)
+{{< figure src="/images/guerre_mentale_chart.jpg"
+           zoom="true"
+           alt="Schéma en russe du concept de guerre mentale : objet, sujets, méthodes, moyens, sphères de la société visées et résultat attendu, la dégradation de la société et de l’État."
+           caption="« Le concept de guerre mentale, composante essentielle de la théorie générale de la guerre », schéma de Karavaïev."
+           source="I. N. Karavaïev, Voennaïa Mysl n° 3, 2022." >}}
 
 Le Colonel Karavayev maintient que les principales formes de la guerre mentale comprennent les opérations informationnelles à plusieurs pas qui utilisent des mécanismes psychologiques spécifiques pour influencer la conscience humaine (attitudes, contagion, imitation, persuasion, influence, suppression, suggestion, etc.), les forces et moyens spéciaux, les technologies et techniques du réseaux et autres techniques et psychologiques qui affectent la mentalité de la société dans son ensemble, toutes ses sphères, la conscience individuelle et publique, les relations sociales, les institutions sociales, y compris les familles, l'éducation, les autorités, tous les types d’activité.
 
@@ -63,7 +67,11 @@ L'article de Karavayev essaie de mettre les bases théoriques pour ce nouveau co
 
 Deux autres auteurs de l'université d'État de Saint-Pétersbourg, Roman Vykhodets et Konstantin Pantserev, proposent dans leur article « *Analyse comparative de concepts modernes de la guerre de l'information* »[^4] une analyse des concepts existant dans le discours scientifique, décrivant les sphères de la **confrontation informationnelle** (*cf. schéma ci-dessous*).
 
-![Schéma des sphères de confrontation informationnelle selon la doctrine russe (Vykhodets & Pantserev)](/images/spheres-confrontation-informationnelle.webp)
+{{< figure src="/images/spheres-confrontation-informationnelle.webp"
+           zoom="true"
+           alt="Schéma des sphères de confrontation informationnelle selon la doctrine russe (Vykhodets & Pantserev)"
+           caption="Les sphères de la confrontation informationnelle selon Vykhodets et Pantserev."
+           source="Schéma Info Ops France, d'après Vykhodets & Pantserev." >}}
 
 Les auteurs maintiennent que dans les sources anglophones la guerre mentale est appelée la guerre cognitive (Cognitive Warfare). Selon eux, la formation du concept de guerre cognitive est liée à la recherche de nouvelles formes de guerre menée par l'OTAN. Ils citent l'article « *The Cognitive Warfare Concept* » écrit par Bernard Claverie et François du Cluzel. La compréhension du phénomène de la guerre cognitive repose sur la reconnaissance de la psychologie et de l'esprit humain comme une **sixième domaine de guerre**, avec l'air, la terre, la mer, l'espace et le cyber.
 

@@ -4,10 +4,6 @@ next_page:
   other: "Page suivante →"
 reading_time:
   other: "{{ .Count }} min de lecture"
-published_on:
-  other: "Publié le"
-updated_on:
-  other: "Mis à jour le"
 by_author:
   other: "Par"
 tags:
@@ -16,8 +12,6 @@ methodology:
   other: "Méthodologie et données"
 back_to_top:
   other: "Retour en haut de page"
-menu:
-  other: "Menu"
 theme_toggle:
   other: "Basculer entre le thème clair et sombre"
 theme_light:

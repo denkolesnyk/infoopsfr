@@ -2,12 +2,14 @@
 
 <body>
     {{ partial "header.html" . }}
-    <main class="content wrap">
+    <main class="content wrap" id="contenu">
         <h1 class="sr_only">{{ .Site.Title }} — {{ .Site.Params.description }}</h1>
-        {{- /* L'épigraphe n'apparaît que sur l'accueil. */}}
+        {{- /* L'épigraphe n'apparaît que sur la première page de l'accueil. */}}
+        {{- if eq .Paginator.PageNumber 1 }}
         <blockquote class="epigraph">
             <p>{{ .Site.Params.subTitle }}{{ with .Site.Params.subTitleAuthor }} <cite>— {{ . }}</cite>{{ end }}</p>
         </blockquote>
+        {{- end }}
         {{ partial "post.html" . }}
     </main>
     <a id="back_to_top" href="#" class="back_to_top" aria-label="{{ i18n "back_to_top" }}">{{ partial "icon.html" "arrow-up" }}</a>

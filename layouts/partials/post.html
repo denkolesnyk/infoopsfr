@@ -13,7 +13,7 @@
         {{ partial "byline.html" . }}
     </div>
     {{- with .Params.image }}
-    <a class="lead_image" href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . | relURL }}" alt="" decoding="async" /></a>
+    <a class="lead_image" href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true">{{ partial "img.html" (dict "src" . "alt" "" "sizes" "(min-width: 760px) 26rem, 100vw" "eager" true) }}</a>
     {{- end }}
 </article>
 {{- end }}
@@ -26,7 +26,7 @@
 
 <ul class="items">
     {{- range $pages }}
-    {{ partial "item.html" . }}
+    {{ partial "item.html" (dict "page" . "thumb" false) }}
     {{- end }}
 </ul>
 
