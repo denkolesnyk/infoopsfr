@@ -1014,7 +1014,10 @@ img { max-width: 100%; }
 
 .search_noscript { color: var(--muted); font-size: 15px; }
 
-:root {
+/* Pagefind définit ses variables sur son propre conteneur (.pagefind-ui),
+   dans une feuille chargée après celle-ci : les poser sur :root ne suffit
+   pas. Le sélecteur « body .pagefind-ui » l'emporte sur le sien. */
+body .pagefind-ui {
   --pagefind-ui-scale: 0.9;
   --pagefind-ui-primary: var(--accent);
   --pagefind-ui-text: var(--text);
@@ -1026,9 +1029,33 @@ img { max-width: 100%; }
   --pagefind-ui-font: var(--sans);
 }
 
-.pagefind-ui__search-input { font-size: 1rem !important; }
-.pagefind-ui__result-link { color: var(--ink) !important; }
-.pagefind-ui__result-link:hover { color: var(--accent) !important; }
+body .pagefind-ui__search-input { font-size: 1rem; color: var(--ink); }
+body .pagefind-ui__search-input::placeholder { color: var(--faint); opacity: 1; }
+body .pagefind-ui__search-clear { color: var(--muted); background: transparent; }
+body .pagefind-ui__message { color: var(--muted); font-weight: 500; }
+
+/* Séparateurs : filet fin, comme ailleurs sur le site. */
+body .pagefind-ui__result { border-top: 1px solid var(--rule); }
+body .pagefind-ui__results-area { margin-top: 24px; }
+
+body .pagefind-ui__result-link { color: var(--ink); }
+body .pagefind-ui__result-link:hover { color: var(--accent); text-decoration: none; }
+body .pagefind-ui__result-excerpt { color: var(--muted); }
+
+/* Termes trouvés : en gras, sans surlignage fluo. */
+body .pagefind-ui mark {
+  background: none;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+body .pagefind-ui__button {
+  border: 1px solid var(--rule);
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body .pagefind-ui__button:hover { border-color: var(--ink); }
 
 /* 404 --------------------------------------------------------------------- */
 
