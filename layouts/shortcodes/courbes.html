@@ -16,7 +16,9 @@
 {{- $pw := sub $w (add $l $r) -}}{{- $ph := sub $h (add $t $b) -}}
 {{- $ymax := float (default 12 $d.ymax) -}}
 {{- $dx := div $pw (float (sub $n 1)) -}}
-<figure class="courbes">
+{{- /* data-pagefind-ignore : le graphique (axes, légende, source) n'est pas
+       indexé par la recherche, sinon ses libellés remontent dans les extraits. */}}
+<figure class="courbes" data-pagefind-ignore="all">
   {{- with $d.titre }}
   <p class="fig_title">{{ . }}</p>
   {{- end }}
