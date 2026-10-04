@@ -6,7 +6,7 @@
               source="Analyse Info Ops France, mars 2026"
               float="right"        (ou "left" : figure réduite, habillée par le texte)
               width="260"          (largeur en px d'une figure flottante ; défaut 300)
-              zoom="true"          (clic sur l'image = version pleine taille)
+              zoom="true"          (clic sur l'image = agrandissement dans la page)
               link="https://exemple.org" >}}
 */ -}}
 {{- $src := .Get "src" -}}
@@ -18,11 +18,15 @@
 {{- $float := .Get "float" -}}
 {{- $zoom := .Get "zoom" -}}
 {{- $width := .Get "width" -}}
-{{- if and $zoom (not $link) }}{{ $link = $src | absURL }}{{ end -}}
+{{- /* zoom sans link : l'image s'agrandit dans une visionneuse (lightbox,
+       assets/js/main.js). Sans JavaScript, le lien ouvre l'image seule. */ -}}
+{{- $lightbox := and $zoom (not $link) -}}
+{{- if $lightbox }}{{ $link = $src | relURL }}{{ end -}}
 <figure class="fig{{ if $wide }} fig_wide{{ end }}{{ with $float }} fig_float fig_float_{{ . }}{{ end }}"{{ with $width }} style="max-width:{{ . }}px"{{ end }}>
-    {{- if $link }}<a href="{{ $link }}" rel="noopener" target="_blank">{{ end -}}
+    {{- if $lightbox }}<a href="{{ $link }}" data-lightbox>{{ else if $link }}<a href="{{ $link }}" rel="noopener" target="_blank">{{ end -}}
     {{- $sizes := cond (ne $float "") "(min-width: 880px) 18rem, 100vw" "(min-width: 880px) 50rem, 100vw" }}
     {{ partial "img.html" (dict "src" $src "alt" $alt "sizes" $sizes) }}
+    {{- if $lightbox }}<span class="sr_only"> (agrandir l’image)</span>{{ end }}
     {{- if $link }}</a>{{ end -}}
     {{- if or $caption $source }}
     <figcaption>
