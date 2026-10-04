@@ -11,7 +11,7 @@ on:
     branches: [main, master]
 
 env:
-  HUGO_VERSION: '0.163.3'
+  HUGO_VERSION: '0.166.0'
   PAGEFIND_VERSION: '1.4.0'
 
 jobs:
